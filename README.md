@@ -9,21 +9,21 @@
   HELLO , I am "Chizuru Mizuhara" a WhatsApp bot made by scotch to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
 
 <p align="center">
-  <a href="https://github.com/Scort3x/Mizuhara-MD/fork">
-    <img src="https://img.shields.io/github/forks/SCORT3X/Mizuhara-MD?label=Fork&style=social">
+  <a href="https://github.com/Scort3x/Chizuru-MD/fork">
+    <img src="https://img.shields.io/github/forks/SCORT3X/Chizuru-MD?label=Fork&style=social">
     
     
-  <a href="https://github.com/SCORT3X/Mizuhara-MD/stargazers">
-    <img src="https://img.shields.io/github/stars/SCORT3X/Mizuhara-MD?style=social">
+  <a href="https://github.com/SCORT3X/Chizuru-MD/stargazers">
+    <img src="https://img.shields.io/github/stars/SCORT3X/Chizuru-MD?style=social">
   </a>
 
 <p align="center">
-  <a href="https://github.com/SCORT3X/Mizuhara-MD">
-    <img src="https://visitor-badge.glitch.me/badge?page_id=https://github.com/SCORT3X/Mizuhara-MD.visitor-badge&left_text=Total%20Repo%20Visits">
+  <a href="https://github.com/SCORT3X/Chizuru-MD">
+    <img src="https://visitor-badge.glitch.me/badge?page_id=https://github.com/SCORT3X/Chizuru-MD.visitor-badge&left_text=Total%20Repo%20Visits">
     
     
 <a href="https://github.com/SCORT3X">
-    <img src="(https://visitor-badge.glitch.me/badge?page_id=https://github.com/SCORT3X/Mizuhara-MD.visitor-badge&left_text=Total%20Repo%20Visitors)">
+    <img src="(https://visitor-badge.glitch.me/badge?page_id=https://github.com/SCORT3X/Chizuru-MD.visitor-badge&left_text=Total%20Repo%20Visitors)">
   </a>
 </br>
       
@@ -66,13 +66,13 @@
 #### ✧ Click this scan button below and scan the given QR within 10 seconds from your WhatsApp. 
 <a href="https://shikimoriqr.herokuapp.com/"><img src="https://play-lh.googleusercontent.com/901aMQFFnVoX2T-YuJmTIwpPve_SUgMv_QSyzMSPtAqt_l0CyXN1DxfD6xXU0r2f9iM=w240-h480-rw" width="100" />
 </a>
-#### ✧ Next download that `session.json` file and replace it with the older one present the hompage of your [`Fork`](https://github.com/SCORT3X/Mizuhara-MD/fork).
+#### ✧ Next download that `session.json` file and replace it with the older one present the hompage of your [`Fork`](https://github.com/SCORT3X/Chizuru-MD/fork).
 
-#### ✧ After that edit the `README.md` file and change the template link present on line no:`39` with your forked repo link.(Example: `https://github.com/<your GitHub username>/Mizuhara-MD`)
+#### ✧ After that edit the `README.md` file and change the template link present on line no:`39` with your forked repo link.(Example: `https://github.com/<your GitHub username>/Chizuru-MD`)
 
 #### ✧ Next
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SCORT3X/Mizuhara-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SCORT3X/Chizuru-MD)
 
 
 ## ✧✧✧ Heroku Deployment Method 2:
@@ -110,8 +110,8 @@ heroku/nodejs
 
 ## ✧✧✧ CMD Deployment Method
 ```
-git clone https://github.com/SCORT3X/Mizuhara-MD.git
-cd Mizuhara-MD
+git clone https://github.com/SCORT3X/Chizuru-MD.git
+cd Chizuru-MD
 npm start
 ```
 
@@ -134,8 +134,8 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/SCORT3X/Mizuhara-MD
-cd Mizuhara-MD
+git clone https://github.com/SCORT3X/Chizuru-MD
+cd Chizuru-MD
 npm start
 ```
 
@@ -148,7 +148,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ## ✧✧✧ License and recode Permission:
 - Well, it's the most asked question !
 - And the answer is `"Permission is hereby granted for 100% modification/recode."`
-- And this project comes under [`MIT`](https://github.com/SCORT3X/Mizuhara-MD/blob/main/LICENSE.md) lincense.
+- And this project comes under [`MIT`](https://github.com/SCORT3X/Chizuru-MD/blob/main/LICENSE.md) lincense.
 - Please at least [`Follow`](https://github.com/SCORT3X/#follow) me on GitHub to show some appreciation.
    
    

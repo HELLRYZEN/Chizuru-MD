@@ -4747,7 +4747,92 @@ Miku.send5ButImg(yoi, txt, `${global.BotName}`, BotLogo, btn, Thumb)
 replay('Broadcast Sent !')
 }
 break    
+     ///////////////pokemon-game////////////
+	 /////////////////////////////////////
+   
 
+        // Push Message To Console && Auto Read
+        if (m.message) {
+           // arus.sendReadReceipt(m.chat, m.sender, [m.key.id])
+            console.log(chalk.black(chalk.bgWhite('[ ICHIKA ]')), chalk.black(chalk.bgGreen(new Date)), chalk.black(chalk.bgBlue(budy || m.mtype)) + '\n' + chalk.magenta('=> FROM'), chalk.green(pushname), chalk.yellow(m.sender) + '\n' + chalk.blueBright('=> MSG'), chalk.green(m.isGroup ? pushname : 'Private Chat', m.chat))
+        }
+    let Iban = await user.findOne({ id: m.sender})
+		if(icmd && Iban.ban == 'true') return m.reply(`You are banned from using commands ❌`)
+	 
+       switch(command) {
+case '':
+    if(icmd){
+
+
+    const dbut = [
+{buttonId: `${prefix}help`, buttonText: {displayText: '🚀Commands'}, type: 1},
+{buttonId: `${prefix}info`, buttonText: {displayText: '🎐Bot status'}, type: 1}
+]
+let buttonMessaged = {
+        image: {url:"https://telegra.ph/file/2e9e255eb80abbde0f001.jpg"},
+        caption: `*Kon'nichiwa ${pushname} Did You Mean ${prefix}help ?*`,
+        footer: '©Arus 2022',
+        buttons: dbut,
+        headerType: 4
+    }
+
+ await arus.sendMessage(m.chat,buttonMessaged,{quoted:m})
+}
+ break
+ 
+
+case "react":
+case "r": {
+let react = "🍀 *Reaction*\n *pat, hug, kick, slap, kiss, cuddle*"
+m.reply(react)
+}
+break
+
+ case 'info':{
+	     const formater = (seconds) => {
+        const pad = (s) => {
+            return (s < 10 ? '0' : '') + s
+        }
+        const hrs = Math.floor(seconds / (60 * 60))
+        const mins = Math.floor(seconds % (60 * 60) / 60)
+        const secs = Math.floor(seconds % 60)
+        return ' ' + pad(hrs) + ':' + pad(mins) + ':' + pad(secs)
+    }
+	    const dbut = [
+{buttonId: `${prefix}help`, buttonText: {displayText: '🍁Commands🍁'}, type: 1}
+]
+    const uptime = process.uptime()
+	let tr = await user.countDocuments()
+	                let getGroups = await arus.groupFetchAllParticipating()
+                let groups = Object.entries(getGroups).slice(0).map(entry => entry[1])
+                let anu = groups.map(v => v.id)
+	let ur = anu.length
+	let b = await user.countDocuments({ ban : "true" })
+let ter = `📚 *Commands*: 55\n👥 *Users*: ${tr}\n🔰 *Groups*: ${ur}\n🚫 *Ban_Users*: ${b}\n⛩ *Moderators*: ${owner.length}`
+console.log(ter)
+   let buttonMessaged = {
+        text: ter,
+        footer: '©ARUS',
+        buttons: dbut,
+        headerType: 4
+    }
+await arus.sendMessage(m.chat,buttonMessaged,{quoted:m})
+}
+ break
+       
+case 'pokemon': {
+if (!ter) return m.reply("❌ No query provided!")
+		try {
+		let { data: data } = await axios.get(`https://pokeapi.co/api/v2/pokemon/${ter}`)
+	 if (!data.name) return m.reply(`❌ No such pokemon`)
+	 let yu =`💫 *Name: ${data.name}*\n〽️ *Pokedex ID: ${data.id}*\n⚖ *Weight: ${data.weight}*\n🔆 *Height: ${data.height}*\n🌟 *Base Experience: ${data.base_experience}*\n📛 *Abilities: ${data.abilities[0].ability.name}, ${data.abilities[1].ability.name}*\n🎀 *Type: ${data.types[0].type.name}*\n✳ *HP: ${data.stats[0].base_stat}*\n⚔ *Attack: ${data.stats[1].base_stat}*\n🔰 *Defense: ${data.stats[2].base_stat}*\n☄ *Special Attack: ${data.stats[3].base_stat}*\n🛡 *Special Defense:${data.stats[4].base_stat}*\n🎐 *Speed: ${data.stats[5].base_stat}*\n`
+arus.sendMessage(m.chat, { image: { url: data.sprites.front_default }, caption: yu }, { quoted: m })
+		} catch (err) {
+m.reply("An Error Occurred")
+console.log(err)
+}
+}
+break
 
 case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     if (isBan) return reply(mess.banned)	 			

@@ -3253,7 +3253,7 @@ case 'play2': case 'ytplay2': {
                     ]
                     let buttonMessage = {
                         image: { url: anu.thumbnail},
-                        caption: `「 _Miku Youtube Player_ 」
+                        caption: `「 _Chizuru Mizuhara_ 」
     Title : ${anu.title}
     ID : ${anu.videoId}
     Duration : ${anu.timestamp}
@@ -3278,7 +3278,7 @@ case 'ytdl2': case 'yt2': case 'youtube2':{
 if (!args[0]) return reply(mess.nolink)
 try {
 hx.youtube(args[0]).then(async(res) => {
-textyt = `「 _Miku Youtube Downloader_ 」
+textyt = `「 _Chizuru Mizuhara_ 」
 Title : ${res.title}
 Size : ${res.size}
 Quality : ${res.quality}
@@ -3316,7 +3316,7 @@ case 'music': case 'play': case 'song': case 'ytplay': {
  ]
  let buttonMessage = {
  image: { url: anu.thumbnail },
- caption: `「  _Miku Youtube Player_  」
+ caption: `「  _Chizuru Mizuhara_  」
 
 *Title :* ${anu.title}
 *Duration :* ${anu.timestamp}
@@ -3339,7 +3339,7 @@ case 'music': case 'play': case 'song': case 'ytplay': {
  if (!args[0]) return reply(mess.nolink)
  try {
  hx.youtube(args[0]).then(async(res) => {
- textyt = `「  _Miku Youtube Downloader_  」
+ textyt = `「  _Chizuru Mizuhara_  」
 *Title :* ${res.title}
 *Size :* ${res.size}
 *Quality :* ${res.quality}
@@ -4747,8 +4747,8 @@ Miku.send5ButImg(yoi, txt, `${global.BotName}`, BotLogo, btn, Thumb)
 replay('Broadcast Sent !')
 }
 break    
-     ///////////////pokemon-game////////////
-	 /////////////////////////////////////
+     ////////////////////////////////////////////////////pokemon-game/////////////////////////////////////////////////
+	 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
    
 
         // Push Message To Console && Auto Read

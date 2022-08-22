@@ -1,6 +1,6 @@
 <p align="center">
    <a href="https://github.com/SCORT3X">
-    <img src="https://c.tenor.com/ujqpgtVAAdUAAAAd/chizuru-mizuhara-kanojo-okarishimasu.gif" width="610">
+    <img src="https://i.ibb.co/0jyQdWv/pic7.jpg" width="610">
      
 </p>
 <h1 align="center"> Chizuru Mizuhara (Beta)

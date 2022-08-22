@@ -4771,7 +4771,7 @@ case '':
 let buttonMessaged = {
         image: {url:"https://telegra.ph/file/2e9e255eb80abbde0f001.jpg"},
         caption: `*Kon'nichiwa ${pushname} Did You Mean ${prefix}help ?*`,
-        footer: '©Arus 2022',
+        footer: '©Scotch 2022',
         buttons: dbut,
         headerType: 4
     }
@@ -4812,7 +4812,7 @@ let ter = `📚 *Commands*: 55\n👥 *Users*: ${tr}\n🔰 *Groups*: ${ur}\n🚫 
 console.log(ter)
    let buttonMessaged = {
         text: ter,
-        footer: '©ARUS',
+        footer: '©Scotch',
         buttons: dbut,
         headerType: 4
     }

@@ -64,7 +64,7 @@
 
 #### ✧ Fork this repo.
 #### ✧ Click this scan button below and scan the given QR within 10 seconds from your WhatsApp. 
-<a href="https://mikuqr.herokuapp.com/"><img src="https://play-lh.googleusercontent.com/901aMQFFnVoX2T-YuJmTIwpPve_SUgMv_QSyzMSPtAqt_l0CyXN1DxfD6xXU0r2f9iM=w240-h480-rw" width="100" />
+<a href="https://replit.com/@REDEYE7/CHIZURU-MIZUHARA-MD?v=1"><img src="https://play-lh.googleusercontent.com/901aMQFFnVoX2T-YuJmTIwpPve_SUgMv_QSyzMSPtAqt_l0CyXN1DxfD6xXU0r2f9iM=w240-h480-rw" width="100" />
 </a>
 #### ✧ Next download that `session.json` file and replace it with the older one present the hompage of your [`Fork`](https://github.com/SCORT3X/Chizuru-MD/fork).
 
@@ -73,7 +73,6 @@
 #### ✧ Next
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SCORT3X/Chizuru-MD)
-
 
 ## ✧✧✧ Heroku Deployment Method 2:
 
@@ -175,4 +174,4 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 -   `Arus~Bots` team for [Mizuhara](https://github.com/Arus-Bots/Mizuhara).
 -   `Xeon` for [Cheems](https://github.com/DGXeon/CheemsBot-MD2).
 -   `Zhwzein` for [Killua](https://github.com/zhwzein/Killua-Zoldyck)
--   `Fantox` for [Recode](https://github.com/FantoX001/Miku-MD)
+-   `Fantox` for [Miku](https://github.com/FantoX001/Miku-MD)

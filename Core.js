@@ -4868,16 +4868,6 @@ Hello there I am *CHIZURU MIZUHARA*, a A.I developed by *SCOTCH*.
  ✧ • My prefix is:  ${prefix}
 
 Here's the list of my Commands.
- 
-{buttonId: `-menu`, buttonText: {displayText: '✨Bot Menu✨'}, type: 1}
-    ]
-    let buttonMessage = {
-    image: Thumb,
-    jpegThumbnail: BotLogo ,
-    caption: teks,
-    footer: `${BotName }`,
-    buttons: buttons,
-    headerType: 4,
 
  *═══〘 CORE 〙═══⊷❍*
 

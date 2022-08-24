@@ -18,7 +18,7 @@ const { color } = require('./lib/color')
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
 async function startMiku() {
-console.log(color(figlet.textSync('Miku Bot MD', {
+console.log(color(figlet.textSync('Chizuru Mizuhara MD', {
 		font: 'Pagga',
 		horizontalLayout: 'default',
 		vertivalLayout: 'default',

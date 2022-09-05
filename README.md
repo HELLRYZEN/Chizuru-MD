@@ -41,7 +41,7 @@
 <a href="https://youtu.be/bUYcID5kjX8"><img src="https://i.ibb.co/71mYRh4/116-1161192-podcast-subscribe-listen-button-youtube-sign-hd-png.png" alt="Watch tutorial on YouTube" border="0"  width="160"></a>
 
 Here's the Video Tuturial for Deploying and Hosting CHIZURU MIZUHARA Bot on Heroku.
-- Here's the [video tutorial](https://youtu.be/bUYcID5kjX8) on how to deploy and host Chizuru Mizuhara bot.
+
 - [Video Guide](https://youtube.com/channel/UCKlJw6zViJ_hgTXBKv6sXgw)
 </br>
 

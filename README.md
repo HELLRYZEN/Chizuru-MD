@@ -69,7 +69,7 @@
 
 #### Or, Scan indirectly from my `repl.it`
 
-#### <a href="https://replit.com/@REDEYE7/CHIZURU-MIZUHARA-QR?v=1"><img src="https://i.ibb.co/pPQjJL2/replit-logo-png-transparent.png" alt="replit-logo-png-transparent" border="0"  width="120"></a>
+#### <a href="https://9e26037c-af35-4491-a36e-e34fba01866f.id.repl.co/"><img src="https://i.ibb.co/pPQjJL2/replit-logo-png-transparent.png" alt="replit-logo-png-transparent" border="0"  width="120"></a>
 
 #### ✧ Next download that `session.json` file and replace it with the older one present the hompage of your [`Fork`](https://github.com/SCORT3X/Chizuru-MD/fork).
 

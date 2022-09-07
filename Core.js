@@ -3723,7 +3723,7 @@ if (!m.isGroup) return replay(`${mess.grouponly}`)
 let member = participants.map(u => u.id)
 let me = m.sender
 let jodoh = member[Math.floor(Math.random() * member.length)]
-let jawab = `😳 Soulmates
+let jawab = `✨Soulmates✨
 @${me.split('@')[0]} ❤️ @${jodoh.split('@')[0]}`
 let ments = [me, jodoh]
 let buttons = [
@@ -3851,7 +3851,7 @@ case 'charactercheck':
          "shout you bastard in front of your mom/papa",
          "change the name to i am idiot for 24 hours",
          "slap urself firmly and send the sound of slap through voice note😂",
-         "say i love the bot owner Fantox through voice note",
+         "say i love the bot owner Scotch through voice note",
          "send your gf/bf pic here",
          "make any tiktok dance challenge video and put it on status, u can delete it after 5hrs",
          "breakup with your best friend for 5hrs without telling him/her that its a dare",
@@ -3943,7 +3943,7 @@ case 'truth':
                  "Mention the incident that makes you hurt that you still remember",
                  "what achievements have you got this year?",
                  "what was your worst habit at school?",
-                 "do you love the bot creator Fantox?",
+                 "do you love the bot creator Scotch?",
                  "have you ever thought of taking revenge from ur teacher?",
                  "do you like current prime minister of ur country",
                  "you non veg or veg",
@@ -4921,7 +4921,7 @@ stickermeme, quotes, darkjoke
 
 reaction, truth, dare, couple, soulmate, handsomecheck, beautifulcheck, awesomecheck, greatcheck, gaycheck, cutecheck, lesbiancheck, hornycheck, prettycheck, lovelycheck, uglycheck, charactercheck
 
- *════〘 ESSENTIALS 〙════⊷❍*
+ *══〘 ESSENTIALS 〙══⊷❍*
 
 translate, fliptext, toletter
 
@@ -4931,7 +4931,13 @@ translate, fliptext, toletter
 
  ✧ • Then type " *${prefix}nsfwmenu* " to get full list of NSFW commands.
 
+	
 
+
+
+
+
+ 
 
 
 

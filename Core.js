@@ -238,7 +238,7 @@ const isImage = (m.type === 'imageMessage')
 
 
 
-//////////////// [DM chatbot] {if you don't want chat bot on dm you can remove these part}////////////////
+// DM chatbot
 
 if (!isCmd && !m.isGroup){
     const botreply = await axios.get(`http://api.brainshop.ai/get?bid=169079&key=A1sIHA8fCKKiB2Um&uid=[uid]&msg=[${budy}]`)
@@ -246,7 +246,7 @@ if (!isCmd && !m.isGroup){
     m.reply(txt)
     }
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 _sewa.expiredCheck(Miku, sewa)
 
@@ -1498,8 +1498,6 @@ replay('This Group has been *unbanned* from using me!')
   break
 
 
-
-
 case 'botgrups':
 case 'botgroups':
 case 'botgrup':
@@ -1569,7 +1567,7 @@ case 'limituser': case 'userlimit': case 'limit':
 case 'ringtone': {
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
-            if (!args.join(" ")) return reply(`Example: ${prefix}ringtone IDFC `)
+            if (!args.join(" ")) return reply(`Example: ${prefix}ringtone black over`)
         let { ringtone } = require('./lib/scraper')
 		let anu = await ringtone(text)
 		let result = anu[Math.floor(Math.random() * anu.length)]
@@ -1658,7 +1656,7 @@ case 'quotesanime': case 'quoteanime': case 'animequote': case 'animequotes':{
         ]
         let buttonMessage = {
             text: `_${hasil.quotes}_\n\nBy '${hasil.karakter}', ${hasil.anime}\n\n- ${hasil.up_at}`,
-            footer: `${BotName}`,
+            footer: 'Miku',
             buttons: buttons,
             headerType: 2
         }
@@ -3806,7 +3804,7 @@ case 'charactercheck':
          "record ur voice that read *titar ke age do titar, titar ke piche do titar*",
          "prank chat ex and say *i love u, please come back.* without saying dare!",
          "chat to contact wa in the order according to your battery %, then tell him *i am lucky to hv you!*",
-         "change the name to *I am a Little bit Ugly* for 5 hours",
+         "change the name to *I am a little bit mental* for 5 hours",
          "type in bengali 24 hours",
          "Use selmon bhoi photo for 3 days",
          "drop a song quote then tag a suitable member for that quote",
@@ -3859,7 +3857,7 @@ case 'charactercheck':
           "say i love depak kalal through voice note",
           "write i am feeling horny and put it on status, u can delete it only after 5hrs",
           "write i am lesbian and put it on status, u can delete only after 5hrs",
-          "kiss your mummy or papa and say i love you😌",
+          "kiss your mommy or papa and say i love you😌",
           "put your father name on status for 5hrs",
           "send abusive words in any grup, excepting this grup, and send screenshot proof here"
      ]
@@ -4863,11 +4861,13 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
    const helpmenu = `HEY!!  *${pushname}*  I AM RENTED GIRLFRIEND HOW CAN I HELP YOU??,
 
-Hello there I am *CHIZURU MIZUHARA*, a Bot developed by *SCOTCH*.
+Hello there I am *CHIZURU MIZUHARA*, a A.I developed by *SCOTCH*.
 
  ✧ • My prefix is:  ${prefix}
 
 Here's the list of my Commands.
+ 
+
 
  *═══〘 CORE 〙═══⊷❍*
 
@@ -4928,16 +4928,23 @@ translate, fliptext, toletter
  *════〘 NSFW 〙════⊷❍*
 
  ✧ • Type " *${prefix}nsfw* " then enable NSFW (Admin only!) 
+
  ✧ • Then type " *${prefix}nsfwmenu* " to get full list of NSFW commands.
- 
+
+
+
+
+
  『  *${global.BotName}*  』
  Rented by : *SCOTCH*
 
  ✧ •To use any of these commands type 
  " *${prefix}<Command name>* ".
+ 
  ✧ •To get Support Group link type " *${prefix}support* ".
- ✧ •Type " *${prefix}help* " to get full command list."
 
+ ✧ •Type " *${prefix}help* " to get full command list.`
+     
  let buttonshelpm = [
     {buttonId: `-owner`, buttonText: {displayText: 'Bot Owner'}, type: 1}
     ]
@@ -4953,15 +4960,16 @@ translate, fliptext, toletter
 break
 
 
+
 case '':
     if(isCmd){
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
-      mikupic ='https://wallpapercave.com/wp/wp6446709.jpg'
+      mikupic ='https://c.tenor.com/YaejL3-j0WcAAAAC/chizuru-mizuhara.gif'
     
         
- const needhelpmenu = `Do you need help ${pushname} Senpai? Type *${prefix}menu* to get my full command list.`
+ const needhelpmenu = `Do you need help ${pushname} Senpai? Type *${prefix}help* to get my full command list.`
      
          let butRun = [
                 {buttonId: `-help`, buttonText: {displayText: 'Help'}, type: 1}
@@ -4977,6 +4985,9 @@ case '':
                 }
 break
 
+
+
+
 default:
 
 /*
@@ -4984,6 +4995,8 @@ default:
         const botreply = await axios.get(`http://api.brainshop.ai/get?bid=165801&key=1ftAuFL7Fhj21Fyp&uid=[uid]&msg=${budy}]`)
        txt = `${botreply.data.cnt}`
        m.reply(txt)
+
+
 
 await axios.get(`http://api.brainshop.ai/get?bid=165801&key=1ftAuFL7Fhj21Fyp&uid=[uid]&msg=${budy}]`)
 .then((response) => {
@@ -5000,7 +5013,9 @@ await axios.get(`http://api.brainshop.ai/get?bid=165801&key=1ftAuFL7Fhj21Fyp&uid
     m.reply(txt)
     }
 
- 
+
+
+    
 if (budy.startsWith('=>')) {
 if (!isCreator) return reply(mess.botowner)
 function Return(sul) {

@@ -246,7 +246,7 @@ if (!isCmd && !m.isGroup){
     m.reply(txt)
     }
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 _sewa.expiredCheck(Miku, sewa)
 
@@ -735,7 +735,7 @@ user.afkReason = ''
 
 if (m.mtype === 'groupInviteMessage') {
 teks = `I can't join the group untill my *Owner* ask me to join. Type *-owner* to get owner number and ask him.`
-sendOrder(m.chat, teks, "5123658817728409", fs.readFileSync('./Assets/pic10.jpg'), `${watermark}`, `${BotName}`, "919172673114@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
+sendOrder(m.chat, teks, "5123658817728409", fs.readFileSync('./Assets/pic10.jpg'), `${watermark}`, `${BotName}`, "916909137213@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
 }
 
 
@@ -1846,7 +1846,7 @@ await Miku.sendMessage(m.chat, { delete: key })
     if (isBan) return reply(mess.banned)	 			
  if (isBanChat) return reply(mess.bangc)
  let anu = await store.chats.all().filter(v => v.id.endsWith('.net')).map(v => v)
- let teks = ` 「  Chizuru's pm user list  」\n\nTotal ${anu.length} users are using *Chizuru Mizuhara* in personal chat.`
+ let teks = ` 「  Chizuru's pm user list  」\n\nTotal ${anu.length} users are using Chizuru Mizuhara in personal chat.`
  for (let i of anu) {
   teks += `\n\nProfile : @${i.id.split('@')[0]}\nChat : ${i.unreadCount}\nLastchat : ${moment(i.conversationTimestamp * 1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`
  }
@@ -4865,7 +4865,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
 Hello there I am *CHIZURU MIZUHARA*, a Bot developed by *SCOTCH*.
 
-____▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄_
+___▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄____
 ───█▒▒░░░░░░░░░▒▒█───
 ────█░░█░░░░░█░░█────
 ─▄▄──█░░░▀█▀░░░█──▄▄─

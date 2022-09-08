@@ -3859,7 +3859,7 @@ case 'charactercheck':
           "say i love depak kalal through voice note",
           "write i am feeling horny and put it on status, u can delete it only after 5hrs",
           "write i am lesbian and put it on status, u can delete only after 5hrs",
-          "kiss your mommy or papa and say i love you😌",
+          "kiss your mummy or papa and say i love you😌",
           "put your father name on status for 5hrs",
           "send abusive words in any grup, excepting this grup, and send screenshot proof here"
      ]
@@ -4863,7 +4863,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
    const helpmenu = `HEY!!  *${pushname}*  I AM RENTED GIRLFRIEND HOW CAN I HELP YOU??,
 
-Hello there I am *CHIZURU MIZUHARA*, a A.I developed by *SCOTCH*.
+Hello there I am *CHIZURU MIZUHARA*, a Bot developed by *SCOTCH*.
 
 ____▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄_
 ───█▒▒░░░░░░░░░▒▒█───
@@ -4960,9 +4960,7 @@ translate, fliptext, toletter
  
  ✧ •To get Support Group link type " *${prefix}support* ".
 
- ✧ •Type " *${prefix}help* " to get full command list.`
-
-*════〘 ᴏꭗ ᤱ ɪᴛᴀ֟፝ᴄʜɪ﹤ᴣ 〙════⊷❍*
+ ✧ •Type " *${prefix}help* " to get full command list."
 
  let buttonshelpm = [
     {buttonId: `-owner`, buttonText: {displayText: 'Bot Owner'}, type: 1}

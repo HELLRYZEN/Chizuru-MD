@@ -1,6 +1,6 @@
 <p align="center">
    <a href="https://github.com/SCORT3X">
-    <img src="https://c.tenor.com/wqESnSKLKv0AAAAC/rent-a-girlfriend-chizuru-mizuhara.gif" width="610">
+    <img src="https://c.tenor.com/okPkCBP7gX0AAAAC/chizuru-mizuhara.gif" width="610">
      
 </p>
 <h1 align="center"> Chizuru Mizuhara (Beta)

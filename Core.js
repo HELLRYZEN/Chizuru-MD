@@ -4865,6 +4865,19 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
 Hello there I am *CHIZURU MIZUHARA*, a A.I developed by *SCOTCH*.
 
+____▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄_
+───█▒▒░░░░░░░░░▒▒█───
+────█░░█░░░░░█░░█────
+─▄▄──█░░░▀█▀░░░█──▄▄─
+█░░█─▀▄░░░░░░░▄▀─█░░█
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+█--╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗---█
+█--║║║╠─║─║─║║║║║╠─---█
+█--╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝---█
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+
+═════════════════════════//
+
  ✧ • My prefix is:  ${prefix}
 
 Here's the list of my Commands.
@@ -4930,17 +4943,15 @@ translate, fliptext, toletter
  ✧ • Type " *${prefix}nsfw* " then enable NSFW (Admin only!) 
 
  ✧ • Then type " *${prefix}nsfwmenu* " to get full list of NSFW commands.
-
-	
-
-
-
-
-
- 
-
-
-
+ ═══════════════════════//	
+ ╔══╗....ᴏꭗ᭼ᴀʟᴇꭗ﹤ᴣ⚡🥰
+ ╚╗╔╝..('\../')
+ ╔╝╚╗..( •.• ) 
+ ╚══╝..(,,)(,,) 
+ ╔╗╔═╦╦╦═╗ ╔╗╔╗
+ ║╚╣║║║║╩╣ ║╚╝║
+ ╚═╩═╩═╩═╝ ╚══╝
+ ═════════════════════⊷❍
  『  *${global.BotName}*  』
  Rented by : *SCOTCH*
 
@@ -4950,7 +4961,9 @@ translate, fliptext, toletter
  ✧ •To get Support Group link type " *${prefix}support* ".
 
  ✧ •Type " *${prefix}help* " to get full command list.`
-     
+
+*════〘 ᴏꭗ ᤱ ɪᴛᴀ֟፝ᴄʜɪ﹤ᴣ 〙════⊷❍*
+
  let buttonshelpm = [
     {buttonId: `-owner`, buttonText: {displayText: 'Bot Owner'}, type: 1}
     ]
@@ -4972,10 +4985,10 @@ case '':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
-      mikupic ='https://c.tenor.com/YaejL3-j0WcAAAAC/chizuru-mizuhara.gif'
+      mikupic ='https://wallpapercave.com/wp/wp6446709.jpg'
     
         
- const needhelpmenu = `Do you need help ${pushname} Senpai? Type *${prefix}help* to get my full command list.`
+ const needhelpmenu = `Do you need help ${pushname} Senpai? Type *${prefix}menu* to get my full command list.`
      
          let butRun = [
                 {buttonId: `-help`, buttonText: {displayText: 'Help'}, type: 1}

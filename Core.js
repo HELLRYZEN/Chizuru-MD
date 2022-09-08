@@ -241,7 +241,7 @@ const isImage = (m.type === 'imageMessage')
 //////////////// [DM chatbot] {if you don't want chat bot on dm you can remove these part}////////////////
 
 if (!isCmd && !m.isGroup){
-    const botreply = await axios.get(`http://api.brainshop.ai/get?bid=168758&key=Ci7eNhtxpxxDB5FQ&uid=[uid]&msg=[${budy}]`)
+    const botreply = await axios.get(`http://api.brainshop.ai/get?bid=169079&key=A1sIHA8fCKKiB2Um&uid=[uid]&msg=[${budy}]`)
     txt = `${botreply.data.cnt}`
     m.reply(txt)
     }

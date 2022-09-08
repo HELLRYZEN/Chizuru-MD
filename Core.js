@@ -4865,8 +4865,6 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
 Hello there I am *CHIZURU MIZUHARA*, a Bot developed by *SCOTCH*.
 
-
-
  ✧ • My prefix is:  ${prefix}
 
 Here's the list of my Commands.
@@ -4930,7 +4928,6 @@ translate, fliptext, toletter
  *════〘 NSFW 〙════⊷❍*
 
  ✧ • Type " *${prefix}nsfw* " then enable NSFW (Admin only!) 
-
  ✧ • Then type " *${prefix}nsfwmenu* " to get full list of NSFW commands.
  
  『  *${global.BotName}*  』
@@ -4938,9 +4935,7 @@ translate, fliptext, toletter
 
  ✧ •To use any of these commands type 
  " *${prefix}<Command name>* ".
- 
  ✧ •To get Support Group link type " *${prefix}support* ".
-
  ✧ •Type " *${prefix}help* " to get full command list."
 
  let buttonshelpm = [
@@ -4956,7 +4951,6 @@ translate, fliptext, toletter
             Miku.sendMessage(m.chat, buttonMessage,{ quoted:m })
                 }
 break
-
 
 
 case '':
@@ -4983,9 +4977,6 @@ case '':
                 }
 break
 
-
-
-
 default:
 
 /*
@@ -4993,8 +4984,6 @@ default:
         const botreply = await axios.get(`http://api.brainshop.ai/get?bid=165801&key=1ftAuFL7Fhj21Fyp&uid=[uid]&msg=${budy}]`)
        txt = `${botreply.data.cnt}`
        m.reply(txt)
-
-
 
 await axios.get(`http://api.brainshop.ai/get?bid=165801&key=1ftAuFL7Fhj21Fyp&uid=[uid]&msg=${budy}]`)
 .then((response) => {
@@ -5011,9 +5000,7 @@ await axios.get(`http://api.brainshop.ai/get?bid=165801&key=1ftAuFL7Fhj21Fyp&uid
     m.reply(txt)
     }
 
-
-
-    
+ 
 if (budy.startsWith('=>')) {
 if (!isCreator) return reply(mess.botowner)
 function Return(sul) {

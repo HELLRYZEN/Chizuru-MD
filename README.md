@@ -69,7 +69,7 @@ Here's the Video Tuturial for Deploying and Hosting CHIZURU MIZUHARA Bot on Hero
 
 #### ✧ Fork this repo.
 #### ✧ Click this scan button below and scan the given QR within 10 seconds from your WhatsApp. 
-<a href="http://gg.gg/Chizuru-MD"><img src="https://play-lh.googleusercontent.com/901aMQFFnVoX2T-YuJmTIwpPve_SUgMv_QSyzMSPtAqt_l0CyXN1DxfD6xXU0r2f9iM=w240-h480-rw" width="100" />
+<a href="http://gg.gg/chizuru-scotch"><img src="https://play-lh.googleusercontent.com/901aMQFFnVoX2T-YuJmTIwpPve_SUgMv_QSyzMSPtAqt_l0CyXN1DxfD6xXU0r2f9iM=w240-h480-rw" width="100" />
 </a>
 
 #### Or, Scan indirectly from my `repl.it`

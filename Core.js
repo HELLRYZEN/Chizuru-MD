@@ -216,7 +216,7 @@ const mongoose = require("mongoose");
 /////////// -  DM chatbot (Delete this part to turn off DM Chat Bot) - //////////////////
 
 if (!isCmd && !m.isGroup){
-    const botreply = await axios.get(`http://api.brainshop.ai/get?bid=168758&key=Ci7eNhtxpxxDB5FQ&uid=[uid]&msg=[${budy}]`)
+    const botreply = await axios.get(`A1sIHA8fCKKiB2Um[${budy}]`)
     txt = `${botreply.data.cnt}`
     m.reply(txt)
     }
@@ -711,7 +711,7 @@ user.afkReason = ''
 
 if (m.mtype === 'groupInviteMessage') {
 teks = `I can't join the group untill my *Owner* ask me to join. Type *-owner* to get owner number and ask him.`
-sendOrder(m.chat, teks, "5123658817728409", fs.readFileSync('./Assets/pic10.jpg'), `${watermark}`, `${BotName}`, "916909137213@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
+sendOrder(m.chat, teks, "5123658817728409", fs.readFileSync('./Assets/pic10.jpg'), `${watermark}`, `${BotName}`, "919172673114@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
 }
 
 
@@ -1185,7 +1185,7 @@ let cron = require('node-cron')
                                 "h": `Miku`,
                                 'duration': '99999', 
                                 'gifPlayback': 'true', 
-                                'caption': `Fantox`,
+                                'caption': `Scotch`,
                                 'jpegThumbnail': fs.readFileSync('./Assets/miku.mp4')
                                        }
                                       }
@@ -1330,7 +1330,7 @@ const ftroli = {
 
 
     const menulist = `
-    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Fantox to take your WhatsApp usage into next level.
+    Hello ${pushname} dear . I am ${global.BotName}, a bot developed by : *Scotch* to take your WhatsApp usage into next level.
         
        「 System Info 」
     
@@ -1360,7 +1360,7 @@ const ftroli = {
     
     Type *-menu* or press any button below to start using *${global.BotName}*
     
-    ©️ *${global.BotName}* All Rights Reserved by: *Fantox*
+    ©️ *${global.BotName}* All Rights Reserved by : *Scotch*
     `
         const qtod = m.quoted? "true":"false"
         
@@ -1377,7 +1377,7 @@ switch(command) {
     case 'sc': case 'script': case 'sourcecode': {
         if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
-    teks = `*${global.BotName}'s Script*\n\n*GitHub*: ${global.BotSourceCode}\n\nDont forget to follow me on *GitHub* and give a ⭐️ to my projects. `
+    teks = `*${global.BotName}'s Script*\n\n*CHIZURU MIZUHARA*: ${global.BotSourceCode}\n\nI can't give anything So just leave it and go *THANK YOU*. `
     let buttons = [
     {buttonId: `-menu`, buttonText: {displayText: '✨Bot Menu✨'}, type: 1}
     ]
@@ -1389,12 +1389,12 @@ switch(command) {
     buttons: buttons,
     headerType: 4,
     /*contextInfo:{externalAdReply:{
-    title:"Powered by Fantox",
+    title:"Powered by Scotch",
     body: " ", 
     thumbnail: fs.readFileSync("Assets/pic2.jpg"),
     mediaType:1,
-    mediaUrl: 'https://wallpapercave.com/wp/wp10524580.jpg',
-    sourceUrl: "https://wallpapercave.com/wp/wp10524580.jpg"
+    mediaUrl: 'https://wallpapercave.com/wp/wp6446709.jpg',
+    sourceUrl: "https://wallpapercave.com/wp/wp6446709.jpg"
     }}*/
 
     }
@@ -1422,7 +1422,7 @@ case 'me': case 'profile': case 'p':
     
           } catch (e) {
      
-      pfp ='https://wallpapercave.com/wp/wp10524580.jpg'
+      pfp ='https://wallpapercave.com/wp/wp7069669.jpg'
     }
 
      const profilexx = `*「  Profile Info  」*\n\n*User Name* : ${pushname}\n*Bio* : ${bioo}\n*Group Admin Status* : ${adn}\n*Level* : ${levelMenu}\n*Exp* : ${xpMenu} out of ${reqXp}\n*Role* : ${role}`
@@ -1485,13 +1485,13 @@ if (isBanChat) return reply(mess.banChat)
 reply(` Don't forget to join yeah!
 
 *GROUP 1*
-https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS
+*ERROR* BECAUSE OF THE LINKS ARE *RESTART* ALL TIME SO PLEASE GO AMD ASK FOR THESE TO *OWNER* .
 
 *GROUP 2*
-https://chat.whatsapp.com/LS1Xx3fSqg7FpSYSjKWhL5
+*ERROR* BECAUSE OF THE LINKS ARE *RESTART* ALL TIME SO PLEASE GO AMD ASK FOR THESE TO *OWNER* .
 
 *GROUP 3*
-https://chat.whatsapp.com/EcycNbJFCVT5ZsG9xIGkqd`)
+('ERROR* BECAUSE OF THE LINKS ARE *RESTART* ALL TIME SO PLEASE GO AMD ASK FOR THESE TO *OWNER* .`)
 break
 case 'getsxvdxcmd': {
 if (isBan) return reply(mess.ban)	 			
@@ -1505,12 +1505,12 @@ break
 
 case 'support': case 'supportgc':
     
-    reply(`*My developer's group:* http://gg.gg/MikuSupport`)
+    reply(`*My developer's group:* http://gg.gg/scotch-XD`)
     break
 
 case 'repo': case 'botrepo':
     
-    reply(`*My Source Code:* https://github.com/FantoX001/Miku-MD`)
+    reply(`*My Source Code:* `)
     break
 
 case 'nsfwmenu':

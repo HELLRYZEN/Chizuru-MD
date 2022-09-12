@@ -47,19 +47,6 @@ const { hentai } = require('./lib/scraper2.js')
 let { msgFilter } = require('./lib/antispam')
 const { mediafireDl } = require('./lib/mediafire.js')
 
-/*
-// News api (DHN-api) //
-
-const {
- 
-  Quotes,
-  Darkjokes
-} = require("dhn-api");
-
-
-*/
-
-
 
 const _ = require('lodash')
 const yargs = require('yargs/yargs')
@@ -208,44 +195,33 @@ const AntiLinkTelegram = m.isGroup ? ntilinktg.includes(from) : false
 const AntiLinkTwitter = m.isGroup ? ntilinktwt.includes(from) : false
 const AntiLinkAll = m.isGroup ? ntilinkall.includes(from) : false
 const antiWame = m.isGroup ? ntwame.includes(from) : false
-const antiToxic = m.isGroup ? nttoxic.includes(from) : false
 const antiVirtex = m.isGroup ? ntvirtex.includes(from) : false
 const AntiNsfw = m.isGroup ? ntnsfw.includes(from) : false
-const welcm = m.isGroup ? wlcm.includes(from) : false
-const GcRvk = m.isGroup ? gcrevoke.includes(from) : false
 const isLeveling = m.isGroup ? _leveling.includes(from) : false
-const isAutoStick = _autostick.includes(from)
-const isAutoSticker = m.isGroup ? autosticker.includes(from) : false
-const isSewa = _sewa.checkSewaGroup(from, sewa)
-const Autoreply = m.isGroup ? autorep.includes(from) : true
 autoreadsw = true
 const content = JSON.stringify(m.message)
 const q = args.join(' ')
-const isImage = (m.type === 'imageMessage')
-        const isVideo = (m.type === 'videoMessage')
-        const isMedias = (m.mtype === 'imageMessage' || m.mtype === 'videoMessage')
-		const isQuotedImage = m.mtype === 'extendedTextMessage' && content.includes('imageMessage')
-		const isQuotedVideo = m.mtype === 'extendedTextMessage' && content.includes('videoMessage')
-		const isQuotedAudio = m.mtype === 'extendedTextMessage' && content.includes('audioMessage')
-		const isQuotedSticker = m.mtype === 'extendedTextMessage' && content.includes('stickerMessage')
-		const isQuotedLoca = m.mtype === 'extendedTextMessage' && content.includes('locationMessage')
-        const isQuotedContact = m.mtype === 'extendedTextMessage' && content.includes('contactMessage')
-        const isQuotedDocs = m.mtype === 'extendedTextMessage' && content.includes('documentMessage')
-        const isQuotedTeks = m.mtype === 'extendedTextMessage' && content.includes('quotedMessage')
-        const isQuotedTag = m.mtype === 'extendedTextMessage' && content.includes('mentionedJid')
-        const isQuotedProd = m.mtype === 'extendedTextMessage' && content.includes('productMessage')
-        const isQuotedReply = m.mtype === 'extendedTextMessage' && content.includes('Message')
+
+const isQuotedVideo = m.mtype === 'extendedTextMessage' && content.includes('videoMessage')
+const isQuotedAudio = m.mtype === 'extendedTextMessage' && content.includes('audioMessage')
 
 
 
-// DM chatbot
+
+const mongoose = require("mongoose");
+
+
+
+
+/////////// -  DM chatbot (Delete this part to turn off DM Chat Bot) - //////////////////
 
 if (!isCmd && !m.isGroup){
-    const botreply = await axios.get(`http://api.brainshop.ai/get?bid=169079&key=A1sIHA8fCKKiB2Um&uid=[uid]&msg=[${budy}]`)
+    const botreply = await axios.get(`http://api.brainshop.ai/get?bid=168758&key=Ci7eNhtxpxxDB5FQ&uid=[uid]&msg=[${budy}]`)
     txt = `${botreply.data.cnt}`
     m.reply(txt)
     }
 
+//////////////////////////////////////////////////////////////////////////////////////
 
 
 _sewa.expiredCheck(Miku, sewa)
@@ -1209,7 +1185,7 @@ let cron = require('node-cron')
                                 "h": `Miku`,
                                 'duration': '99999', 
                                 'gifPlayback': 'true', 
-                                'caption': `Scotch`,
+                                'caption': `Fantox`,
                                 'jpegThumbnail': fs.readFileSync('./Assets/miku.mp4')
                                        }
                                       }
@@ -1354,7 +1330,7 @@ const ftroli = {
 
 
     const menulist = `
-    *HELLO ${pushname} dear . I am ${global.BotName}, RENTED GIRLFRIEND BY : SCOTCH THANK-YOU HMM AND BYE TAKE CARE.
+    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Fantox to take your WhatsApp usage into next level.
         
        「 System Info 」
     
@@ -1384,7 +1360,7 @@ const ftroli = {
     
     Type *-menu* or press any button below to start using *${global.BotName}*
     
-    ©️ *${global.BotName}* All Rights Reserved by: *Scotch*
+    ©️ *${global.BotName}* All Rights Reserved by: *Fantox*
     `
         const qtod = m.quoted? "true":"false"
         
@@ -1401,7 +1377,7 @@ switch(command) {
     case 'sc': case 'script': case 'sourcecode': {
         if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
-    teks = `*${global.BotName}'s Script*\n\n*CHIZURU MIZUHARA*: ${global.BotSourceCode}\n\nI can't give anything So just leave it and go *THANK YOU*. `
+    teks = `*${global.BotName}'s Script*\n\n*GitHub*: ${global.BotSourceCode}\n\nDont forget to follow me on *GitHub* and give a ⭐️ to my projects. `
     let buttons = [
     {buttonId: `-menu`, buttonText: {displayText: '✨Bot Menu✨'}, type: 1}
     ]
@@ -1413,12 +1389,12 @@ switch(command) {
     buttons: buttons,
     headerType: 4,
     /*contextInfo:{externalAdReply:{
-    title:"Powered by Scotch",
+    title:"Powered by Fantox",
     body: " ", 
     thumbnail: fs.readFileSync("Assets/pic2.jpg"),
     mediaType:1,
-    mediaUrl: 'https://wallpapercave.com/wp/wp6446709.jpg',
-    sourceUrl:'https://wallpapercave.com/wp/wp6446709.jpg"
+    mediaUrl: 'https://wallpapercave.com/wp/wp10524580.jpg',
+    sourceUrl: "https://wallpapercave.com/wp/wp10524580.jpg"
     }}*/
 
     }
@@ -1446,7 +1422,7 @@ case 'me': case 'profile': case 'p':
     
           } catch (e) {
      
-      pfp ='https://wallpapercave.com/wp/wp7069669.jpg'
+      pfp ='https://wallpapercave.com/wp/wp10524580.jpg'
     }
 
      const profilexx = `*「  Profile Info  」*\n\n*User Name* : ${pushname}\n*Bio* : ${bioo}\n*Group Admin Status* : ${adn}\n*Level* : ${levelMenu}\n*Exp* : ${xpMenu} out of ${reqXp}\n*Role* : ${role}`
@@ -1498,6 +1474,8 @@ replay('This Group has been *unbanned* from using me!')
   break
 
 
+
+
 case 'botgrups':
 case 'botgroups':
 case 'botgrup':
@@ -1507,13 +1485,13 @@ if (isBanChat) return reply(mess.banChat)
 reply(` Don't forget to join yeah!
 
 *GROUP 1*
-https://chat.whatsapp.com/JBDzYnTIrawLBptciuMiFA
+https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS
 
 *GROUP 2*
-https://chat.whatsapp.com/JBDzYnTIrawLBptciuMiFA
+https://chat.whatsapp.com/LS1Xx3fSqg7FpSYSjKWhL5
 
 *GROUP 3*
-https://chat.whatsapp.com/JBDzYnTIrawLBptciuMiFA`)
+https://chat.whatsapp.com/EcycNbJFCVT5ZsG9xIGkqd`)
 break
 case 'getsxvdxcmd': {
 if (isBan) return reply(mess.ban)	 			
@@ -1527,25 +1505,25 @@ break
 
 case 'support': case 'supportgc':
     
-    reply(`*I AM CHIZURU MIZUHARA* I AM BUSY SO JUST CALL MY *OWNER* : 919172673114`)
+    reply(`*My developer's group:* http://gg.gg/MikuSupport`)
     break
 
 case 'repo': case 'botrepo':
     
-    reply(`CHIZURU MIZUHARA* : Sorry Darling I Can't Give Anything So Just Leave it Bye Bye`)
+    reply(`*My Source Code:* https://github.com/FantoX001/Miku-MD`)
     break
 
 case 'nsfwmenu':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
     if (!AntiNsfw) return reply(mess.nonsfw)
-        reply(` *══〘 NSFW MENU 〙══⊷❍*\n\nhentaivideo, blowjobgif, hneko, masturbation, thighs, pussy, panties, orgy, ahegao, ass, bdsm, blowjob, cuckold, ero, gasm, cum, femdom, foot, gangbang, glasses, jahy, trap, blowjobgif, spank, hneko, hwaifu, gasm`)
+        reply(` *━━━〈  📛 NSFW Menu 📛  〉━━━*\n\nhentaivideo, blowjobgif, hneko, masturbation, thighs, pussy, panties, orgy, ahegao, ass, bdsm, blowjob, cuckold, ero, gasm, cum, femdom, foot, gangbang, glasses, jahy, trap, blowjobgif, spank, hneko, hwaifu, gasm`)
     break
 
-case 'reaction': case 'react': case 'reactions':
+case 'reaction': case 'react': case 'reactions': case 'r':
         if (isBan) return reply(mess.banned)	 			
         if (isBanChat) return reply(mess.bangc)
-            reply(` *═══〘 REACTIONS 〙═══⊷❍*\n\nbonk, cry, bully, cuddle, hug, kiss, lick, pat, smug, yeet, blush, smile, wave, highfive, handhold, nom, glomp, bite, slap, kill, happy, wink, poke, dance, cringe`)
+            reply(` *━━━〈  📍 Reactions 📍  〉━━━*\n\nbonk, cry, bully, cuddle, hug, kiss, lick, pat, smug, yeet, blush, smile, wave, highfive, handhold, nom, glomp, bite, slap, kill, happy, wink, poke, dance, cringe`)
         break   
     
 
@@ -1580,7 +1558,7 @@ case 'film': case 'movie': case 'moviesearch':
 if (isBan) return reply(mess.banned)
 	if (isBanChat) return reply(mess.bangc)
 	reply(mess.waiting)
-if (!q) return reply(`Please enter a Movie search term...\nExample: ${prefix}movie Deadpool`)
+if (!q) return reply(`Please enter a Movie search term...\nExample: ${prefix}movie Spiderman`)
 xfarrapi.Film(q)
     .then(data => {console.log(data)
     let krl = `*Search Term:* ${q}\n\n`
@@ -1705,11 +1683,11 @@ let sections = []
         if (isBan) return reply(mess.banned)	 			
 if (isBanChat) return reply(mess.bangc)
             let sections = []
-            let com = [`group open`,`leveling on`,`welcome on`,`antilinkgc on`,`antilinktg on`,`antilinktt on`,`antilinkytch on`,`antilinkytvid on`,`antilinkig on`,`antilinkfb on`,`antilinktwit on`,`antilinkall on`,`antiwame on`]
-            let comm = [`group close`,`leveling off`,`welcome off`,`antilinkgc off`,`antilinktg off`,`antilinktt off`,`antilinkytch off`,`antilinkytvid off`,`antilinkig on`,`antilinkfb off`,`antilinktwit off`,`antilinkall off`,`antiwame off`]
-            let listnya = [`Group open/close`,`Leveling on/off`,`Welcome/Left on/off`,`Antilink Group on/off`,`Antilink Telegram on/off`,`Antilink Tiktok on/off`,`Antilink Youtube Channel on/off`,`Antilink Youtube Video on/off`,`Antilink Instagram on/off`,`Antilink Facebook on/off`,`Antilink Twitter on/off`,`Antilink All on/off`,`Anti Wame on/off`]
+            let com = [`group open`,`leveling on`,`antilinkgc on`,`antilinktg on`,`antilinktt on`,`antilinkytch on`,`antilinkytvid on`,`antilinkig on`,`antilinkfb on`,`antilinktwit on`,`antilinkall on`,`antiwame on`]
+            let comm = [`group close`,`leveling off`,`antilinkgc off`,`antilinktg off`,`antilinktt off`,`antilinkytch off`,`antilinkytvid off`,`antilinkig on`,`antilinkfb off`,`antilinktwit off`,`antilinkall off`,`antiwame off`]
+            let listnya = [`Group open/close`,`Leveling on/off`,`Antilink Group on/off`,`Antilink Telegram on/off`,`Antilink Tiktok on/off`,`Antilink Youtube Channel on/off`,`Antilink Youtube Video on/off`,`Antilink Instagram on/off`,`Antilink Facebook on/off`,`Antilink Twitter on/off`,`Antilink All on/off`,`Anti Wame on/off`]
             let suruh = [`Enable`, `Disable`]
-            let fiturname = [`Group`,`Leveling`,`Auto Sticker`,`Welcome`,`Antilink Group`,`Antilink Telegram`,`Antilink Tiktok`,`Antilink Youtube Channel`,`Antilink Youtube Video`,`Antilink Instagram`,`Antilink Facebook`,`Antilink Twitter`,`Antilink All`,`Anti Wame`,`Auto Revoke`,`Auto Reply`]
+            let fiturname = [`Group`,`Leveling`,`Auto Sticker`,`Antilink Group`,`Antilink Telegram`,`Antilink Tiktok`,`Antilink Youtube Channel`,`Antilink Youtube Video`,`Antilink Instagram`,`Antilink Facebook`,`Antilink Twitter`,`Antilink All`,`Anti Wame`,`Auto Revoke`]
             let startnum = 0; let startnu = 0; let startn = 0;let start = 0
             let startnumm = 1
             for (let x of com) {
@@ -1844,7 +1822,7 @@ await Miku.sendMessage(m.chat, { delete: key })
     if (isBan) return reply(mess.banned)	 			
  if (isBanChat) return reply(mess.bangc)
  let anu = await store.chats.all().filter(v => v.id.endsWith('.net')).map(v => v)
- let teks = ` 「  Chizuru's pm user list  」\n\nTotal ${anu.length} users are using Chizuru Mizuhara in personal chat.`
+ let teks = ` 「  Miku's pm user list  」\n\nTotal ${anu.length} users are using Miku in personal chat.`
  for (let i of anu) {
   teks += `\n\nProfile : @${i.id.split('@')[0]}\nChat : ${i.unreadCount}\nLastchat : ${moment(i.conversationTimestamp * 1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`
  }
@@ -1856,7 +1834,7 @@ await Miku.sendMessage(m.chat, { delete: key })
     if (isBan) return reply(mess.banned)	 			
  if (isBanChat) return reply(mess.bangc)
  let anu = await store.chats.all().filter(v => v.id.endsWith('@g.us')).map(v => v.id)
- let teks = ` 「  Chizuru's group user list  」\n\nTotal ${anu.length} users are using Chizuru Mizuhara in Groups.`
+ let teks = ` 「  Miku's group user list  」\n\nTotal ${anu.length} users are using bot in Groups.`
  for (let i of anu) {
   let metadata = await Miku.groupMetadata(i)
   if (metadata.owner === "undefined") {
@@ -1903,34 +1881,6 @@ await Miku.sendMessage(m.chat, { delete: key })
  replay(`Error!`)
  }
  }
-
-
-
- case 'welcome': {
-    if (isBan) return reply(mess.banned)	 			
- if (isBanChat) return reply(mess.bangc)
- if (!m.isGroup) return replay(mess.grouponly)
- if (!isBotAdmins) return replay(mess.botadmin)
- if (!isAdmins && !isCreator) return replay(mess.useradmin)
- if (args[0] === "on") {
- if (welcm) return replay('Already activated')
- wlcm.push(from)
- replay('Activated Welcome/Left message in this group.')
- } else if (args[0] === "off") {
- if (!welcm) return replay('Already deactivated')
- let off = wlcm.indexOf(from)
- wlcm.splice(off, 1)
- replay('Deactivated Welcome/Left message in this group.')
- } else {
-   let buttonswlcm = [
-   { buttonId: `-welcome on`, buttonText: { displayText: 'On' }, type: 1 },
-   { buttonId: `-welcome off`, buttonText: { displayText: 'Off' }, type: 1 }
-   ]
-   await Miku.sendButtonText(m.chat, buttonswlcm, `Please choose any button below\n\n_On_ to Activate\n_Off_ to Deactivate`, `${global.BotName}`, m)
-   }
-   }
-   break
-
 
    case 'leveling':
     if (isBan) return reply(mess.banned)	 			
@@ -2983,7 +2933,7 @@ case 'translate': case 'trans': {
 case 'gimage': case 'gig': case 'googleimage':{
    if (isBan) return reply(mess.banned)	 			
 if (isBanChat) return reply(mess.bangc)
-if (!args[0]) return reply("Enter a search term to get Google Imae!")
+if (!args[0]) return reply("Enter a search term to get Google Image!")
 let gis = require('g-i-s')
 gis(args.join(" "), async (error, result) => {
 n = result
@@ -2994,6 +2944,7 @@ let buttons = [
 let buttonMessage = {
 image: { url: images },
 caption: `「 _Google Image Search_ 」
+
 _Search Term_ : ${text}
 _Media Url_ : ${images}`,
 footer: `${global.BotName}`,
@@ -3369,7 +3320,7 @@ case 'play2': case 'ytplay2': {
                     ]
                     let buttonMessage = {
                         image: { url: anu.thumbnail},
-                        caption: `「 _Chizuru Mizuhara_ 」
+                        caption: `「 _Chizuru Youtube Player_ 」
 
     Title : ${anu.title}
     ID : ${anu.videoId}
@@ -3395,7 +3346,7 @@ case 'ytdl2': case 'yt2': case 'youtube2':{
 if (!args[0]) return reply(mess.nolink)
 try {
 hx.youtube(args[0]).then(async(res) => {
-textyt = `「 _Chizuru Mizuhara_ 」
+textyt = `「 _Chizuru Youtube Downloader_ 」
 Title : ${res.title}
 Size : ${res.size}
 Quality : ${res.quality}
@@ -3433,7 +3384,7 @@ case 'music': case 'play': case 'song': case 'ytplay': {
  ]
  let buttonMessage = {
  image: { url: anu.thumbnail },
- caption: `「  _Chizuru Mizuhara_  」
+ caption: `「  _Chizuru Youtube Player_  」
 
 *Title :* ${anu.title}
 *Duration :* ${anu.timestamp}
@@ -3456,7 +3407,7 @@ case 'music': case 'play': case 'song': case 'ytplay': {
  if (!args[0]) return reply(mess.nolink)
  try {
  hx.youtube(args[0]).then(async(res) => {
- textyt = `「  _Chizuru Mizuhara_  」
+ textyt = `「  _Chizuru Youtube Downloader_  」
 *Title :* ${res.title}
 *Size :* ${res.size}
 *Quality :* ${res.quality}
@@ -3607,7 +3558,7 @@ case 'pinterest': case 'pin': {
 case 'swm': case 'take': case 'stickerwm': case 'steal':{
     if (isBan) return reply(mess.banned)
     if (isBanChat) return reply(mess.bangc)
-if (!args.join(" ")) return reply(`Use command: -steal Miku|By: Fantox`)
+if (!args.join(" ")) return reply(`Use command: -steal Chizuru|By : Scotch`)
 const swn = args.join(" ")
 const pcknm = swn.split("|")[0];
 const atnm = swn.split("|")[1];
@@ -3705,7 +3656,7 @@ let member = participants.map(u => u.id)
 let orang = member[Math.floor(Math.random() * member.length)]
 let jodoh = member[Math.floor(Math.random() * member.length)]
 let jawab = `@${orang.split('@')[0]} ❤️ @${jodoh.split('@')[0]}
-Ohh Wew Wew 💖...`
+Ohh i see 👀💖...`
 let menst = [orang, jodoh]
 let buttons = [
 { buttonId: '❤️', buttonText: { displayText: 'Congratulations ❤️' }, type: 1 }
@@ -3725,7 +3676,7 @@ let jawab = `✨Soulmates✨
 @${me.split('@')[0]} ❤️ @${jodoh.split('@')[0]}`
 let ments = [me, jodoh]
 let buttons = [
-{ buttonId: '❤️', buttonText: { displayText: 'Be my Soulmate ❤️' }, type: 1 }
+{ buttonId: '💖', buttonText: { displayText: 'Be my Soulmate ❤️' }, type: 1 }
 ]
 await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: ments})
 }
@@ -3734,7 +3685,7 @@ break
 case 'handsomecheck':
     if (isBan) return reply(mess.banned)
     if (isBanChat) return reply(mess.bangc)
-				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Scotcg`)
+				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Scotch`)
 					const gan = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const teng = gan[Math.floor(Math.random() * gan.length)]
 Miku.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${teng}%*` }, { quoted: m })
@@ -3804,7 +3755,7 @@ case 'charactercheck':
          "record ur voice that read *titar ke age do titar, titar ke piche do titar*",
          "prank chat ex and say *i love u, please come back.* without saying dare!",
          "chat to contact wa in the order according to your battery %, then tell him *i am lucky to hv you!*",
-         "change the name to *I am a little bit mental* for 5 hours",
+         "change the name to *I am a Mental* for 5 hours",
          "type in bengali 24 hours",
          "Use selmon bhoi photo for 3 days",
          "drop a song quote then tag a suitable member for that quote",
@@ -3857,7 +3808,7 @@ case 'charactercheck':
           "say i love depak kalal through voice note",
           "write i am feeling horny and put it on status, u can delete it only after 5hrs",
           "write i am lesbian and put it on status, u can delete only after 5hrs",
-          "kiss your mommy or papa and say i love you😌",
+          "kiss your mummy or papa and say i love you😌",
           "put your father name on status for 5hrs",
           "send abusive words in any grup, excepting this grup, and send screenshot proof here"
      ]
@@ -3968,7 +3919,7 @@ case 'truth':
 
 
 
-case 'nsfwmiku':
+case 'nsfw':
     if (isBan) return reply(mess.banned)
     if (isBanChat) return reply(mess.bangc)
 reply(mess.wait)
@@ -4858,16 +4809,14 @@ break
 case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
-
-   const helpmenu = `HEY!!  *${pushname}*  I AM RENTED GIRLFRIEND HOW CAN I HELP YOU??,
+      
+ const helpmenu = `HEY!!  *${pushname}*  I AM RENTED GIRLFRIEND HOW CAN I HELP YOU??,
 
 Hello there I am *CHIZURU MIZUHARA*, a A.I developed by *SCOTCH*.
 
  ✧ • My prefix is:  ${prefix}
 
 Here's the list of my Commands.
- 
-
 
  *═══〘 CORE 〙═══⊷❍*
 
@@ -4905,7 +4854,7 @@ bonk, cry, bully, cuddle, hug, kiss, lick, pat, smug, yeet, blush, smile, wave, 
 
 play, ytmp3, ytmp4, ytvideo, mediafire, instagram, igtv, facebook, fbmp3, twitter, twittermp3, tiktok, tiktokaudio, tiktoknowm, mediafire  
 
- *════〘 WEEB 〙════⊷❍*
+  *═════〘 WEEB 〙════⊷❍*
 
 crosplay, waifu, loli, neko, ppcouple, feed, foxgirl, feed, meow, tickle, wallpaper, coffee, animenom, waifu3, neko2, feed, meow, tickle, migumin, awoo, animewallpaper2, anime, manga
 
@@ -4931,10 +4880,6 @@ translate, fliptext, toletter
 
  ✧ • Then type " *${prefix}nsfwmenu* " to get full list of NSFW commands.
 
-
-
-
-
  『  *${global.BotName}*  』
  Rented by : *SCOTCH*
 
@@ -4944,29 +4889,29 @@ translate, fliptext, toletter
  ✧ •To get Support Group link type " *${prefix}support* ".
 
  ✧ •Type " *${prefix}help* " to get full command list.`
-     
+
  let buttonshelpm = [
     {buttonId: `-owner`, buttonText: {displayText: 'Bot Owner'}, type: 1}
     ]
                 let buttonMessage = {
-                    file: Miku.sendMessage(m.chat,{video:fs.readFileSync('./system/miku2.mp4'),gifPlayback:true,caption:helpmenu},{quoted:m}),
+                    video:fs.readFileSync('./system/miku2.mp4'),gifPlayback:true,
                     caption: helpmenu,
                     footer: `${BotName}`,
                     buttons: buttonshelpm,
                     headerType: 4
+                    
                 }
             Miku.sendMessage(m.chat, buttonMessage,{ quoted:m })
                 }
 break
-
-
+ 
 
 case '':
     if(isCmd){
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
-      mikupic ='https://c.tenor.com/YaejL3-j0WcAAAAC/chizuru-mizuhara.gif'
+      mikupic ='https://c.tenor.com/cHyx0ESAuIUAAAAC/mami-chizuru-oppai.gif'
     
         
  const needhelpmenu = `Do you need help ${pushname} Senpai? Type *${prefix}help* to get my full command list.`
@@ -4975,7 +4920,7 @@ case '':
                 {buttonId: `-help`, buttonText: {displayText: 'Help'}, type: 1}
                 ]
                 let buttonMessage = {
-                    file: Miku.sendMessage(m.chat,{video:fs.readFileSync('./system/miku.mp4'),gifPlayback:true,caption:needhelpmenu},{quoted:m}),
+                    video:fs.readFileSync('./system/miku.mp4'),gifPlayback:true,
                     caption: needhelpmenu,
                     footer: `${global.BotName}`,
                     buttons: butRun,
@@ -4987,35 +4932,99 @@ break
 
 
 
+case 'Chizuru':
+    if (isBan) return reply(mess.banned)	 			
+    if (isBanChat) return reply(mess.bangc)
+
+const txt = `Do you love Chizuru Mizuhara? Then we are the same.`
+const mikuarray= [
+            "https://i.pinimg.com/originals/fa/07/f7/fa07f74cb2e93ff6235b827260dc35eb.gif",
+            "https://c.tenor.com/CggCyPOXQYkAAAAC/ruka.mp4",
+            "https://c.tenor.com/okPkCBP7gX0AAAAC/chizuru-mizuhara.mp4",
+            "https://c.tenor.com/9wNJCc82z0IAAAAC/rent-a-girl-friend.mp4",
+            "https://c.tenor.com/MAB6l1WjbC0AAAAC/rent-a-girlfriend.mp4",
+            "https://c.tenor.com/7ndkdnRATCcAAAAC/kazuya-kinoshita-chizuru-mizuhara.mp4",
+            "https://c.tenor.com/QKtkZlh_7JMAAAAC/anime-anime-scenery.mp4",
+            "https://c.tenor.com/qZL5AlLAlSUAAAAC/mizuhara-mizuhara-chizuru.mp4",
+            "https://c.tenor.com/IiDVSoFmn9UAAAAC/chizuru-baka.mp4",
+            "https://c.tenor.com/UunawbYgVJgAAAAd/kanojo-okarishimasu-ichinose-chizuru.mp4",
+            "https://c.tenor.com/VhB9CD3UU4kAAAAC/chizuru-mizuhara-rent-a-girlfriend.mp4",
+            "https://c.tenor.com/cHyx0ESAuIUAAAAC/mami-chizuru-oppai.mp4",
+            "https://c.tenor.com/GdfSesEEaFEAAAAC/anime-shy.mp4",
+            "https://c.tenor.com/G1jVjFnK_64AAAAC/chizuru-mizuhara.mp4",
+            "https://c.tenor.com/YaejL3-j0WcAAAAC/chizuru-mizuhara.mp4",
+            "https://c.tenor.com/8Kd9K8ye2cAAAAAC/chizuru-chizuru-mizuhara.mp4",
+            "https://c.tenor.com/WD8L3QLO024AAAPo/whaatt-the-quintessential-quintuplets.mp4"
+            
+            ]
+        
+            const mikuselection = mikuarray[Math.floor(Math.random()*mikuarray.length)]
+        
+            Miku.sendMessage(from,{video:{url:mikuselection},gifPlayback:true,caption:txt},{quoted:m})
+
+break
+
+case 'add':{     			
+    if (!m.isGroup) return replay(mess.grouponly)
+ if (!isBotAdmins) return replay(mess.botadmin)
+ let users = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
+ if (users.length == 0) return replay(`Please write the number of the person you want to add to thhis group`)
+  await Miku.groupParticipantsUpdate(m.chat, [users], 'add').then((res) => replay(`User Added Successfully!`)).catch((err) => replay(`Cannot add that user to this group!`))
+ }
+ break
+
+
+ case "tts":  case "texttospeech":  case "say": case "speak":{
+    if (isBan) return reply(mess.banned)	 			
+    if (isBanChat) return reply(mess.bangc)
+
+    if (!args[0]) return reply("Please give me a text so that i can speak it!")
+      
+      let texttosay = text
+        ? text
+        : m.quoted && m.quoted.text
+        ? m.quoted.text
+        : m.text;
+      const SpeakEngine = require("google-tts-api"); 
+      const texttospeechurl = SpeakEngine.getAudioUrl(texttosay, {lang: "en", slow: false, host: "https://translate.google.com",});
+      Miku.sendMessage(m.chat,{audio: {url: texttospeechurl,},mimetype: "audio/mpeg",fileName: `MikuSpeechEngine.mp3`,},{quoted: m,});
+    }
+    break;
+
+
+    case 'qr': case 'qrcode':
+        if (isBan) return reply(mess.banned)	 			
+        if (isBanChat) return reply(mess.bangc)
+        if (!m.isGroup) return replay(mess.grouponly)
+    reply(`Running repl....Please wait until repl.it responds...`)						
+    var replqr =  await getBuffer(`https://chizuru-mizuhara-qr.redeye7.repl.co/`)
+                               var qrbutton = [
+            {buttonId: `-qr`, buttonText: {displayText: `Re-run Repl`}, type: 1}
+            ]
+          let bmffg = {
+           image: replqr,
+           caption:  `Scan the qr within 10-15 seconds...`,
+          footer: `${global.BotName}`,
+          buttons: qrbutton,
+          headerType: 4
+          }     
+                await Miku.sendMessage(m.chat, bmffg,{ quoted:m }).catch(err => {
+                        return('Error!')
+                    })
+    break
+
+
 
 default:
 
-/*
-    if (!isCmd && !isGroup){
-        const botreply = await axios.get(`http://api.brainshop.ai/get?bid=165801&key=1ftAuFL7Fhj21Fyp&uid=[uid]&msg=${budy}]`)
-       txt = `${botreply.data.cnt}`
-       m.reply(txt)
+    if(isCmd){
+        if (isBan) return reply(mess.banned)	 			
+        if (isBanChat) return reply(mess.bangc)
+        reply (`No such command programmed *${pushname}* senpai! Type *${prefix}help* to get my full command list!`)
+
+    }	 			
 
 
-
-await axios.get(`http://api.brainshop.ai/get?bid=165801&key=1ftAuFL7Fhj21Fyp&uid=[uid]&msg=${budy}]`)
-.then((response) => {
-        txt = `${response.data.cnt}`
-
-       m.reply(txt);http://api.brainshop.ai/get?bid=168758&key=Ci7eNhtxpxxDB5FQ&uid=[uid]&msg=[msg]
-  }
-
-*/
-
-  if (!isCmd && !m.isGroup){
-    const botreply = await axios.get(`http://api.brainshop.ai/get?bid=168758&key=Ci7eNhtxpxxDB5FQ&uid=[uid]&msg=[${budy}]`)
-    txt = `${botreply.data.cnt}`
-    m.reply(txt)
-    }
-
-
-
-    
 if (budy.startsWith('=>')) {
 if (!isCreator) return reply(mess.botowner)
 function Return(sul) {

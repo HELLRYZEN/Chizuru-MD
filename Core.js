@@ -1510,20 +1510,20 @@ case 'support': case 'supportgc':
 
 case 'repo': case 'botrepo':
     
-    reply(`*My Source Code:* `)
-    break
+    reply(`CHIZURU MIZUHARA* : Sorry Darling I Can't Give Anything So Just Leave it Bye Bye`)
+break
 
 case 'nsfwmenu':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
     if (!AntiNsfw) return reply(mess.nonsfw)
-        reply(` *━━━〈  📛 NSFW Menu 📛  〉━━━*\n\nhentaivideo, blowjobgif, hneko, masturbation, thighs, pussy, panties, orgy, ahegao, ass, bdsm, blowjob, cuckold, ero, gasm, cum, femdom, foot, gangbang, glasses, jahy, trap, blowjobgif, spank, hneko, hwaifu, gasm`)
+        reply(` *══〘 NSFW MENU 〙══⊷❍*\n\nhentaivideo, blowjobgif, hneko, masturbation, thighs, pussy, panties, orgy, ahegao, ass, bdsm, blowjob, cuckold, ero, gasm, cum, femdom, foot, gangbang, glasses, jahy, trap, blowjobgif, spank, hneko, hwaifu, gasm`)
     break
 
 case 'reaction': case 'react': case 'reactions': case 'r':
         if (isBan) return reply(mess.banned)	 			
         if (isBanChat) return reply(mess.bangc)
-            reply(` *━━━〈  📍 Reactions 📍  〉━━━*\n\nbonk, cry, bully, cuddle, hug, kiss, lick, pat, smug, yeet, blush, smile, wave, highfive, handhold, nom, glomp, bite, slap, kill, happy, wink, poke, dance, cringe`)
+            reply(` *═══〘 REACTIONS 〙═══⊷❍*\n\nbonk, cry, bully, cuddle, hug, kiss, lick, pat, smug, yeet, blush, smile, wave, highfive, handhold, nom, glomp, bite, slap, kill, happy, wink, poke, dance, cringe`)
         break   
     
 
@@ -1545,7 +1545,7 @@ case 'limituser': case 'userlimit': case 'limit':
 case 'ringtone': {
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
-            if (!args.join(" ")) return reply(`Example: ${prefix}ringtone black over`)
+            if (!args.join(" ")) return reply(`Example: ${prefix}ringtone IDFC Blackbeard`)
         let { ringtone } = require('./lib/scraper')
 		let anu = await ringtone(text)
 		let result = anu[Math.floor(Math.random() * anu.length)]
@@ -1822,7 +1822,7 @@ await Miku.sendMessage(m.chat, { delete: key })
     if (isBan) return reply(mess.banned)	 			
  if (isBanChat) return reply(mess.bangc)
  let anu = await store.chats.all().filter(v => v.id.endsWith('.net')).map(v => v)
- let teks = ` 「  Miku's pm user list  」\n\nTotal ${anu.length} users are using Miku in personal chat.`
+ let teks = ` 「  Chizuru's pm user list  」\n\nTotal ${anu.length} users are using Chizuru Mizuhara in personal chat.`
  for (let i of anu) {
   teks += `\n\nProfile : @${i.id.split('@')[0]}\nChat : ${i.unreadCount}\nLastchat : ${moment(i.conversationTimestamp * 1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`
  }
@@ -1834,7 +1834,7 @@ await Miku.sendMessage(m.chat, { delete: key })
     if (isBan) return reply(mess.banned)	 			
  if (isBanChat) return reply(mess.bangc)
  let anu = await store.chats.all().filter(v => v.id.endsWith('@g.us')).map(v => v.id)
- let teks = ` 「  Miku's group user list  」\n\nTotal ${anu.length} users are using bot in Groups.`
+ let teks = ` 「  Chizuru's group user list  」\n\nTotal ${anu.length} users are using Chizuru Mizuhara in Groups.`
  for (let i of anu) {
   let metadata = await Miku.groupMetadata(i)
   if (metadata.owner === "undefined") {
@@ -2429,7 +2429,7 @@ if (isBanChat) return reply(mess.bangc)
  if (isBanChat) return reply(mess.bangc)
  if (!m.isGroup) return replay(mess.grouponly)
  if (!isAdmins && !isCreator) return replay(mess.useradmin)
- let teks = `「 _Tag All_ 」
+ let teks = `「 *✨❤️ Tag All ❤️✨* 」
   
  *Message : ${args.join(" ") ? args.join(" ") : 'no message'}*\n\n`
  for (let mem of participants) {
@@ -3656,7 +3656,7 @@ let member = participants.map(u => u.id)
 let orang = member[Math.floor(Math.random() * member.length)]
 let jodoh = member[Math.floor(Math.random() * member.length)]
 let jawab = `@${orang.split('@')[0]} ❤️ @${jodoh.split('@')[0]}
-Ohh i see 👀💖...`
+Ohh Wee wee wew 💖...`
 let menst = [orang, jodoh]
 let buttons = [
 { buttonId: '❤️', buttonText: { displayText: 'Congratulations ❤️' }, type: 1 }
@@ -3800,7 +3800,7 @@ case 'charactercheck':
          "shout you bastard in front of your mom/papa",
          "change the name to i am idiot for 24 hours",
          "slap urself firmly and send the sound of slap through voice note😂",
-         "say i love the bot owner Scotch through voice note",
+         "say i love the bot creator Scotch through voice note",
          "send your gf/bf pic here",
          "make any tiktok dance challenge video and put it on status, u can delete it after 5hrs",
          "breakup with your best friend for 5hrs without telling him/her that its a dare",
@@ -4914,7 +4914,7 @@ case '':
       mikupic ='https://c.tenor.com/cHyx0ESAuIUAAAAC/mami-chizuru-oppai.gif'
     
         
- const needhelpmenu = `Do you need help ${pushname} Senpai? Type *${prefix}help* to get my full command list.`
+ const needhelpmenu = `I am Chizuru Mizuhara Do you want Any help ${pushname} Senpai? Type *${prefix}help* to get my full command list.`
      
          let butRun = [
                 {buttonId: `-help`, buttonText: {displayText: 'Help'}, type: 1}

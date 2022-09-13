@@ -216,7 +216,7 @@ const mongoose = require("mongoose");
 /////////// -  DM chatbot (Delete this part to turn off DM Chat Bot) - //////////////////
 
 if (!isCmd && !m.isGroup){
-    const botreply = await axios.get(`A1sIHA8fCKKiB2Um[${budy}]`)
+    const botreply = await axios.get(`http://api.brainshop.ai/get?bid=169079&key=A1sIHA8fCKKiB2Um&uid=[uid]&msg=[${budy}]`)
     txt = `${botreply.data.cnt}`
     m.reply(txt)
     }

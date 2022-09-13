@@ -18,7 +18,7 @@ const { color } = require('./lib/color')
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
 async function startMiku() {
-console.log(color(figlet.textSync('Chizuru Mizuhara MD', {
+console.log(color(figlet.textSync('Chizuru MD', {
 		font: 'Pagga',
 		horizontalLayout: 'default',
 		vertivalLayout: 'default',
@@ -26,14 +26,14 @@ console.log(color(figlet.textSync('Chizuru Mizuhara MD', {
 		whitespaceBreak: true
         }), 'yellow'))
 
-console.log(color('\nHello, I am Scotch, the main developer of this bot.\n\nThanks for using: Chizuru Mizuhara','aqua'))
-console.log(color('\nYou can follow me on Instagram: Say.scotch','aqua'))
+console.log(color('\nHello, I am Scotch, the main developer of this bot.\n\nThanks for using : Chizuru Bot','aqua'))
+console.log(color('\nYou can follow me on Instagram : say.scotch','aqua'))
 
     let { version, isLatest } = await fetchLatestBaileysVersion()
     const Miku = MikuConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Chizuru Mizuhara: Scotch','Safari','1.0.0'],
+        browser: ['Chizuru by : Scotch','Safari','1.0.0'],
         auth: state,
         version
     })
@@ -65,7 +65,8 @@ require("./Core")(Miku, m, chatUpdate, store)
 console.log(err)
 }
 })
- 
+
+ /*
 Miku.ev.on('groups.update', async pea => {
     
        try {
@@ -75,13 +76,44 @@ Miku.ev.on('groups.update', async pea => {
        }
        let wm_fatih = { url : ppgc }
        if (pea[0].announce == true) {
-       Miku.send5ButImg(pea[0].id, `Grop has been *Closed!* Only *Admins* can send Messages!`, `${botname}`, wm_fatih, [])
+       Miku.send5ButImg(pea[0].id, `Grop has been *Closed!* Only *Admins* can send Messages!`, `${BotName}`, wm_fatih, [])
        } else if(pea[0].announce == false) {
-       Miku.send5ButImg(pea[0].id, `Grop has been *Opened!* Now *Everyone* can send Messages!`, `${botname}`, wm_fatih, [])
+       Miku.send5ButImg(pea[0].id, `Grop has been *Opened!* Now *Everyone* can send Messages!`, `${BotName}`, wm_fatih, [])
        } else {
-       Miku.send5ButImg(pea[0].id, `Group Subject has been updated to *${pea[0].subject}*`, `${botname}`, wm_fatih, [])
+       Miku.send5ButImg(pea[0].id, `Group Subject has been updated to *${pea[0].subject}*`, `${BotName}`, wm_fatih, [])
      }
     })
+*/
+
+    Miku.ev.on('groups.update', async pea => {
+        //console.log(pea)
+     // Get Profile Picture Group
+        try {
+        ppgc = await Miku.profilePictureUrl(pea[0].id, 'image')
+        } catch {
+        ppgc = 'https://wallpapercave.com/uwp/uwp2682681.jpeg'
+        }
+        let wm_fatih = { url : ppgc }
+        if (pea[0].announce == true) {
+        //Miku.send5ButImg(pea[0].id, `Grop has been *Closed!* Only *Admins* can send Messages!`, `Miku Bot`, wm_fatih, [])
+
+        Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Grop has been *Closed!* Only *Admins* can send Messages!'})
+        } else if(pea[0].announce == false) {
+       // Miku.send5ButImg(pea[0].id, `Grop has been *Opened!* Now *Everyone* can send Messages!`, `Miku Bot`, wm_fatih, [])
+       Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Grop has been *Opened!* Now *Everyone* can send Messages!'})
+        } else if (pea[0].restrict == true) {
+        //Miku.send5ButImg(pea[0].id, `Group Info modification has been *Restricted*, Now only *Admins* can edit Group Info !`, `Miku Bot`, wm_fatih, [])
+        Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Group Info modification has been *Restricted*, Now only *Admins* can edit Group Info !'})
+        } else if (pea[0].restrict == false) {
+        //Miku.send5ButImg(pea[0].id, `Group Info modification has been *Un-Restricted*, Now only *Everyone* can edit Group Info !`, `Miku Bot`, wm_fatih, [])
+        Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Group Info modification has been *Un-Restricted*, Now only *Everyone* can edit Group Info !'})
+        } else {
+        //Miku.send5ButImg(pea[0].id, `Group Subject has been uhanged To:\n\n*${pea[0].subject}*`, `Chizuru MD`, wm_fatih, [])
+        mikutextddfq =`Group Subject has been updated To:\n\n*${pea[0].subject}*`
+        Miku.sendMessage(pea[0].id, { image: wm_fatih, caption: mikutextddfq})
+      }
+     })
+
 
 
 function pickRandom(list) {
@@ -107,18 +139,16 @@ Miku.ev.on('group-participants.update', async (anu) => {
                 try {
                     ppgroup = await Miku.profilePictureUrl(anu.id, 'image')
                 } catch {
-                    ppgroup = 'https://wallpapercave.com/uwp/uwp2682681.jpeg'
+                    ppgroup = 'https://telegra.ph/file/4cc2712eee93c105f6739.jpg'
                 }
 
                 let targetname = await Miku.getName(num)
                 grpmembernum = metadata.participants.length
 
-                mikuWelcomepp = await getBuffer(`https://hardianto.xyz/api/welcome3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(targetname)}&bg=https://telegra.ph/file/d460e086f9f9bf6b04e17.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(grpmembernum)}`)
-                mikuByepp = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(targetname)}&bg=https://telegra.ph/file/d460e086f9f9bf6b04e17.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(grpmembernum)}`)
-
+            
                 if (anu.action == 'add') {
                 let WAuserName = num
-                Mikutext = `
+                mikutext = `
 Hello @${WAuserName.split("@")[0]},
 
 I am *Chizuru Mizuhara*, Welcome to ${metadata.subject}.
@@ -127,41 +157,31 @@ I am *Chizuru Mizuhara*, Welcome to ${metadata.subject}.
 ${metadata.desc}
 `
 
-let Mikubuttons = [
-    {buttonId: `none`, buttonText: {displayText: '🏵️ Welcome 🏵️'}, type: 1}
-    ]
     let buttonMessage = {
-    jpegThumbnail: mikuWelcomepp,
+    image: await getBuffer(ppgroup),
     mentions: [num],
-    caption: Mikutext,
+    caption: mikutext,
     footer: `${global.BotName}`,
-    buttons: Mikubuttons,
     headerType: 4,
     }
 Miku.sendMessage(anu.id, buttonMessage)
                 } else if (anu.action == 'remove') {
                 	let WAuserName = num
-                    Mikutext = `
-Sayonara 👋, @${WAuserName.split("@")[0]},
+                    mikutext = `
+✨Sayonara✨, @${WAuserName.split("@")[0]},
 
 I hope you will come back soon, but we are not going to miss you though!
 `
 
-let Mikubuttons = [
-    {buttonId: `none`, buttonText: {displayText: '👋 Sayonara buddy 👋'}, type: 1}
-    ]
     let buttonMessage = {
-    jpegThumbnail:mikuByepp,
+	image:await getBuffer(ppuser),
     mentions: [num],
-    caption: Mikutext,
+    caption: mikutext,
     footer: `${global.BotName}`,
-    buttons: Mikubuttons,
     headerType: 4,
     
     }
-    Miku.sendMessage(anu.id, buttonMessage)
-                    }
-                }
+    Miku.sendMessage(anu.id, buttonMessage)}}
             } catch (err) {
                 console.log(err)
             }
@@ -248,7 +268,7 @@ let Mikubuttons = [
             else if (reason === DisconnectReason.timedOut) { console.log("Connection TimedOut, Reconnecting..."); startMiku(); }
             else { console.log(`Unknown DisconnectReason: ${reason}|${connection}`) }
         }
-        console.log('Connected...', update)
+        //console.log('Connected...', update)
     })
 
     Miku.ev.on('creds.update', saveState)

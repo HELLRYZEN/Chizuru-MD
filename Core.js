@@ -5095,7 +5095,7 @@ Here's the list of my Commands.
  
  ✧ •To get my Owner Group link type " *${prefix}support* ".
 
- ✧ •Type " *${prefix}help* " to get full command list.`
+ ✧ •*### CHIZURU-MD MADE BY SCOTCH*`
 
  let buttonshelpm = [
     {buttonId: `-owner`, buttonText: {displayText: 'Bot Owner'}, type: 1}

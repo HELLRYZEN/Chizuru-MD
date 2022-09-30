@@ -1518,61 +1518,62 @@ case 'nsfwmenu':
     if (isBanChat) return reply(mess.bangc)
     if (!AntiNsfw) return reply(mess.nonsfw)
         reply(` *══〘 NSFW MENU 〙══⊷❍*\n\n✧ • hentaivideo
-               ✧ • blowjobgif
-               ✧ • hneko
-               ✧ • masturbation
-               ✧ • thighs
-               ✧ • pussy
-               ✧ • panties
-               ✧ • orgy
-               ✧ • ahegao
-               ✧ • ass
-               ✧ • bdsm
-               ✧ • blowjob
-               ✧ • cuckold
-               ✧ • ero
-               ✧ • gasm
-               ✧ • cum
-               ✧ • femdom
-               ✧ • foot
-               ✧ • gangbang
-               ✧ • glasses
-               ✧ • jahy
-               ✧ • trap
-               ✧ • blowjobgif
-               ✧ • spank
-               ✧ • hneko
-               ✧ • hwaifu
-               ✧ • gasm`)
+✧ • blowjobgif
+✧ • hneko
+✧ • masturbation
+✧ • thighs
+✧ • pussy
+✧ • panties
+✧ • orgy
+✧ • ahegao
+✧ • ass
+✧ • bdsm
+✧ • blowjob
+✧ • cuckold
+✧ • ero
+✧ • gasm
+✧ • cum
+✧ • femdom
+✧ • foot
+✧ • gangbang
+✧ • glasses
+✧ • jahy
+✧ • trap
+✧ • blowjobgif
+✧ • spank
+✧ • hneko
+✧ • hwaifu
+✧ • gasm`)
     break
 
 case 'reaction': case 'react': case 'reactions': case 'r':
         if (isBan) return reply(mess.banned)	 			
         if (isBanChat) return reply(mess.bangc)
             reply(` *═══〘 REACTIONS 〙═══⊷❍*\n\n✧ • bonk
-                            ✧ • cry
-                            ✧ • bully
-                            ✧ • cuddle
-                            ✧ • hug
-                            ✧ • kiss
-                            ✧ • lick
-                            ✧ • pat
-                            ✧ • smug
-                            ✧ • yeet
-                            ✧ • blush
-                            ✧ • smile
-                            ✧ • wave
-                            ✧ • highfive
-                            ✧ • handhold
-                            ✧ • nom
-                            ✧ • glomp
-                            ✧ • bite
-                            ✧ • kill
-                            ✧ • happy
-                            ✧ • wink
-                            ✧ • poke
-                            ✧ • dance
-                            ✧ • cringe`)
+✧ • cry
+✧ • bully
+✧ • cuddle
+✧ • hug
+✧ • kiss
+✧ • lick
+✧ • pat
+✧ • smug
+✧ • yeet
+✧ • blush
+✧ • smile
+✧ • wave
+✧ • highfive
+✧ • handhold
+✧ • nom
+✧ • glomp
+✧ • bite
+✧ • slap
+✧ • kill
+✧ • happy
+✧ • wink
+✧ • poke
+✧ • dance
+✧ • cringe`)
         break   
     
 
@@ -4856,7 +4857,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
       
- const helpmenu = `HEY!!  *${pushname}*  I AM ${BotName} RENTED GIRLFRIEND HOW CAN I HELP YOU??
+ const helpmenu = `HEY!! BABY   *${pushname}*  I AM ${BotName} RENTED GIRLFRIEND HOW CAN I HELP YOU?? DARLING 
 
 ${BotName} a Bot developed by *${global.OwnerName}*
 
@@ -5095,7 +5096,7 @@ Here's the list of my Commands.
  
  ✧ •To get my Owner Group link type " *${prefix}support* ".
 
- ✧ •*### CHIZURU-MD MADE BY SCOTCH*`
+ ✧ • *### CHIZURU-MD MADE BY SCOTCH* `
 
  let buttonshelpm = [
     {buttonId: `-owner`, buttonText: {displayText: 'Bot Owner'}, type: 1}

@@ -1377,7 +1377,7 @@ switch(command) {
     case 'sc': case 'script': case 'sourcecode': {
         if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
-    teks = `*${global.BotName}'s Script*\n\n*CHIZURU MIZUHARA*: ${global.BotSourceCode}\n\nI can't give anything So just leave it and go *THANK YOU*. `
+    teks = `*${global.BotName}'s Script*\n\n*CHIZURU MIZUHARA*: ${global.BotSourceCode}\n\nI can't give anything So just leave it and go *THANK YOU* `
     let buttons = [
     {buttonId: `-menu`, buttonText: {displayText: '✨Bot Menu✨'}, type: 1}
     ]
@@ -1504,10 +1504,10 @@ break
 
 
 case 'support': case 'supportgc':
-    
-    reply(`*My developer's group:* http://gg.gg/scotch-XD`)
+  
+  reply(`*My developer's group :* http://gg.gg/scotch-XD`)
     break
-
+  
 case 'repo': case 'botrepo':
     
     reply(`CHIZURU MIZUHARA* : Sorry Darling I Can't Give Anything So Just Leave it Bye Bye`)
@@ -1517,13 +1517,62 @@ case 'nsfwmenu':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
     if (!AntiNsfw) return reply(mess.nonsfw)
-        reply(` *══〘 NSFW MENU 〙══⊷❍*\n\nhentaivideo, blowjobgif, hneko, masturbation, thighs, pussy, panties, orgy, ahegao, ass, bdsm, blowjob, cuckold, ero, gasm, cum, femdom, foot, gangbang, glasses, jahy, trap, blowjobgif, spank, hneko, hwaifu, gasm`)
+        reply(` *══〘 NSFW MENU 〙══⊷❍*\n\n✧ • hentaivideo
+               ✧ • blowjobgif
+               ✧ • hneko
+               ✧ • masturbation
+               ✧ • thighs
+               ✧ • pussy
+               ✧ • panties
+               ✧ • orgy
+               ✧ • ahegao
+               ✧ • ass
+               ✧ • bdsm
+               ✧ • blowjob
+               ✧ • cuckold
+               ✧ • ero
+               ✧ • gasm
+               ✧ • cum
+               ✧ • femdom
+               ✧ • foot
+               ✧ • gangbang
+               ✧ • glasses
+               ✧ • jahy
+               ✧ • trap
+               ✧ • blowjobgif
+               ✧ • spank
+               ✧ • hneko
+               ✧ • hwaifu
+               ✧ • gasm`)
     break
 
 case 'reaction': case 'react': case 'reactions': case 'r':
         if (isBan) return reply(mess.banned)	 			
         if (isBanChat) return reply(mess.bangc)
-            reply(` *═══〘 REACTIONS 〙═══⊷❍*\n\nbonk, cry, bully, cuddle, hug, kiss, lick, pat, smug, yeet, blush, smile, wave, highfive, handhold, nom, glomp, bite, slap, kill, happy, wink, poke, dance, cringe`)
+            reply(` *═══〘 REACTIONS 〙═══⊷❍*\n\n✧ • bonk
+                            ✧ • cry
+                            ✧ • bully
+                            ✧ • cuddle
+                            ✧ • hug
+                            ✧ • kiss
+                            ✧ • lick
+                            ✧ • pat
+                            ✧ • smug
+                            ✧ • yeet
+                            ✧ • blush
+                            ✧ • smile
+                            ✧ • wave
+                            ✧ • highfive
+                            ✧ • handhold
+                            ✧ • nom
+                            ✧ • glomp
+                            ✧ • bite
+                            ✧ • kill
+                            ✧ • happy
+                            ✧ • wink
+                            ✧ • poke
+                            ✧ • dance
+                            ✧ • cringe`)
         break   
     
 
@@ -1634,7 +1683,7 @@ case 'quotesanime': case 'quoteanime': case 'animequote': case 'animequotes':{
         ]
         let buttonMessage = {
             text: `_${hasil.quotes}_\n\nBy '${hasil.karakter}', ${hasil.anime}\n\n- ${hasil.up_at}`,
-            footer: 'Miku',
+            footer: 'Chizuru',
             buttons: buttons,
             headerType: 2
         }
@@ -2246,7 +2295,7 @@ await Miku.sendMessage(m.chat, { delete: key })
  members.map(async adm => {
  mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
  })
- Miku.sendMessage(from, {text: `\`\`\`「 Notice 」\`\`\`\n\nNSFW(not safe for work) feature has been enabled in this group, which means anyone here can accesss Adult commands!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+ Miku.sendMessage(from, {text: `\`\`\`「 Notice 」\`\`\`\n\nNSFW(not safe for work) 18+ feature has been enabled in this group, which means anyone here can accesss Adult commands!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
  } else if (args[0] === "off") {
  if (!AntiNsfw) return replay('Already deactivated')
  let off = ntnsfw.indexOf(from)
@@ -3659,7 +3708,7 @@ let jawab = `@${orang.split('@')[0]} ❤️ @${jodoh.split('@')[0]}
 Ohh Wee wee wew 💖...`
 let menst = [orang, jodoh]
 let buttons = [
-{ buttonId: '❤️', buttonText: { displayText: 'Congratulations ❤️' }, type: 1 }
+{ buttonId: '❤️✨🎐',buttonText: { displayText: 'Congratulations ❤️' }, type: 1 }
 ]
 await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: menst})
 }
@@ -4012,7 +4061,7 @@ reply(mess.waiting)
     ]
   let button2Messages = {
    image: {url:waifudd.data.url},
-   caption:  `Here it is...`,
+   caption:  `❤️✨`,
   buttons: trapbot,
   headerType: 1
   }     
@@ -4056,7 +4105,7 @@ reply(mess.waiting)
     ]
   let button4Messages = {
    image: {url:waifudd.data.url},
-   caption:  `Here it is...`,
+   caption:  `❤️✨`,
   buttons: nwaifubot,
   headerType: 1
   }      
@@ -4077,7 +4126,7 @@ reply(mess.waiting)
         ]
       let buttonsssMessages = {
        image: {url:waifudd.data.url},
-       caption:  `Here it is...`,
+       caption:  `❤️✨`,
       footer: `${global.BotName}`,
       buttons: wbuttsss,
       headerType: 4
@@ -4098,7 +4147,7 @@ reply(mess.waiting)
         ]
       let button1ssMessages = {
        image: {url:waifudd.data.url},
-       caption:  `Here it is...`,
+       caption:  `❤️✨`,
       footer: `${global.BotName}`,
       buttons: wbuttsss,
       headerType: 4
@@ -4140,7 +4189,7 @@ reply(mess.waiting)
     ]
   let xx1button3Messages = {
    image: {url:waifudd.data.url},
-   caption:  `Here it is...`,
+   caption:  `❤️✨`,
   buttons: xxhnekobot,
   headerType: 1
   }      
@@ -4160,7 +4209,7 @@ reply(mess.waiting)
         ]
       let button112ssMessages = {
        image: {url:waifudd.data.url},
-       caption:  `Here it is...`,
+       caption:  `❤️✨`,
       footer: `${global.BotName}`,
       buttons: wbuttsss,
       headerType: 4
@@ -4207,7 +4256,7 @@ reply(mess.waiting)
         ]
       let buttonssMessage = {
        image: {url:waifud.data.url},
-       caption:  `Here it is...`,
+       caption:  `❤️✨`,
       footer: `${global.BotName}`,
       buttons: wbutsss,
       headerType: 4
@@ -4244,7 +4293,7 @@ break
 
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 case 'cry':  case 'handhold':{
 
@@ -4476,10 +4525,7 @@ console.log(musers)
     }
 }
 break
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
 
@@ -4810,83 +4856,244 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
       
- const helpmenu = `HEY!!  *${pushname}*  I AM RENTED GIRLFRIEND HOW CAN I HELP YOU??,
+ const helpmenu = `HEY!!  *${pushname}*  I AM ${BotName} RENTED GIRLFRIEND HOW CAN I HELP YOU??
 
-Hello there I am *CHIZURU MIZUHARA*, a A.I developed by *SCOTCH*.
+${BotName} a Bot developed by *${global.OwnerName}*
 
- ✧ • My prefix is:  ${prefix}
+ ✧ • My prefix is :  ${prefix}
 
 Here's the list of my Commands.
 
  *═══〘 CORE 〙═══⊷❍*
 
-profile, help, delete, deleteall, listgc, listpc, welcome, support, repo, script 
+✧ • profile
+✧ • help
+✧ • delete
+✧ • deleteall
+✧ • listgc
+✧ • listpc
+✧ • welcome
+✧ • support
+✧ • repo
+✧ • script 
  
  *════〘 OWNER 〙═══⊷❍*
 
-self, public, ban, bangroup, bye, join, bye, block, unblock, broadcast 
+✧ • self
+✧ • public
+✧ • ban
+✧ • bangroup
+✧ • bye
+✧ • join
+✧ • bye
+✧ • block
+✧ • unblock
+✧ • broadcast 
 
  *═══〘 GROUP 〙═══⊷❍*
 
-promote, demote, revoke, remove, tagall, hidetag, groupsetting, grouplink, setgcpp, setname, setdesc, group, nsfw 
+✧ • promote
+✧ • demote
+✧ • revoke
+✧ • remove
+✧ • tagall
+✧ • hidetag
+✧ • groupsetting
+✧ • grouplink
+✧ • setgcpp
+✧ • setname
+✧ • setdesc
+✧ • group
+✧ • nsfw 
 
  *═══〘 ANTI LINK 〙═══⊷❍*
  
-antilinkgc, antilinktg, antilinktt, antilinkytch, antilinkytvid, antilinkig, antilinkfb, antilinktwit, antilinkall, antiwame
+✧ • antilinkgc
+✧ • antilinktg
+✧ • antilinktt
+✧ • antilinkytch
+✧ • antilinkytvid
+✧ • antilinkig
+✧ • antilinkfb
+✧ • antilinktwit
+✧ • antilinkall
+✧ • antiwame
 
  *═══〘 SEARCH 〙═══⊷❍*
 
-play, song, yts, lyrics, google, playstore, gimage, pinterest, image, movie, wallpaper, searchgc, happymod, wikimedia, ringtone, anime, animestory, manga, ringtone   
+✧ • play
+✧ • song
+✧ • yts
+✧ • lyrics
+✧ • google
+✧ • playstore
+✧ • gimage
+✧ • pinterest
+✧ • image
+✧ • movie
+✧ • wallpaper
+✧ • searchgc
+✧ • happymod
+✧ • wikimedia
+✧ • ringtone
+✧ • anime
+✧ • animestory
+✧ • manga
+✧ • ringtone   
 
  *════〘 CONVERT 〙═══⊷❍*
 
-sticker, toimg, tovideo, togif , steal, stickermeme, emojimix, tourl, tomp3, toaudio
+✧ • sticker
+✧ • toimg
+✧ • tovideo
+✧ • togif
+✧ • steal
+✧ • stickermeme
+✧ • emojimix
+✧ • tourl
+✧ • tomp3
+✧ • toaudio
 
  *════〘 AUDIO 〙════⊷❍*
 
-bass, tempo, blown, deep, earrape, fast, fat, nightcore, reverse, robot, slow, squirrel
+✧ • bass
+✧ • tempo
+✧ • blown
+✧ • deep
+✧ • earrape
+✧ • fast
+✧ • fat
+✧ • nightcore
+✧ • reverse
+✧ • robot
+✧ • slow
+✧ • squirrel
 
  *═══〘 REACTIONS 〙═══⊷❍*
 
-bonk, cry, bully, cuddle, hug, kiss, lick, pat, smug, yeet, blush, smile, wave, highfive, handhold, nom, glomp, bite, slap, kill, happy, wink, poke, dance, cringe
+✧ • bonk
+✧ • cry
+✧ • bully
+✧ • cuddle
+✧ • hug
+✧ • kiss
+✧ • lick
+✧ • pat
+✧ • smug
+✧ • yeet
+✧ • blush
+✧ • smile
+✧ • wave
+✧ • highfive
+✧ • handhold
+✧ • nom
+✧ • glomp
+✧ • bite
+✧ • slap
+✧ • kill
+✧ • happy
+✧ • wink
+✧ • poke
+✧ • dance
+✧ • cringe
 
  *═══〘 DOWNLOADER 〙═══⊷❍*
 
-play, ytmp3, ytmp4, ytvideo, mediafire, instagram, igtv, facebook, fbmp3, twitter, twittermp3, tiktok, tiktokaudio, tiktoknowm, mediafire  
+✧ • play
+✧ • ytmp3
+✧ • ytmp4
+✧ • ytvideo
+✧ • mediafire
+✧ • instagram
+✧ • igtv
+✧ • facebook
+✧ • fbmp3
+✧ • twitter
+✧ • twittermp3
+✧ • tiktok
+✧ • tiktokaudio
+✧ • tiktoknowm
+✧ • mediafire  
 
   *═════〘 WEEB 〙════⊷❍*
 
-crosplay, waifu, loli, neko, ppcouple, feed, foxgirl, feed, meow, tickle, wallpaper, coffee, animenom, waifu3, neko2, feed, meow, tickle, migumin, awoo, animewallpaper2, anime, manga
+✧ • crosplay
+✧ • waifu
+✧ • loli
+✧ • neko
+✧ • ppcouple
+✧ • feed
+✧ • foxgirl
+✧ • feed
+✧ • meow
+✧ • tickle
+✧ • wallpaper
+✧ • coffee
+✧ • animenom
+✧ • waifu3
+✧ • neko2
+✧ • feed
+✧ • meow
+✧ • tickle
+✧ • migumin
+✧ • awoo
+✧ • animewallpaper2
+✧ • anime
+✧ • manga
 
  *═══〘 INFORMATIVE 〙═══⊷❍*
 
-animequote, quote, covid, earthquake, wiki
+✧ • animequote
+✧ • quote
+✧ • covid
+✧ • earthquake
+✧ • wiki
 
  *════〘 QUOTES 〙════⊷❍*
 
-stickermeme, quotes, darkjoke 
+✧ • stickermeme
+✧ • quotes
+✧ • darkjoke
 
  *════〘 FUN 〙════⊷❍*
 
-reaction, truth, dare, couple, soulmate, handsomecheck, beautifulcheck, awesomecheck, greatcheck, gaycheck, cutecheck, lesbiancheck, hornycheck, prettycheck, lovelycheck, uglycheck, charactercheck
+✧ • reaction
+✧ • truth
+✧ • dare
+✧ • couple
+✧ • soulmate
+✧ • handsomecheck
+✧ • beautifulcheck
+✧ • awesomecheck
+✧ • greatcheck
+✧ • gaycheck
+✧ • cutecheck
+✧ • lesbiancheck
+✧ • hornycheck
+✧ • prettycheck
+✧ • lovelycheck
+✧ • uglycheck
+✧ • charactercheck
 
  *══〘 ESSENTIALS 〙══⊷❍*
 
-translate, fliptext, toletter
+✧ • translate
+✧ • fliptext
+✧ • toletter
 
  *════〘 NSFW 〙════⊷❍*
+ 
+ ✧ • Type " *${prefix}nsfw* " then enable NSFW ✧ •〘 18+ Worning 〙 (Admin only!)
 
- ✧ • Type " *${prefix}nsfw* " then enable NSFW (Admin only!) 
-
- ✧ • Then type " *${prefix}nsfwmenu* " to get full list of NSFW commands.
+ ✧ • Then type " *${prefix}nsfwmenu* " working for not safe 18+ mod use for just fun for Group chat not in the Dm chat!!
 
  『  *${global.BotName}*  』
- Rented by : *SCOTCH*
+ Rented by : ~*S.C.O.T.C.H*~
 
- ✧ •To use any of these commands type 
- " *${prefix}<Command name>* ".
+ ✧ •Thank-you for using have a Great day Baby ❤️🎐
+ " *${pushname} && ${global.OwnerName}* "
  
- ✧ •To get Support Group link type " *${prefix}support* ".
+ ✧ •To get my Owner Group link type " *${prefix}support* ".
 
  ✧ •Type " *${prefix}help* " to get full command list.`
 
@@ -4914,7 +5121,7 @@ case '':
       mikupic ='https://c.tenor.com/cHyx0ESAuIUAAAAC/mami-chizuru-oppai.gif'
     
         
- const needhelpmenu = `I am Chizuru Mizuhara Do you want Any help ${pushname} Senpai? Type *${prefix}help* to get my full command list.`
+ const needhelpmenu = `Hello I am *Chizuru Mizuhara* Do you want Any help ${pushname} Senpai?`
      
          let butRun = [
                 {buttonId: `-help`, buttonText: {displayText: 'Help'}, type: 1}
@@ -5020,7 +5227,7 @@ default:
     if(isCmd){
         if (isBan) return reply(mess.banned)	 			
         if (isBanChat) return reply(mess.bangc)
-        reply (`No such command programmed *${pushname}* senpai! Type *${prefix}help* to get my full command list!`)
+        reply (`No such command programmed *${pushname}* senpai!`)
 
     }	 			
 

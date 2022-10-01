@@ -5152,7 +5152,7 @@ case '':
    │ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ
    └───────────────┈ ⳹`
          let butRun = [
-                {buttonId: `-help`, buttonText: {displayText: '✨Help✨'}, type: 1}
+                {buttonId: `-help`, buttonText: {displayText: 'Help'}, type: 1}
                 ]
                 let buttonMessage = {
                     video:fs.readFileSync('./system/miku.mp4'),gifPlayback:true,

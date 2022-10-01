@@ -4861,15 +4861,15 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 │「 ʜᴇʟʟᴏ 」
 └┬❖ 「 ${pushname} 」
 ┌┤✑ ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ ꜱᴇɴᴘᴀɪ
-││✑ ɪ'ᴍ ᴄɪʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ 
+││✑ *ɪ'ᴍ ᴄɪʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ* 
 │└───────────────┈ ⳹
 │ 「 ʙᴏᴛ ɪɴғᴏ 」
-│✙ ꜱᴘᴇᴇᴅ : ${latensie.toFixed(4)} miliseconds
-│✙ ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime)}
+│✙ ꜱᴘᴇᴇᴅ : *ꭗꭗ.ꭗ*
+│✙ ʀᴜɴᴛɪᴍᴇ : 24 ʜʀꜱ
 │✙ ʙᴏᴛ ɴᴀᴍᴇ : ${global.botname}
 │✙ ᴏᴡɴᴇʀ ɴᴀᴍᴇ : ${global.ownername}
-│✙ ʜᴏꜱᴛ ɴᴀᴍᴇ  : ${os.hostname}
-│✙ ᴛᴏᴛᴀʟ ᴜꜱᴇʀ : ${Object.keys(global.db.data.users).length}
+│✙ ʜᴏꜱᴛ ɴᴀᴍᴇ  : ${pushname}
+│✙ ᴛᴏᴛᴀʟ ᴜꜱᴇʀ : *ꭗꭗ-ꭗꭗ*
 └┬──────────────┈ ⳹
    │✑ ᴘʟᴇᴀꜱᴇ ꜱᴇʟᴇᴄᴛ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ
    └───────────────┈ ⳹
@@ -5134,18 +5134,18 @@ case '':
       mikupic ='https://c.tenor.com/cHyx0ESAuIUAAAAC/mami-chizuru-oppai.gif'
     
  const needhelpmenu = `┌─❖
-│「 ʜᴇʟʟᴏ  」
+│「 ʜᴇʟʟᴏ 」
 └┬❖ 「 ${pushname} 」
 ┌┤✑  ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ ꜱᴇɴᴘᴀɪ
-││✑  ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ
+││✑  *ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ*
 │└───────────────┈ ⳹
 │ 「 ʙᴏᴛ ɪɴғᴏ 」
-│✙ ꜱᴘᴇᴇᴅ : ${latensie.toFixed(4)} miliseconds
-│✙ ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}
+│✙ ꜱᴘᴇᴇᴅ : *ꭗꭗ-ꭗ*
+│✙ ʀᴜɴᴛɪᴍᴇ : 24 ʜʀꜱ
 │✙ ʙᴏᴛ ɴᴀᴍᴇ : ${global.botname}
 │✙ ᴏᴡɴᴇʀ ɴᴀᴍᴇ : ${global.ownername}
-│✙ ʜᴏꜱᴛ ɴᴀᴍᴇ  : ${os.hostname()}
-│✙ ᴛᴏᴛᴀʟ ᴜꜱᴇʀ : ${Object.keys(global.db.data.users).length}
+│✙ ʜᴏꜱᴛ ɴᴀᴍᴇ  : ${pushname}
+│✙ ᴛᴏᴛᴀʟ ᴜꜱᴇʀ : *ꭗꭗ-ꭗꭗ*
 └┬──────────────┈ ⳹
    │✑  ᴘʟᴇᴀꜱᴇ ꜱᴇʟᴇᴄᴛ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ
    └───────────────┈ ⳹`

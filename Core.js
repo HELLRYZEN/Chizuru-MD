@@ -1181,8 +1181,8 @@ let cron = require('node-cron')
                                },
                   message: { 
                                 "videoMessage": { 
-                                "title": `Miku`,
-                                "h": `Miku`,
+                                "title": `Chizuru`,
+                                "h": `Chizuru`,
                                 'duration': '99999', 
                                 'gifPlayback': 'true', 
                                 'caption': `Scotch`,
@@ -1517,63 +1517,63 @@ case 'nsfwmenu':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
     if (!AntiNsfw) return reply(mess.nonsfw)
-        reply(` *══〘 NSFW MENU 〙══⊷❍*\n\n✧ • hentaivideo
-✧ • blowjobgif
-✧ • hneko
-✧ • masturbation
-✧ • thighs
-✧ • pussy
-✧ • panties
-✧ • orgy
-✧ • ahegao
-✧ • ass
-✧ • bdsm
-✧ • blowjob
-✧ • cuckold
-✧ • ero
-✧ • gasm
-✧ • cum
-✧ • femdom
-✧ • foot
-✧ • gangbang
-✧ • glasses
-✧ • jahy
-✧ • trap
-✧ • blowjobgif
-✧ • spank
-✧ • hneko
-✧ • hwaifu
-✧ • gasm`)
+        reply(` *══〘 ɴꜱғᴡ ᴍᴇɴᴜ 〙══⊷❍*\n\n✧ • ʜᴇɴᴛᴀɪᴠɪᴅᴇᴏ
+✧ • ʙʟᴏᴡᴊᴏʙɢɪғ
+✧ • ʜɴᴇᴋᴏ
+✧ • ᴍᴀꜱᴛᴜʀʙᴀᴛɪᴏɴ
+✧ • ᴛʜɪɢʜꜱ
+✧ • ᴘᴜꜱꜱʏ
+✧ • ᴘᴀɴᴛɪᴇꜱ
+✧ • ᴏʀɢʏ
+✧ • ᴀʜᴇɢᴀᴏ
+✧ • ᴀꜱꜱ
+✧ • ʙᴅꜱᴍ
+✧ • ʙʟᴏᴡᴊᴏʙ
+✧ • ᴄᴜᴄᴋᴏʟᴅ
+✧ • ᴇʀᴏ
+✧ • ɢᴀꜱᴍ
+✧ • ᴄᴜᴍ
+✧ • ғᴇᴍᴅᴏᴍ
+✧ • ғᴏᴏᴛ
+✧ • ɢᴀɴɢʙᴀɴɢ
+✧ • ɢʟᴀꜱꜱᴇꜱ
+✧ • ᴊᴀʜʏ
+✧ • ᴛʀᴀᴘ
+✧ • ʙʟᴏᴡᴊᴏʙɢɪғ
+✧ • ꜱᴘᴀɴᴋ
+✧ • ʜɴᴇᴋᴏ
+✧ • ʜᴡᴀɪғᴜ
+✧ • ɢᴀꜱᴍ`)
     break
 
 case 'reaction': case 'react': case 'reactions': case 'r':
         if (isBan) return reply(mess.banned)	 			
         if (isBanChat) return reply(mess.bangc)
-            reply(` *═══〘 REACTIONS 〙═══⊷❍*\n\n✧ • bonk
-✧ • cry
-✧ • bully
-✧ • cuddle
-✧ • hug
-✧ • kiss
-✧ • lick
-✧ • pat
-✧ • smug
-✧ • yeet
-✧ • blush
-✧ • smile
-✧ • wave
-✧ • highfive
-✧ • handhold
-✧ • nom
-✧ • glomp
-✧ • bite
-✧ • slap
-✧ • kill
-✧ • happy
-✧ • wink
-✧ • poke
-✧ • dance
-✧ • cringe`)
+            reply(`  *═══〘 ʀᴇᴀᴄᴛɪᴏɴꜱ 〙═══⊷❍*\n\n✧ • ʙᴏɴᴋ
+✧ • ᴄʀʏ
+✧ • ʙᴜʟʟʏ
+✧ • ᴄᴜᴅᴅʟᴇ
+✧ • ʜᴜɢ
+✧ • ᴋɪꜱꜱ
+✧ • ʟɪᴄᴋ
+✧ • ᴘᴀᴛ
+✧ • ꜱᴍᴜɢ
+✧ • ʏᴇᴇᴛ
+✧ • ʙʟᴜꜱʜ
+✧ • ꜱᴍɪʟᴇ
+✧ • ᴡᴀᴠᴇ
+✧ • ʜɪɢʜғɪᴠᴇ
+✧ • ʜᴀɴᴅʜᴏʟᴅ
+✧ • ɴᴏᴍ
+✧ • ɢʟᴏᴍᴘ
+✧ • ʙɪᴛᴇ
+✧ • ꜱʟᴀᴘ
+✧ • ᴋɪʟʟ
+✧ • ʜᴀᴘᴘʏ
+✧ • ᴡɪɴᴋ
+✧ • ᴘᴏᴋᴇ
+✧ • ᴅᴀɴᴄᴇ
+✧ • ᴄʀɪɴɢᴇ`)
         break   
     
 
@@ -4857,247 +4857,259 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
       
- const helpmenu = `HEY!! BABY   *${pushname}*  I AM ${BotName} RENTED GIRLFRIEND HOW CAN I HELP YOU?? DARLING 
+ const helpmenu = `┌─❖
+│「 ʜᴇʟʟᴏ 」
+└┬❖ 「 ${pushname} 」
+┌┤✑ ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ ꜱᴇɴᴘᴀɪ
+││✑ ɪ'ᴍ ᴄɪʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ 
+│└───────────────┈ ⳹
+│ 「 ʙᴏᴛ ɪɴғᴏ 」
+│✙ ꜱᴘᴇᴇᴅ : ${latensie.toFixed(4)} miliseconds
+│✙ ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime)}
+│✙ ʙᴏᴛ ɴᴀᴍᴇ : ${global.botname}
+│✙ ᴏᴡɴᴇʀ ɴᴀᴍᴇ : ${global.ownername}
+│✙ ʜᴏꜱᴛ ɴᴀᴍᴇ  : ${os.hostname}
+│✙ ᴛᴏᴛᴀʟ ᴜꜱᴇʀ : ${Object.keys(global.db.data.users).length}
+└┬──────────────┈ ⳹
+   │✑ ᴘʟᴇᴀꜱᴇ ꜱᴇʟᴇᴄᴛ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ
+   └───────────────┈ ⳹
 
-${BotName} a Bot developed by *${global.OwnerName}*
+ʜᴇʀᴇ'ꜱ ᴛʜᴇ ʟɪꜱᴛ ᴏғ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ'ꜱ
 
- ✧ • My prefix is :  ${prefix}
+ *═══〘 ᴄᴏʀᴇ 〙═══⊷❍*
 
-Here's the list of my Commands.
-
- *═══〘 CORE 〙═══⊷❍*
-
-✧ • profile
-✧ • help
-✧ • delete
-✧ • deleteall
-✧ • listgc
-✧ • listpc
-✧ • welcome
-✧ • support
-✧ • repo
-✧ • script 
+✧ • ᴘʀᴏғɪʟᴇ
+✧ • ʜᴇʟᴘ
+✧ • ᴅᴇʟᴇᴛᴇ
+✧ • ᴅᴇʟᴇᴛᴇᴀʟʟ
+✧ • ʟɪꜱᴛɢᴄ
+✧ • ʟɪꜱᴛᴘᴄ
+✧ • ᴡᴇʟᴄᴏᴍᴇ
+✧ • ꜱᴜᴘᴘᴏʀᴛ
+✧ • ʀᴇᴘᴏ
+✧ • ꜱᴄʀɪᴘᴛ 
  
- *════〘 OWNER 〙═══⊷❍*
+ *════〘 ᴏᴡɴᴇʀ 〙═══⊷❍*
 
-✧ • self
-✧ • public
-✧ • ban
-✧ • bangroup
-✧ • bye
-✧ • join
-✧ • bye
-✧ • block
-✧ • unblock
-✧ • broadcast 
+✧ • ꜱᴇʟғ
+✧ • ᴘᴜʙʟɪᴄ
+✧ • ʙᴀɴ
+✧ • ʙᴀɴɢʀᴏᴜᴘ
+✧ • ʙʏᴇ
+✧ • ᴊᴏɪɴ
+✧ • ʙʏᴇ
+✧ • ʙʟᴏᴄᴋ
+✧ • ᴜɴʙʟᴏᴄᴋ
+✧ • ʙʀᴏᴀᴅᴄᴀꜱᴛ 
 
- *═══〘 GROUP 〙═══⊷❍*
+ *═══〘 ɢʀᴏᴜᴘ 〙═══⊷❍*
 
-✧ • promote
-✧ • demote
-✧ • revoke
-✧ • remove
-✧ • tagall
-✧ • hidetag
-✧ • groupsetting
-✧ • grouplink
-✧ • setgcpp
-✧ • setname
-✧ • setdesc
-✧ • group
-✧ • nsfw 
+✧ • ᴘʀᴏᴍᴏᴛᴇ
+✧ • ᴅᴇᴍᴏᴛᴇ
+✧ • ʀᴇᴠᴏᴋᴇ
+✧ • ʀᴇᴍᴏᴠᴇ
+✧ • ᴛᴀɢᴀʟʟ
+✧ • ʜɪᴅᴇᴛᴀɢ
+✧ • ɢʀᴏᴜᴘꜱᴇᴛᴛɪɴɢ
+✧ • ɢʀᴏᴜᴘʟɪɴᴋ
+✧ • ꜱᴇᴛɢᴄᴘᴘ
+✧ • ꜱᴇᴛɴᴀᴍᴇ
+✧ • ꜱᴇᴛᴅᴇꜱᴄ
+✧ • ɢʀᴏᴜᴘ
+✧ • ɴꜱғᴡ 
 
- *═══〘 ANTI LINK 〙═══⊷❍*
+ *═══〘 ᴀɴᴛɪ ʟɪɴᴋ 〙═══⊷❍*
  
-✧ • antilinkgc
-✧ • antilinktg
-✧ • antilinktt
-✧ • antilinkytch
-✧ • antilinkytvid
-✧ • antilinkig
-✧ • antilinkfb
-✧ • antilinktwit
-✧ • antilinkall
-✧ • antiwame
+✧ • ᴀɴᴛɪʟɪɴᴋɢᴄ
+✧ • ᴀɴᴛɪʟɪɴᴋᴛɢ
+✧ • ᴀɴᴛɪʟɪɴᴋᴛᴛ
+✧ • ᴀɴᴛɪʟɪɴᴋʏᴛᴄʜ
+✧ • ᴀɴᴛɪʟɪɴᴋʏᴛᴠɪᴅ
+✧ • ᴀɴᴛɪʟɪɴᴋɪɢ
+✧ • ᴀɴᴛɪʟɪɴᴋғʙ
+✧ • ᴀɴᴛɪʟɪɴᴋᴛᴡɪᴛ
+✧ • ᴀɴᴛɪʟɪɴᴋᴀʟʟ
+✧ • ᴀɴᴛɪᴡᴀᴍᴇ
 
- *═══〘 SEARCH 〙═══⊷❍*
+ *═══〘 ꜱᴇᴀʀᴄʜ 〙═══⊷❍*
 
-✧ • play
-✧ • song
-✧ • yts
-✧ • lyrics
-✧ • google
-✧ • playstore
-✧ • gimage
-✧ • pinterest
-✧ • image
-✧ • movie
-✧ • wallpaper
-✧ • searchgc
-✧ • happymod
-✧ • wikimedia
-✧ • ringtone
-✧ • anime
-✧ • animestory
-✧ • manga
-✧ • ringtone   
+✧ • ᴘʟᴀʏ
+✧ • ꜱᴏɴɢ
+✧ • ʏᴛꜱ
+✧ • ʟʏʀɪᴄꜱ
+✧ • ɢᴏᴏɢʟᴇ
+✧ • ᴘʟᴀʏꜱᴛᴏʀᴇ
+✧ • ɢɪᴍᴀɢᴇ
+✧ • ᴘɪɴᴛᴇʀᴇꜱᴛ
+✧ • ɪᴍᴀɢᴇ
+✧ • ᴍᴏᴠɪᴇ
+✧ • ᴡᴀʟʟᴘᴀᴘᴇʀ
+✧ • ꜱᴇᴀʀᴄʜɢᴄ
+✧ • ʜᴀᴘᴘʏᴍᴏᴅ
+✧ • ᴡɪᴋɪᴍᴇᴅɪᴀ
+✧ • ʀɪɴɢᴛᴏɴᴇ
+✧ • ᴀɴɪᴍᴇ
+✧ • ᴀɴɪᴍᴇꜱᴛᴏʀʏ
+✧ • ᴍᴀɴɢᴀ
+✧ • ʀɪɴɢᴛᴏɴᴇ   
 
- *════〘 CONVERT 〙═══⊷❍*
+ *════〘 ᴄᴏɴᴠᴇʀᴛ 〙═══⊷❍*
 
-✧ • sticker
-✧ • toimg
-✧ • tovideo
-✧ • togif
-✧ • steal
-✧ • stickermeme
-✧ • emojimix
-✧ • tourl
-✧ • tomp3
-✧ • toaudio
+✧ • ꜱᴛɪᴄᴋᴇʀ
+✧ • ᴛᴏɪᴍɢ
+✧ • ᴛᴏᴠɪᴅᴇᴏ
+✧ • ᴛᴏɢɪғ
+✧ • ꜱᴛᴇᴀʟ
+✧ • ꜱᴛɪᴄᴋᴇʀᴍᴇᴍᴇ
+✧ • ᴇᴍᴏᴊɪᴍɪꭗ
+✧ • ᴛᴏᴜʀʟ
+✧ • ᴛᴏᴍᴘ3
+✧ • ᴛᴏᴀᴜᴅɪᴏ
 
- *════〘 AUDIO 〙════⊷❍*
+ *════〘 ᴀᴜᴅɪᴏ 〙════⊷❍*
 
-✧ • bass
-✧ • tempo
-✧ • blown
-✧ • deep
-✧ • earrape
-✧ • fast
-✧ • fat
-✧ • nightcore
-✧ • reverse
-✧ • robot
-✧ • slow
-✧ • squirrel
+✧ • ʙᴀꜱꜱ
+✧ • ᴛᴇᴍᴘᴏ
+✧ • ʙʟᴏᴡɴ
+✧ • ᴅᴇᴇᴘ
+✧ • ᴇᴀʀʀᴀᴘᴇ
+✧ • ғᴀꜱᴛ
+✧ • ғᴀᴛ
+✧ • ɴɪɢʜᴛᴄᴏʀᴇ
+✧ • ʀᴇᴠᴇʀꜱᴇ
+✧ • ʀᴏʙᴏᴛ
+✧ • ꜱʟᴏᴡ
+✧ • ꜱϙᴜɪʀʀᴇʟ
 
- *═══〘 REACTIONS 〙═══⊷❍*
+ *═══〘 ʀᴇᴀᴄᴛɪᴏɴꜱ 〙═══⊷❍*
 
-✧ • bonk
-✧ • cry
-✧ • bully
-✧ • cuddle
-✧ • hug
-✧ • kiss
-✧ • lick
-✧ • pat
-✧ • smug
-✧ • yeet
-✧ • blush
-✧ • smile
-✧ • wave
-✧ • highfive
-✧ • handhold
-✧ • nom
-✧ • glomp
-✧ • bite
-✧ • slap
-✧ • kill
-✧ • happy
-✧ • wink
-✧ • poke
-✧ • dance
-✧ • cringe
+✧ • ʙᴏɴᴋ
+✧ • ᴄʀʏ
+✧ • ʙᴜʟʟʏ
+✧ • ᴄᴜᴅᴅʟᴇ
+✧ • ʜᴜɢ
+✧ • ᴋɪꜱꜱ
+✧ • ʟɪᴄᴋ
+✧ • ᴘᴀᴛ
+✧ • ꜱᴍᴜɢ
+✧ • ʏᴇᴇᴛ
+✧ • ʙʟᴜꜱʜ
+✧ • ꜱᴍɪʟᴇ
+✧ • ᴡᴀᴠᴇ
+✧ • ʜɪɢʜғɪᴠᴇ
+✧ • ʜᴀɴᴅʜᴏʟᴅ
+✧ • ɴᴏᴍ
+✧ • ɢʟᴏᴍᴘ
+✧ • ʙɪᴛᴇ
+✧ • ꜱʟᴀᴘ
+✧ • ᴋɪʟʟ
+✧ • ʜᴀᴘᴘʏ
+✧ • ᴡɪɴᴋ
+✧ • ᴘᴏᴋᴇ
+✧ • ᴅᴀɴᴄᴇ
+✧ • ᴄʀɪɴɢᴇ
 
- *═══〘 DOWNLOADER 〙═══⊷❍*
+ *═══〘 ᴅᴏᴡɴʟᴏᴀᴅᴇʀ 〙═══⊷❍*
 
-✧ • play
-✧ • ytmp3
-✧ • ytmp4
-✧ • ytvideo
-✧ • mediafire
-✧ • instagram
-✧ • igtv
-✧ • facebook
-✧ • fbmp3
-✧ • twitter
-✧ • twittermp3
-✧ • tiktok
-✧ • tiktokaudio
-✧ • tiktoknowm
-✧ • mediafire  
+✧ • ᴘʟᴀʏ
+✧ • ʏᴛᴍᴘ3
+✧ • ʏᴛᴍᴘ4
+✧ • ʏᴛᴠɪᴅᴇᴏ
+✧ • ᴍᴇᴅɪᴀғɪʀᴇ
+✧ • ɪɴꜱᴛᴀɢʀᴀᴍ
+✧ • ɪɢᴛᴠ
+✧ • ғᴀᴄᴇʙᴏᴏᴋ
+✧ • ғʙᴍᴘ3
+✧ • ᴛᴡɪᴛᴛᴇʀ
+✧ • ᴛᴡɪᴛᴛᴇʀᴍᴘ3
+✧ • ᴛɪᴋᴛᴏᴋ
+✧ • ᴛɪᴋᴛᴏᴋᴀᴜᴅɪᴏ
+✧ • ᴛɪᴋᴛᴏᴋɴᴏᴡᴍ
+✧ • ᴍᴇᴅɪᴀғɪʀᴇ  
 
-  *═════〘 WEEB 〙════⊷❍*
+  *═════〘 ᴡᴇᴇʙ 〙════⊷❍*
 
-✧ • crosplay
-✧ • waifu
-✧ • loli
-✧ • neko
-✧ • ppcouple
-✧ • feed
-✧ • foxgirl
-✧ • feed
-✧ • meow
-✧ • tickle
-✧ • wallpaper
-✧ • coffee
-✧ • animenom
-✧ • waifu3
-✧ • neko2
-✧ • feed
-✧ • meow
-✧ • tickle
-✧ • migumin
-✧ • awoo
-✧ • animewallpaper2
-✧ • anime
-✧ • manga
+✧ • ᴄʀᴏꜱᴘʟᴀʏ
+✧ • ᴡᴀɪғᴜ
+✧ • ʟᴏʟɪ
+✧ • ɴᴇᴋᴏ
+✧ • ᴘᴘᴄᴏᴜᴘʟᴇ
+✧ • ғᴇᴇᴅ
+✧ • ғᴏꭗɢɪʀʟ
+✧ • ғᴇᴇᴅ
+✧ • ᴍᴇᴏᴡ
+✧ • ᴛɪᴄᴋʟᴇ
+✧ • ᴡᴀʟʟᴘᴀᴘᴇʀ
+✧ • ᴄᴏғғᴇᴇ
+✧ • ᴀɴɪᴍᴇɴᴏᴍ
+✧ • ᴡᴀɪғᴜ3
+✧ • ɴᴇᴋᴏ2
+✧ • ғᴇᴇᴅ
+✧ • ᴍᴇᴏᴡ
+✧ • ᴛɪᴄᴋʟᴇ
+✧ • ᴍɪɢᴜᴍɪɴ
+✧ • ᴀᴡᴏᴏ
+✧ • ᴀɴɪᴍᴇᴡᴀʟʟᴘᴀᴘᴇʀ2
+✧ • ᴀɴɪᴍᴇ
+✧ • ᴍᴀɴɢᴀ
 
- *═══〘 INFORMATIVE 〙═══⊷❍*
+ *═══〘 ɪɴғᴏʀᴍᴀᴛɪᴠᴇ 〙═══⊷❍*
 
-✧ • animequote
-✧ • quote
-✧ • covid
-✧ • earthquake
-✧ • wiki
+✧ • ᴀɴɪᴍᴇϙᴜᴏᴛᴇ
+✧ • ϙᴜᴏᴛᴇ
+✧ • ᴄᴏᴠɪᴅ
+✧ • ᴇᴀʀᴛʜϙᴜᴀᴋᴇ
+✧ • ᴡɪᴋɪ
 
- *════〘 QUOTES 〙════⊷❍*
+ *════〘 ϙᴜᴏᴛᴇꜱ 〙════⊷❍*
 
-✧ • stickermeme
-✧ • quotes
-✧ • darkjoke
+✧ • ꜱᴛɪᴄᴋᴇʀᴍᴇᴍᴇ
+✧ • ϙᴜᴏᴛᴇꜱ
+✧ • ᴅᴀʀᴋᴊᴏᴋᴇ
 
- *════〘 FUN 〙════⊷❍*
+ *════〘 ғᴜɴ 〙════⊷❍*
 
-✧ • reaction
-✧ • truth
-✧ • dare
-✧ • couple
-✧ • soulmate
-✧ • handsomecheck
-✧ • beautifulcheck
-✧ • awesomecheck
-✧ • greatcheck
-✧ • gaycheck
-✧ • cutecheck
-✧ • lesbiancheck
-✧ • hornycheck
-✧ • prettycheck
-✧ • lovelycheck
-✧ • uglycheck
-✧ • charactercheck
+✧ • ʀᴇᴀᴄᴛɪᴏɴ
+✧ • ᴛʀᴜᴛʜ
+✧ • ᴅᴀʀᴇ
+✧ • ᴄᴏᴜᴘʟᴇ
+✧ • ꜱᴏᴜʟᴍᴀᴛᴇ
+✧ • ʜᴀɴᴅꜱᴏᴍᴇᴄʜᴇᴄᴋ
+✧ • ʙᴇᴀᴜᴛɪғᴜʟᴄʜᴇᴄᴋ
+✧ • ᴀᴡᴇꜱᴏᴍᴇᴄʜᴇᴄᴋ
+✧ • ɢʀᴇᴀᴛᴄʜᴇᴄᴋ
+✧ • ɢᴀʏᴄʜᴇᴄᴋ
+✧ • ᴄᴜᴛᴇᴄʜᴇᴄᴋ
+✧ • ʟᴇꜱʙɪᴀɴᴄʜᴇᴄᴋ
+✧ • ʜᴏʀɴʏᴄʜᴇᴄᴋ
+✧ • ᴘʀᴇᴛᴛʏᴄʜᴇᴄᴋ
+✧ • ʟᴏᴠᴇʟʏᴄʜᴇᴄᴋ
+✧ • ᴜɢʟʏᴄʜᴇᴄᴋ
+✧ • ᴄʜᴀʀᴀᴄᴛᴇʀᴄʜᴇᴄᴋ
 
- *══〘 ESSENTIALS 〙══⊷❍*
+ *══〘 ᴇꜱꜱᴇɴᴛɪᴀʟꜱ 〙══⊷❍*
 
-✧ • translate
-✧ • fliptext
-✧ • toletter
+✧ • ᴛʀᴀɴꜱʟᴀᴛᴇ
+✧ • ғʟɪᴘᴛᴇꭗᴛ
+✧ • ᴛᴏʟᴇᴛᴛᴇʀ
 
- *════〘 NSFW 〙════⊷❍*
+ *════〘 ɴꜱғᴡ 〙════⊷❍*
+
+✧ • ᴛʏᴘᴇ " *ɴꜱғᴡ* " ᴛʜᴇɴ ᴇɴᴀʙʟᴇ ɴꜱғᴡ
+✧ •〘 18+ ᴡᴏʀɴɪɴɢ 〙〘 ᴀᴅᴍɪɴ ᴏɴʟʏ 〙
+
+✧ • ᴛʜᴇɴ ᴛʏᴘᴇ " *ɴꜱғᴡᴍᴇɴᴜ* " ᴡᴏʀᴋɪɴɢ ғᴏʀ ɴᴏᴛ ꜱᴀғᴇ 18+ ᴍᴏᴅ ᴜꜱᴇ ғᴏʀ ᴊᴜꜱᴛ ғᴜɴ ғᴏʀ ɢʀᴏᴜᴘ ᴄʜᴀᴛ ɴᴏᴛ ɪɴ ᴛʜᴇ ᴅᴍ ᴄʜᴀᴛ!!
+
+ 『  *${global.botname}*  』
+ ʀᴇɴᴛᴇᴅ ʙʏ : ~*ꜱ.ᴄ.ᴏ.ᴛ.ᴄ.ʜ*~
+
+✧ •ᴛʜᴀɴᴋ-ʏᴏᴜ ғᴏʀ ᴜꜱɪɴɢ ʜᴀᴠᴇ ᴀ ɢʀᴇᴀᴛ ᴅᴀʏ ʙᴀʙʏ ❤️🎐
+ " *${pushname} & ${global.ownername}* "
  
- ✧ • Type " *${prefix}nsfw* " then enable NSFW ✧ •〘 18+ Worning 〙 (Admin only!)
+✧ •ᴛᴏ ɢᴇᴛ ᴍʏ ᴏᴡɴᴇʀ ɢʀᴏᴜᴘ ʟɪɴᴋ ᴛʏᴘᴇ " *ꜱᴜᴘᴘᴏʀᴛ* "
 
- ✧ • Then type " *${prefix}nsfwmenu* " working for not safe 18+ mod use for just fun for Group chat not in the Dm chat!!
-
- 『  *${global.BotName}*  』
- Rented by : ~*S.C.O.T.C.H*~
-
- ✧ •Thank-you for using have a Great day Baby ❤️🎐
- " *${pushname} && ${global.OwnerName}* "
+✧ • *### ᴄʜɪᴢᴜʀᴜ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ꜱᴄᴏᴛᴄʜ* `
  
- ✧ •To get my Owner Group link type " *${prefix}support* ".
-
- ✧ • *### CHIZURU-MD MADE BY SCOTCH* `
-
  let buttonshelpm = [
     {buttonId: `-owner`, buttonText: {displayText: 'Bot Owner'}, type: 1}
     ]
@@ -5121,9 +5133,22 @@ case '':
 
       mikupic ='https://c.tenor.com/cHyx0ESAuIUAAAAC/mami-chizuru-oppai.gif'
     
-        
- const needhelpmenu = `Hello I am *Chizuru Mizuhara* Do you want Any help ${pushname} Senpai?`
-     
+ const needhelpmenu = `┌─❖
+│「 ʜᴇʟʟᴏ  」
+└┬❖ 「 ${pushname} 」
+┌┤✑  ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ ꜱᴇɴᴘᴀɪ
+││✑  ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ
+│└───────────────┈ ⳹
+│ 「 ʙᴏᴛ ɪɴғᴏ 」
+│✙ ꜱᴘᴇᴇᴅ : ${latensie.toFixed(4)} miliseconds
+│✙ ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}
+│✙ ʙᴏᴛ ɴᴀᴍᴇ : ${global.botname}
+│✙ ᴏᴡɴᴇʀ ɴᴀᴍᴇ : ${global.ownername}
+│✙ ʜᴏꜱᴛ ɴᴀᴍᴇ  : ${os.hostname()}
+│✙ ᴛᴏᴛᴀʟ ᴜꜱᴇʀ : ${Object.keys(global.db.data.users).length}
+└┬──────────────┈ ⳹
+   │✑  ᴘʟᴇᴀꜱᴇ ꜱᴇʟᴇᴄᴛ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ
+   └───────────────┈ ⳹`
          let butRun = [
                 {buttonId: `-help`, buttonText: {displayText: 'Help'}, type: 1}
                 ]

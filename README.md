@@ -32,7 +32,7 @@
 ### ✧✧ ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ꜱᴛɪʟʟ ᴜɴᴅᴇʀ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ꜱᴏ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ʀᴇᴄᴏᴅᴇ/ᴍᴏᴅɪғʏ ɪᴛ, ᴘʟꜱ ᴄʜᴇᴄᴋ ᴛʜɪꜱ ᴍᴀɪɴ ʀᴇᴘᴏ ᴏɴᴄᴇ ɪɴ 2 ᴅᴀʏꜱ ʙᴇᴄᴀᴜꜱᴇ ɪ ᴀᴍ ᴄᴏɴᴛɪɴᴜᴏᴜꜱʟʏ ᴅᴇʙᴜɢɢɪɴɢ ɪᴛ ᴀɴᴅ ᴍᴀᴋɪɴɢ ᴍᴀᴊᴏʀ ᴄʜᴀɴɢᴇꜱ ɪɴ ɪᴛ.
 </br>
 
-### ✧ ᴜsᴇ `Heroku Deploy Method 2` ғᴏʀ ᴇᴀꜱʏ ᴀɴᴅ ᴍᴏʀᴇ ᴄᴏɴᴠᴇɴɪᴇɴᴛ ᴅᴇᴘʟᴏʏ(ᴛʀᴜꜱᴛ ᴍᴇ).    
+### ✧ ᴜꜱᴇ `Heroku Deploy Method 2` ғᴏʀ ᴇᴀꜱʏ ᴀɴᴅ ᴍᴏʀᴇ ᴄᴏɴᴠᴇɴɪᴇɴᴛ ᴅᴇᴘʟᴏʏ(ᴛʀᴜꜱᴛ ᴍᴇ).    
 
 
 ### ✧ ᴅᴇᴘʟᴏʏ ᴠɪᴅᴇᴏ ᴛᴜᴛᴏʀɪᴀʟ:
@@ -46,7 +46,7 @@
 </br>
 
 
-## ✧✧✧ ᴡʜʏ ᴜsᴇ ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ ᴀꜱ ʏᴏᴜʀ ʙᴀꜱᴇ?
+## ✧✧✧ ᴡʜʏ ᴜꜱᴇ ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ ᴀꜱ ʏᴏᴜʀ ʙᴀꜱᴇ?
 
 ```
 1. ᴄᴏᴘʏʀɪɢʜᴛ ғʀᴇᴇ.
@@ -72,7 +72,7 @@
 <a href="https://chizuru-mizuhara-qr.redeye7.repl.co/"><img src="https://play-lh.googleusercontent.com/901aMQFFnVoX2T-YuJmTIwpPve_SUgMv_QSyzMSPtAqt_l0CyXN1DxfD6xXU0r2f9iM=w240-h480-rw" width="100" />
 </a>
 
-#### ᴏʀ, ꜱᴄᴀɴ ɪɴᴅɪʀᴇᴄᴛʟʏ ғʀᴏᴍ ᴍʏ`repl.it`
+#### ϙʀ, ꜱᴄᴀɴ ɪɴᴅɪʀᴇᴄᴛʟʏ ғʀᴏᴍ ᴍʏ`repl.it`
 
 #### <a href="https://chizuru-mizuhara-qr.redeye7.repl.co/"><img src="https://i.ibb.co/pPQjJL2/replit-logo-png-transparent.png" alt="replit-logo-png-transparent" border="0"  width="120"></a>
 
@@ -87,7 +87,7 @@
 ## ✧✧✧ ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ 2:
 
 #### ✧ `Fork` ᴛʜɪꜱ ʀᴇᴘᴏ.
-#### ✧ `Scan` ᴛʜᴇ QR , ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ `session.json` ғɪʟᴇ ᴀɴᴅ ʀᴇᴘʟᴀᴄᴇ ɪᴛ ᴡɪᴛʜ ᴛʜᴇ ᴏʟᴅᴇʀ ᴏɴᴇ ᴘʀᴇꜱᴇɴᴛ ᴏɴ ᴛʜᴇ ʜᴏᴍᴘᴀɢᴇ ᴏғ ʏᴏᴜʀ `Fork`.
+#### ✧ `Scan` ᴛʜᴇ ϙʀ , ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ `session.json` ғɪʟᴇ ᴀɴᴅ ʀᴇᴘʟᴀᴄᴇ ɪᴛ ᴡɪᴛʜ ᴛʜᴇ ᴏʟᴅᴇʀ ᴏɴᴇ ᴘʀᴇꜱᴇɴᴛ ᴏɴ ᴛʜᴇ ʜᴏᴍᴘᴀɢᴇ ᴏғ ʏᴏᴜʀ `Fork`.
 #### ✧ Gᴏ ᴛᴏ ʏᴏᴜʀ `Heroku` ᴀᴄᴄᴏᴜɴᴛ.
 #### ✧ ᴄʀᴇᴀᴛᴇ ᴀ `random app` ɪɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜ ᴀɴʏ ɴᴀᴍᴇ.
 #### ✧ ᴄᴏɴɴᴇᴄᴛ ʏᴏᴜʀ `GitHub` ᴡɪᴛʜ `Heroku`

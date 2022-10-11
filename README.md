@@ -3,7 +3,7 @@
     <img src="https://i.pinimg.com/originals/82/de/3d/82de3d2da84d7c28d21f2773a6d1006a.gif" width="2560">
      
 </p>
-<h1 align="center"> ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ [ʙᴇᴛᴀ]
+<h1 align="center"> ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ [ ʙᴇᴛᴀ ]
 </h1>
 <p align="center"> 
   ʜᴇʟʟᴏ ɢᴜʏ'ꜱ ʜᴀᴠᴇ ᴀ ɢᴏᴏᴅ ᴅᴀʏ ᴛʜᴇ ᴄʜɪᴢᴜʀᴜ-ᴍᴅ ᴡᴀꜱ ᴍᴀᴅᴇ ʙʏ ꜱᴄᴏᴛᴄʜ ᴛʜᴇ ᴍᴀɪɴ ᴘᴜʀᴘᴏꜱᴇ ɪꜱ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴡʜᴀᴛꜱᴀᴘᴘ ɴᴇꭗᴛ ʟᴇᴠᴇʟ ᴄʜɪᴢᴜʀᴜ-ᴍᴅ ᴍᴜʟᴛɪᴘʟᴇ ᴅᴇᴠɪᴄᴇꜱ.
@@ -112,7 +112,7 @@ heroku/nodejs
 ```
 
 
-## ✧✧✧ ϙʀ ꜱᴄᴀɴ , ᴊᴏɪɴ ᴍʏ ᴡʜᴀᴛꜱᴀᴘᴘ ɢʀᴏᴜᴘ ғᴏʀ ꜱᴜᴘᴘᴏʀᴛ
+## ✧✧✧ [ ϙʀ ꜱᴄᴀɴ ] ᴊᴏɪɴ ᴍʏ ᴡʜᴀᴛꜱᴀᴘᴘ ɢʀᴏᴜᴘ ғᴏʀ ꜱᴜᴘᴘᴏʀᴛ
 
 <p align="center">
 <a href="http://gg.gg/scotch-DX"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />

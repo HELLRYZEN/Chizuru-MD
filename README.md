@@ -118,7 +118,7 @@ heroku/nodejs
 </a>
 <p align="center">
 <img src="https://ibb.co/NrfrqQ5"
-width="610">
+width="1280">
 
 ## ✧✧✧ ᴄᴍᴅ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ
 ```

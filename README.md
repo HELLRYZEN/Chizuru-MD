@@ -1,6 +1,6 @@
 <p align="center">
    <a href="https://github.com/SCORT3X">
-    <img src="https://i.pinimg.com/originals/82/de/3d/82de3d2da84d7c28d21f2773a6d1006a.gif" width="610">
+    <img src="https://i.pinimg.com/originals/82/de/3d/82de3d2da84d7c28d21f2773a6d1006a.gif" width="2560">
      
 </p>
 <h1 align="center"> ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ-ʙᴇᴛᴀ

@@ -3,10 +3,10 @@
     <img src="https://i.pinimg.com/originals/82/de/3d/82de3d2da84d7c28d21f2773a6d1006a.gif" width="610">
      
 </p>
-<h1 align="center"> Chizuru Mizuhara (Beta)
+<h1 align="center"> ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ (ʙᴇᴛᴀ)
 </h1>
 <p align="center"> 
-  HELLO , I am "Chizuru Mizuhara" a WhatsApp bot made by scotch to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
+  ʜᴇʟʟᴏ ɢᴜʏ'ꜱ ʜᴀᴠᴇ ᴀ ɢᴏᴏᴅ ᴅᴀʏ ᴛʜᴇ ᴄʜɪᴢᴜʀᴜ-ᴍᴅ ᴡᴀꜱ ᴍᴀᴅᴇ ʙʏ ꜱᴄᴏᴛᴄʜ ᴛʜᴇ ᴍᴀɪɴ ᴘᴜʀᴘᴏꜱᴇ ɪꜱ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴡʜᴀᴛꜱᴀᴘᴘ ɴᴇꭗᴛ ʟᴇᴠᴇʟ ᴄʜɪᴢᴜʀᴜ-ᴍᴅ ᴍᴜʟᴛɪᴘʟᴇ ᴅᴇᴠɪᴄᴇꜱ. 
 
 <p align="center">
   <a href="https://github.com/Scort3x/Chizuru-MD/fork">
@@ -29,77 +29,77 @@
       
 </br> 
    
-### ✧✧ This bot is still under development so if you want to recode/modify it, pls check this main repo once in 2 days because i am continuously debugging it and making major changes in it.
+### ✧✧ ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ꜱᴛɪʟʟ ᴜɴᴅᴇʀ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ꜱᴏ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ʀᴇᴄᴏᴅᴇ/ᴍᴏᴅɪғʏ ɪᴛ, ᴘʟꜱ ᴄʜᴇᴄᴋ ᴛʜɪꜱ ᴍᴀɪɴ ʀᴇᴘᴏ ᴏɴᴄᴇ ɪɴ 2 ᴅᴀʏꜱ ʙᴇᴄᴀᴜꜱᴇ ɪ ᴀᴍ ᴄᴏɴᴛɪɴᴜᴏᴜꜱʟʏ ᴅᴇʙᴜɢɢɪɴɢ ɪᴛ ᴀɴᴅ ᴍᴀᴋɪɴɢ ᴍᴀᴊᴏʀ ᴄʜᴀɴɢᴇꜱ ɪɴ ɪᴛ.
 </br>
 
-### ✧ Use `Heroku Deploy Method 2` for easy and more convenient deploy(Trust me).    
+### ✧ ᴜsᴇ `Heroku Deploy Method 2` ғᴏʀ ᴇᴀꜱʏ ᴀɴᴅ ᴍᴏʀᴇ ᴄᴏɴᴠᴇɴɪᴇɴᴛ ᴅᴇᴘʟᴏʏ(ᴛʀᴜꜱᴛ ᴍᴇ).    
 
 
-### ✧ Deploy Video tutorial:
-## ✧✧✧ Video tutorial for Heroku Deploy:
+### ✧ ᴅᴇᴘʟᴏʏ ᴠɪᴅᴇᴏ ᴛᴜᴛᴏʀɪᴀʟ:
+## ✧✧✧ ᴠɪᴅᴇᴏ ᴛᴜᴛᴏʀɪᴀʟ ғᴏʀ ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏ:
 
 <a href="https://youtu.be/bUYcID5kjX8"><img src="https://i.ibb.co/71mYRh4/116-1161192-podcast-subscribe-listen-button-youtube-sign-hd-png.png" alt="Watch tutorial on YouTube" border="0"  width="160"></a>
 
-Here's the Video Tuturial for Deploying and Hosting CHIZURU MIZUHARA Bot on Heroku.
+ᴅᴇᴘʟᴏʏ ᴀɴᴅ ʜᴏꜱᴛɪɴɢ ᴠɪᴅᴇᴏ. 
 
 - [Video Guide](https://youtube.com/channel/UCKlJw6zViJ_hgTXBKv6sXgw)
 </br>
 
 
-## ✧✧✧ Why use Chizuru Mizuhara as your Base?
+## ✧✧✧ ᴡʜʏ ᴜsᴇ ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ ᴀꜱ ʏᴏᴜʀ ʙᴀꜱᴇ?
 
 ```
-1. Copyright Free.
-2. No Source Code Encryption.
-3. Most commands.
-4. Singe prefix ("-").
-5. Self restoration.
-6. No API key needed!
-7. Full premission to Recode.
-8. Regularly Updating and Improving.
+1. ᴄᴏᴘʏʀɪɢʜᴛ ғʀᴇᴇ.
+2. ɴᴏ and ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴇɴᴄʀʏᴘᴛɪᴏɴ.
+3. ᴍᴏꜱᴛ ᴄᴏᴍᴍᴀɴᴅꜱ.
+4. ꜱɪɴɢᴇ ᴘʀᴇғɪx ("-").
+5. ꜱᴇʟғ ʀᴇꜱᴛᴏʀᴀᴛɪᴏɴ.
+6. ɴᴏ ᴀᴘɪ ᴋᴇʏ ɴᴇᴇᴅᴇᴅ!
+7. ғᴜʟʟ ᴘʀᴇᴍɪꜱꜱɪᴏɴ ᴛᴏ ʀᴇᴄᴏᴅᴇ.
+8. ʀᴇɢᴜʟᴀʀʟʏ ᴜᴘᴅᴀᴛɪɴɢ ᴀɴᴅ ɪᴍᴘʀᴏᴠɪɴɢ.
 
-✧ The main motto of this project is to provide Beginner Devs a base without any limitations 😊.
-✧ Check "Credits" section and Support Them too.
+✧ ᴛʜᴇ ᴍᴀɪɴ ᴍᴏᴛᴛᴏ ᴏғ ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛ ɪꜱ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ʙᴇɢɪɴɴᴇʀ ᴅᴇᴠꜱ ᴀ ʙᴀꜱᴇ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ʟɪᴍɪᴛᴀᴛɪᴏɴꜱ 😊.
+✧ ᴄʜᴇᴄᴋ "ᴄʀᴇᴅɪᴛꜱ" ꜱᴇᴄᴛɪᴏɴ ᴀɴᴅ ꜱᴜᴘᴘᴏʀᴛ ᴛʜᴇᴍ ᴛᴏᴏ.
 
--regards SCOTCH
+-ʀᴇɢᴀʀᴅꜱ ꜱᴄᴏᴛᴄʜ
 ```
 </br>
 
-## ✧✧✧ Heroku Deployment Method 1:
+## ✧✧✧ ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ 1:
 
-#### ✧ Fork this repo.
-#### ✧ Click this scan button below and scan the given QR within 10 seconds from your WhatsApp. 
+#### ✧ ғᴏʀᴋ ɪᴛ ᴛʜɪꜱ ʀᴇᴘᴏ.
+#### ✧ ᴄʟɪᴄᴋ ᴛʜɪꜱ ꜱᴄᴀɴ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴀɴᴅ ꜱᴄᴀɴ ᴛʜᴇ ɢɪᴠᴇɴ ϙʀ ᴡɪᴛʜɪɴ 10 ꜱᴇᴄᴏɴᴅꜱ ғʀᴏᴍ ʏᴏᴜʀ ᴡʜᴀᴛꜱᴀᴘᴘ. 
 <a href="https://chizuru-mizuhara-qr.redeye7.repl.co/"><img src="https://play-lh.googleusercontent.com/901aMQFFnVoX2T-YuJmTIwpPve_SUgMv_QSyzMSPtAqt_l0CyXN1DxfD6xXU0r2f9iM=w240-h480-rw" width="100" />
 </a>
 
-#### Or, Scan indirectly from my `repl.it`
+#### ᴏʀ, ꜱᴄᴀɴ ɪɴᴅɪʀᴇᴄᴛʟʏ ғʀᴏᴍ ᴍʏ`repl.it`
 
 #### <a href="https://chizuru-mizuhara-qr.redeye7.repl.co/"><img src="https://i.ibb.co/pPQjJL2/replit-logo-png-transparent.png" alt="replit-logo-png-transparent" border="0"  width="120"></a>
 
-#### ✧ Next download that `session.json` file and replace it with the older one present the hompage of your [`Fork`](https://github.com/SCORT3X/Chizuru-MD/fork).
+#### ✧ ɴᴇxᴛ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴀᴛ `session.json` ғɪʟᴇ ᴀɴᴅ ʀᴇᴘʟᴀᴄᴇ ɪᴛ ᴡɪᴛʜ ᴛʜᴇ ᴏʟᴅᴇʀ ᴏɴᴇ ᴘʀᴇꜱᴇɴᴛ ᴛʜᴇ ʜᴏᴍᴘᴀɢᴇ ᴏғ ʏᴏᴜʀ [`Fork`](https://github.com/SCORT3X/Chizuru-MD/fork).
 
-#### ✧ After that edit the `README.md` file and change the template link present on line no:`39` with your forked repo link.(Example: `https://github.com/<your GitHub username>/Chizuru-MD`)
+#### ✧ ᴀғᴛᴇʀ ᴛʜᴀᴛ ᴇᴅɪᴛ ᴛʜᴇ `README.md` ғɪʟᴇ ᴀɴᴅ ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴛᴇᴍᴘʟᴀᴛᴇ ʟɪɴᴋ ᴘʀᴇꜱᴇɴᴛ ᴏɴ ʟɪɴᴇ ɴᴏ:`39` ᴡɪᴛʜ ʏᴏᴜʀ ғᴏʀᴋᴇᴅ ʀᴇᴘᴏ ʟɪɴᴋ.(ᴇxᴀᴍᴘʟᴇ: `https://github.com/<your GitHub username>/Chizuru-MD`)
 
-#### ✧ Next
+#### ✧ ɴᴇxᴛ
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SCORT3X/Chizuru-MD)
 
-## ✧✧✧ Heroku Deployment Method 2:
+## ✧✧✧ ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ 2:
 
-#### ✧ `Fork` this repo.
-#### ✧ `Scan` the QR , download the `session.json` file and replace it with the older one present on the hompage of your `Fork`.
-#### ✧ Go to your `Heroku` account.
-#### ✧ Create a `random app` in Heroku with any name.
-#### ✧ Connect your `GitHub` with `Heroku`
-#### ✧ Then connect `Miku's repo` from your GitHub.
-#### ✧ Go to Heroku's `settings` ---> `Add Buildpacks` then connect these 3 buildpacks one by one mentionned    below.
-#### ✧ Then come back to `Heroku` ---> `Deploy` then deploy the app
-#### ✧ After deploy is finished goto `Heroku` ---> `Resources` and turn on the switch.
-#### ✧ Enjoy :)
+#### ✧ `Fork` ᴛʜɪꜱ ʀᴇᴘᴏ.
+#### ✧ `Scan` ᴛʜᴇ QR , ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ `session.json` ғɪʟᴇ ᴀɴᴅ ʀᴇᴘʟᴀᴄᴇ ɪᴛ ᴡɪᴛʜ ᴛʜᴇ ᴏʟᴅᴇʀ ᴏɴᴇ ᴘʀᴇꜱᴇɴᴛ ᴏɴ ᴛʜᴇ ʜᴏᴍᴘᴀɢᴇ ᴏғ ʏᴏᴜʀ `Fork`.
+#### ✧ Gᴏ ᴛᴏ ʏᴏᴜʀ `Heroku` ᴀᴄᴄᴏᴜɴᴛ.
+#### ✧ ᴄʀᴇᴀᴛᴇ ᴀ `random app` ɪɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜ ᴀɴʏ ɴᴀᴍᴇ.
+#### ✧ ᴄᴏɴɴᴇᴄᴛ ʏᴏᴜʀ `GitHub` ᴡɪᴛʜ `Heroku`
+#### ✧ ᴛʜᴇɴ ᴄᴏɴɴᴇᴄᴛ `Miku's repo` ғʀᴏᴍ ʏᴏᴜʀ ɢɪᴛʜᴜʙ.
+#### ✧ ɢᴏ ᴛᴏ ʜᴇʀᴏᴋᴜ'ꜱ  `settings` ---> `Add Buildpacks` ᴛʜᴇɴ ᴄᴏɴɴᴇᴄᴛ ᴛʜᴇꜱᴇ 3 ʙᴜɪʟᴅᴘᴀᴄᴋꜱ ᴏɴᴇ ʙʏ ᴏɴᴇ ᴍᴇɴᴛɪᴏɴɴᴇᴅ    ʙᴇʟᴏᴡ.
+#### ✧ ᴛʜᴇɴ ᴄᴏᴍᴇ ʙᴀᴄᴋ ᴛᴏ `Heroku` ---> `Deploy` ᴛʜᴇɴ ᴅᴇᴘʟᴏʏ ᴛʜᴇ ᴀᴘᴘ
+#### ✧ ᴀғᴛᴇʀ ᴅᴇᴘʟᴏʏ ɪꜱ ғɪɴɪꜱʜᴇᴅ ɢᴏᴛᴏ `Heroku` ---> `Resources` ᴀɴᴅ ᴛᴜʀɴ ᴏɴ ᴛʜᴇ sᴡɪᴛᴄʜ.
+#### ✧ ᴇɴᴊᴏʏ :)
 
 
-## ✧ Heroku Builbpacks:
-## ✧ Add Builbpacks:
+## ✧ ʜᴇʀᴏᴋᴜ ʙᴜɪʟʙᴘᴀᴄᴋꜱ:
+## ✧ ᴀᴅᴅ ʙᴜɪʟʙᴘᴀᴄᴋꜱ:
 
 ```
 https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
@@ -112,26 +112,26 @@ heroku/nodejs
 ```
 
 
-## ✧✧✧ Join My Whatsapp Group for Support
+## ✧✧✧ ᴊᴏɪɴ ᴍʏ ᴡʜᴀᴛꜱᴀᴘᴘ ɢʀᴏᴜᴘ ғᴏʀ ꜱᴜᴘᴘᴏʀᴛ
 
 <a href="https://chat.whatsapp.com/JcBzjRIxM5UHfuJbt0KrWt"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </a>
 
-## ✧✧✧ CMD Deployment Method
+## ✧✧✧ ᴄᴍᴅ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ
 ```
 git clone https://github.com/SCORT3X/Chizuru-MD.git
 cd Chizuru-MD
 npm start
 ```
 
-### ✧ Requirements for CMD istallation:
+### ✧ ʀᴇϙᴜɪʀᴇᴍᴇɴᴛꜱ ғᴏʀ ᴄᴍᴅ ɪꜱᴛᴀʟʟᴀᴛɪᴏɴ:
 - Git
 - Node.js
 - Libwebp
 - FFmpeg
 </br> 
 
-## ✧✧✧ Termux Deployment Method
+## ✧✧✧ ᴛᴇʀᴍᴜx ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ
 ```js
 apt update
 apt upgrade
@@ -148,37 +148,37 @@ cd Chizuru-MD
 npm start
 ```
 
-## ✧✧✧ To keep Chizuru Mizuhara alive without internet 24/7
+## ✧✧✧ ᴛᴏ ᴋᴇᴇᴘ ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ ᴀʟɪᴠᴇ ᴡɪᴛʜᴏᴜᴛ ɪɴᴛᴇʀɴᴇᴛ 24/7
 
 ```
 npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
 
-## ✧✧✧ License and recode Permission:
-- Well, it's the most asked question !
-- And the answer is `"Permission is hereby granted for 100% modification/recode."`
-- And this project comes under [`MIT`](https://github.com/SCORT3X/Chizuru-MD/blob/main/LICENSE.md) lincense.
-- Please at least [`Follow`](https://github.com/SCORT3X/#follow) me on GitHub to show some appreciation.
+## ✧✧✧ ʟɪᴄᴇɴꜱᴇ ᴀɴᴅ ʀᴇᴄᴏᴅᴇ ᴘᴇʀᴍɪꜱꜱɪ :
+- - ᴡᴇʟʟ, ɪᴛ'ꜱ ᴛʜᴇ ᴍᴏꜱᴛ ᴀꜱᴋᴇᴅ ϙᴜᴇꜱᴛɪᴏɴ !
+- - ᴀɴᴅ ᴛʜᴇ ᴀɴꜱᴡᴇʀ ɪꜱ `"ᴘᴇʀᴍɪꜱꜱɪᴏɴ ɪꜱ ʜᴇʀᴇʙʏ ɢʀᴀɴᴛᴇᴅ ғᴏʀ 100% ᴍᴏᴅɪғɪᴄᴀᴛɪᴏɴ/ʀᴇᴄᴏᴅᴇ."`
+- - ᴀɴᴅ ᴛʜɪꜱ ᴘʀᴏᴊᴇᴄᴛ ᴄᴏᴍᴇꜱ ᴜɴᴅᴇʀ [`MIT`](https://github.com/SCORT3X/Chizuru-MD/blob/main/LICENSE.md) ʟɪᴄᴇɴꜱᴇ.
+- ᴘʟᴇᴀꜱᴇ ᴀᴛ ʟᴇᴀꜱᴛ [`Follow`](https://github.com/SCORT3X/#follow) ᴍᴇ ᴏɴ ɢɪᴛʜᴜʙ ᴛᴏ ꜱʜᴏᴡ ꜱᴏᴍᴇ ᴀᴘᴘʀᴇᴄɪᴀᴛɪᴏɴ.
    
    
-## ✧ Reminder:
-- This bot is not made by `WhatsApp Inc.` So misusing the bot might `ban` your `WhatsApp account!`(Though your WhatsApp account can be unbanned only once.)
-- I am not responsible for banning your account.
-- Use at your own risk by keeping this warning in mind.
+## ✧ ʀᴇᴍɪɴᴅᴇʀ:
+- ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ɴᴏᴛ ᴍᴀᴅᴇ ʙʏ `ᴡʜᴀᴛꜱᴀᴘᴘ ɪɴᴄ.` ꜱᴏ ᴍɪꜱᴜꜱɪɴɢ ᴛʜᴇ ʙᴏᴛ ᴍɪɢʜᴛ `ʙᴀɴ` ʏᴏᴜʀ `ᴡʜᴀᴛꜱᴀᴘᴘ ᴀᴄᴄᴏᴜɴᴛ!`(ᴛʜᴏᴜɢʜ ʏᴏᴜʀ ᴡʜᴀᴛꜱᴀᴘᴘ ᴀᴄᴄᴏᴜɴᴛ ᴄᴀɴ ʙᴇ ᴜɴʙᴀɴɴᴇᴅ ᴏɴʟʏ ᴏɴᴄᴇ.)
+- ɪ ᴀᴍ ɴᴏᴛ ʀᴇꜱᴘᴏɴꜱɪʙʟᴇ ғᴏʀ ʙᴀɴɴɪɴɢ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ.
+- ᴜꜱᴇ ᴀᴛ ʏᴏᴜʀ ᴏᴡɴ ʀɪꜱᴋ ʙʏ ᴋᴇᴇᴘɪɴɢ ᴛʜɪꜱ ᴡᴀʀɴɪɴɢ ɪɴ ᴍɪɴᴅ.
  
 
 
-## ✧ Contribution:
-- I don't have any contributor in this project. Feel free to contribute.
+## ✧ ᴄᴏɴᴛʀɪʙᴜᴛɪᴏɴ:
+- ɪ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀɴʏ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀ ɪɴ ᴛʜɪꜱ ᴘʀᴏᴊᴇᴄᴛ. ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴄᴏɴᴛʀɪʙᴜᴛᴇ.
 
 
 
-## ✧ Help Me:
-- [`Follow`](https://github.com/SCORT3X/#follow) me on GitHub to make me feel motivated.
-- Give my project a ⭐ if you liked it.
+## ✧ ʜᴇʟᴘ ᴍᴇ:
+- [`Follow`](https://github.com/SCORT3X/#follow) ᴍᴇ ᴏɴ ɢɪᴛʜᴜʙ ᴛᴏ ᴍᴀᴋᴇ ᴍᴇ ғᴇᴇʟ ᴍᴏᴛɪᴠᴀᴛᴇᴅ.
+- ɢɪᴠᴇ ᴍʏ ᴘʀᴏᴊᴇᴄᴛ ᴀ ⭐ ɪғ ʏᴏᴜ ʟɪᴋᴇᴅ ɪᴛ.
 
      
-## ✧ Credits and Appreciation:
+## ✧ ᴄʀᴇᴅɪᴛꜱ ᴀɴᴅ ᴀᴘᴘʀᴇᴄɪᴀᴛɪᴏɴ:
 
 -   `Adiwajshing` sir for [Baileys](https://github.com/adiwajshing/baileys).
 -   `Arus~Bots` team for [Mizuhara](https://github.com/Arus-Bots/Mizuhara).

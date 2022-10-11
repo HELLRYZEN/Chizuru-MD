@@ -9,7 +9,7 @@
   ʜᴇʟʟᴏ ɢᴜʏ'ꜱ ʜᴀᴠᴇ ᴀ ɢᴏᴏᴅ ᴅᴀʏ ᴛʜᴇ ᴄʜɪᴢᴜʀᴜ-ᴍᴅ ᴡᴀꜱ ᴍᴀᴅᴇ ʙʏ ꜱᴄᴏᴛᴄʜ ᴛʜᴇ ᴍᴀɪɴ ᴘᴜʀᴘᴏꜱᴇ ɪꜱ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴡʜᴀᴛꜱᴀᴘᴘ ɴᴇꭗᴛ ʟᴇᴠᴇʟ ᴄʜɪᴢᴜʀᴜ-ᴍᴅ ᴍᴜʟᴛɪᴘʟᴇ ᴅᴇᴠɪᴄᴇꜱ.
 
 <p align="center">
-  <a href="https://github.com/Scort3x/Chizuru-MD/fork">
+  <a href="https://github.com/SCORT3X/Chizuru-MD/fork">
     <img src="https://img.shields.io/github/forks/SCORT3X/Chizuru-MD?label=Fork&style=social">
     
     

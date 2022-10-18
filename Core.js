@@ -4874,6 +4874,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
    │✑ ᴘʟᴇᴀꜱᴇ ꜱᴇʟᴇᴄᴛ ᴛʜᴇ
    │ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ
    └───────────────┈ ⳹
+*◈ ━━━━━━ ⸙ ʀᴀᴊ ⸙ ━━━━━━ ◈*
 
 ʜᴇʀᴇ'ꜱ ᴛʜᴇ ʟɪꜱᴛ ᴏғ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ'ꜱ
 
@@ -5109,7 +5110,9 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
  
 ✧ • ᴛᴏ ɢᴇᴛ ᴍʏ ᴏᴡɴᴇʀ ɢʀᴏᴜᴘ ʟɪɴᴋ ᴛʏᴘᴇ " *ꜱᴜᴘᴘᴏʀᴛ* "
 
-✧ • *### ᴄʜɪᴢᴜʀᴜ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ꜱᴄᴏᴛᴄʜ* `
+✧ • *### ᴄʜɪᴢᴜʀᴜ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ꜱᴄᴏᴛᴄʜ*
+
+━━━━°❀•°:🎀 ꜱᴄᴏᴛᴄʜ 🎀:°•❀°━━━━`
  
  let buttonshelpm = [
     {buttonId: `-owner`, buttonText: {displayText: 'Bot Owner'}, type: 1}
@@ -5150,7 +5153,9 @@ case '':
 └┬──────────────┈ ⳹
    │✑  ᴘʟᴇᴀꜱᴇ ꜱᴇʟᴇᴄᴛ ᴛʜᴇ
    │ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ
-   └───────────────┈ ⳹`
+   └───────────────┈ ⳹
+*━━━°❀•°:🎀 ꜱᴄᴏᴛᴄʜ 🎀:°•❀°━━━*`
+ 
          let butRun = [
                 {buttonId: `-help`, buttonText: {displayText: 'Help'}, type: 1}
                 ]

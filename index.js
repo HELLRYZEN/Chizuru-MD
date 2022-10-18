@@ -172,9 +172,10 @@ Miku.sendMessage(anu.id, buttonMessage)
                 } else if (anu.action == 'remove') {
                 	let WAuserName = num
                     mikutext = `
-✨Sayonara✨, @${WAuserName.split("@")[0]},
+✨ꜱᴀʏᴏɴᴀʀᴀ✨, @${WAuserName.split("@")[0]},
 
-I hope you will come back soon, but we are not going to miss you though!
+ᴡʜᴇɴ ɪ ꜱᴀʏ ɢᴏᴏᴅʙʏᴇ, ᴘʀᴏᴍɪꜱᴇ ᴍᴇ ʏᴏᴜ ᴡᴏɴ'ᴛ ᴄʀʏ, ᴄᴀᴜꜱᴇ ᴛʜᴇ ᴅᴀʏ ɪ'ʟʟ ʙᴇ ꜱᴀʏɪɴɢ ᴛʜᴀᴛ ᴡᴏᴜʟᴅ ʙᴇ ᴛʜᴇ ᴅᴀʏ ɪ ᴅɪᴇ.” “ᴀ ᴍᴇᴍᴏʀʏ ʟᴀꜱᴛꜱ ғᴏʀᴇᴠᴇʀ, ɴᴇᴠᴇʀ ᴡɪʟʟ ɪᴛ ᴅɪᴇ… ᴛʀᴜᴇ ғʀɪᴇɴᴅ'ꜱ ꜱᴛᴀʏ ᴛᴏɢᴇᴛʜᴇʀ ᴀɴᴅ ɴᴇᴠᴇʀ ꜱᴀʏ ɢᴏᴏᴅʙʏᴇ…” “ɪ ʜᴀᴛᴇ ᴛʜᴇ ғᴇᴇʟɪɴɢ ᴡʜᴇɴ ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ꜱᴀʏ ɢᴏᴏᴅʙʏᴇ ᴛᴏ ꜱᴏᴍᴇᴏɴᴇ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ꜱᴘᴇɴᴅ ᴇᴠᴇʀʏ ᴍɪɴᴜᴛᴇ ᴡɪᴛʜ.
+*━━━━━°❀•°:🎀 ꜱᴄᴏᴛᴄʜ 🎀:°•❀°━━━━━*
 `
 
     let buttonMessage = {

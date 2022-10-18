@@ -142,52 +142,29 @@ Miku.ev.on('group-participants.update', async (anu) => {
                     ppgroup = 'https://telegra.ph/file/4cc2712eee93c105f6739.jpg'
                 }
 
-                let targetname = await Miku.getName(num)
-                grpmembernum = metadata.participants.length
+//welcome\\
+        let nama = await Miku.getName(num)
+memb = metadata.participants.length
 
-            
+Kon = await getBuffer(`https://hardianto.xyz/api/welcome3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://telegra.ph/file/16a4b71a0c1c333161a23.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
+
+Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://telegra.ph/file/16a4b71a0c1c333161a23.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
                 if (anu.action == 'add') {
-                let WAuserName = num
-                mikutext = `
-Hello @${WAuserName.split("@")[0]},
-
-I am *Chizuru Mizuhara*, Welcome to ${metadata.subject}.
-
-*Group Description:*
-${metadata.desc}
-`
-
-    let buttonMessage = {
-    image: await getBuffer(ppgroup),
-    mentions: [num],
-    caption: mikutext,
-    footer: `${global.BotName}`,
-    headerType: 4,
-    }
-Miku.sendMessage(anu.id, buttonMessage)
+                    Miku.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `
+✧ • Hii @${num.split("@")[0]},
+✧ • Welcome To ${metadata.subject}
+✧ • Description: ${metadata.desc}
+✧ • Welcome To Our Comfortable Happy😋, Sometimes Loud😜, Usually Messy🤥, Full Of Love🥰, HOME😌!!`} )
                 } else if (anu.action == 'remove') {
-                	let WAuserName = num
-                    mikutext = `
-✨Sayonara✨, @${WAuserName.split("@")[0]},
-
-I hope you will come back soon, but we are not going to miss you though!
-`
-
-    let buttonMessage = {
-	image:await getBuffer(ppuser),
-    mentions: [num],
-    caption: mikutext,
-    footer: `${global.BotName}`,
-    headerType: 4,
-    
-    }
-    Miku.sendMessage(anu.id, buttonMessage)}}
-            } catch (err) {
-                console.log(err)
+                    Miku.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `✧ •  @${num.split("@")[0]} Left ${metadata.subject}
+✧ • i'm Not Sure If It Was A Goodbye Charm, But It Was Fun While It Lasted 😌✨` })
+                }
             }
+        } catch (err) {
+            console.log(err)
+        }
     })
-    
-
+	
 
     Miku.decodeJid = (jid) => {
         if (!jid) return jid

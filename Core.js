@@ -4880,7 +4880,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 
  *═══〘 ᴄᴏʀᴇ 〙═══⊷❍*
 
-✧ • ᴘʀᴏғɪʟᴇ
+✧ • ${prefix}ᴘʀᴏғɪʟᴇ
 ✧ • ʜᴇʟᴘ
 ✧ • ᴅᴇʟᴇᴛᴇ
 ✧ • ᴅᴇʟᴇᴛᴇᴀʟʟ

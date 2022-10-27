@@ -1,5 +1,5 @@
 <p align="center">
-   <a href="https://github.com/SCORT3X">
+   <a href="https://github.com/HELLRYZEN">
     <img src="https://i.pinimg.com/originals/82/de/3d/82de3d2da84d7c28d21f2773a6d1006a.gif" width="2560">
      
 </p>
@@ -9,21 +9,21 @@
   ʜᴇʟʟᴏ ɢᴜʏ'ꜱ ʜᴀᴠᴇ ᴀ ɢᴏᴏᴅ ᴅᴀʏ ᴛʜᴇ ᴄʜɪᴢᴜʀᴜ-ᴍᴅ ᴡᴀꜱ ᴍᴀᴅᴇ ʙʏ ꜱᴄᴏᴛᴄʜ ᴛʜᴇ ᴍᴀɪɴ ᴘᴜʀᴘᴏꜱᴇ ɪꜱ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴡʜᴀᴛꜱᴀᴘᴘ ɴᴇꭗᴛ ʟᴇᴠᴇʟ ᴄʜɪᴢᴜʀᴜ-ᴍᴅ ᴍᴜʟᴛɪᴘʟᴇ ᴅᴇᴠɪᴄᴇꜱ.
 
 <p align="center">
-  <a href="https://github.com/SCORT3X/Chizuru-MD/fork">
-    <img src="https://img.shields.io/github/forks/SCORT3X/Chizuru-MD?label=Fork&style=social">
+  <a href="https://github.com/HELLRYZEN/Chizuru-MD/fork">
+    <img src="https://img.shields.io/github/forks/HELLRYZEN/Chizuru-MD?label=Fork&style=social">
     
     
-  <a href="https://github.com/SCORT3X/Chizuru-MD/stargazers">
-    <img src="https://img.shields.io/github/stars/SCORT3X/Chizuru-MD?style=social">
+  <a href="https://github.com/HELLRYZEN/Chizuru-MD/stargazers">
+    <img src="https://img.shields.io/github/stars/HELLRYZEN/Chizuru-MD?style=social">
   </a>
 
 <p align="center">
-  <a href="https://github.com/SCORT3X/Chizuru-MD">
-    <img src="https://visitor-badge.glitch.me/badge?page_id=https://github.com/SCORT3X/Chizuru-MD.visitor-badge&left_text=Total%20Repo%20Visits">
+  <a href="https://github.com/HELLRYZEN/Chizuru-MD">
+    <img src="https://visitor-badge.glitch.me/badge?page_id=https://github.com/HELLRYZEN/Chizuru-MD.visitor-badge&left_text=Total%20Repo%20Visits">
     
     
-<a href="https://github.com/SCORT3X">
-    <img src="(https://visitor-badge.glitch.me/badge?page_id=https://github.com/SCORT3X/Chizuru-MD.visitor-badge&left_text=Total%20Repo%20Visitors)">
+<a href="https://github.com/HELLRYZEN">
+    <img src="(https://visitor-badge.glitch.me/badge?page_id=https://github.com/HELLRYZEN/Chizuru-MD.visitor-badge&left_text=Total%20Repo%20Visitors)">
   </a>
 </br>
       
@@ -76,13 +76,13 @@
 
 #### <a href="https://chizuru-mizuhara-qr.redeye7.repl.co/"><img src="https://i.ibb.co/pPQjJL2/replit-logo-png-transparent.png" alt="replit-logo-png-transparent" border="0"  width="120"></a>
 
-#### ✧ ɴᴇꭗᴛ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴀᴛ `session.json` ғɪʟᴇ ᴀɴᴅ ʀᴇᴘʟᴀᴄᴇ ɪᴛ ᴡɪᴛʜ ᴛʜᴇ ᴏʟᴅᴇʀ ᴏɴᴇ ᴘʀᴇꜱᴇɴᴛ ᴛʜᴇ ʜᴏᴍᴘᴀɢᴇ ᴏғ ʏᴏᴜʀ [`Fork`](https://github.com/SCORT3X/Chizuru-MD/fork).
+#### ✧ ɴᴇꭗᴛ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴀᴛ `session.json` ғɪʟᴇ ᴀɴᴅ ʀᴇᴘʟᴀᴄᴇ ɪᴛ ᴡɪᴛʜ ᴛʜᴇ ᴏʟᴅᴇʀ ᴏɴᴇ ᴘʀᴇꜱᴇɴᴛ ᴛʜᴇ ʜᴏᴍᴘᴀɢᴇ ᴏғ ʏᴏᴜʀ [`Fork`](https://github.com/HELLRYZEN/Chizuru-MD/fork).
 
 #### ✧ ᴀғᴛᴇʀ ᴛʜᴀᴛ ᴇᴅɪᴛ ᴛʜᴇ `README.md` ғɪʟᴇ ᴀɴᴅ ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴛᴇᴍᴘʟᴀᴛᴇ ʟɪɴᴋ ᴘʀᴇꜱᴇɴᴛ ᴏɴ ʟɪɴᴇ ɴᴏ:`39` ᴡɪᴛʜ ʏᴏᴜʀ ғᴏʀᴋᴇᴅ ʀᴇᴘᴏ ʟɪɴᴋ.(ᴇꭗᴀᴍᴘʟᴇ: `https://github.com/<your GitHub username>/Chizuru-MD`)
 
 #### ✧ ɴᴇꭗᴛ
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SCORT3X/Chizuru-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HELLRYZEN/Chizuru-MD)
 
 ## ✧✧✧ ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ 2:
 
@@ -123,7 +123,7 @@ width="1280">
 
 ## ✧✧✧ ᴄᴍᴅ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ
 ```
-git clone https://github.com/SCORT3X/Chizuru-MD.git
+git clone https://github.com/HELLRYZEN/Chizuru-MD.git
 cd Chizuru-MD
 npm start
 ```
@@ -147,7 +147,7 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/SCORT3X/Chizuru-MD
+git clone https://github.com/HELLRYZEN/Chizuru-MD
 cd Chizuru-MD
 npm start
 ```
@@ -161,8 +161,8 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ## ✧✧✧ ʟɪᴄᴇɴꜱᴇ ᴀɴᴅ ʀᴇᴄᴏᴅᴇ ᴘᴇʀᴍɪꜱꜱɪ :
 - - ᴡᴇʟʟ, ɪᴛ'ꜱ ᴛʜᴇ ᴍᴏꜱᴛ ᴀꜱᴋᴇᴅ ϙᴜᴇꜱᴛɪᴏɴ !
 - - ᴀɴᴅ ᴛʜᴇ ᴀɴꜱᴡᴇʀ ɪꜱ `"ᴘᴇʀᴍɪꜱꜱɪᴏɴ ɪꜱ ʜᴇʀᴇʙʏ ɢʀᴀɴᴛᴇᴅ ғᴏʀ 100% ᴍᴏᴅɪғɪᴄᴀᴛɪᴏɴ/ʀᴇᴄᴏᴅᴇ."`
-- - ᴀɴᴅ ᴛʜɪꜱ ᴘʀᴏᴊᴇᴄᴛ ᴄᴏᴍᴇꜱ ᴜɴᴅᴇʀ [`MIT`](https://github.com/SCORT3X/Chizuru-MD/blob/main/LICENSE.md) ʟɪᴄᴇɴꜱᴇ.
-- ᴘʟᴇᴀꜱᴇ ᴀᴛ ʟᴇᴀꜱᴛ [`Follow`](https://github.com/SCORT3X/#follow) ᴍᴇ ᴏɴ ɢɪᴛʜᴜʙ ᴛᴏ ꜱʜᴏᴡ ꜱᴏᴍᴇ ᴀᴘᴘʀᴇᴄɪᴀᴛɪᴏɴ.
+- - ᴀɴᴅ ᴛʜɪꜱ ᴘʀᴏᴊᴇᴄᴛ ᴄᴏᴍᴇꜱ ᴜɴᴅᴇʀ [`MIT`](https://github.com/HELLRYZEN/Chizuru-MD/blob/main/LICENSE.md) ʟɪᴄᴇɴꜱᴇ.
+- ᴘʟᴇᴀꜱᴇ ᴀᴛ ʟᴇᴀꜱᴛ [`Follow`](https://github.com/HELLRYZEN/#follow) ᴍᴇ ᴏɴ ɢɪᴛʜᴜʙ ᴛᴏ ꜱʜᴏᴡ ꜱᴏᴍᴇ ᴀᴘᴘʀᴇᴄɪᴀᴛɪᴏɴ.
    
    
 ## ✧ ʀᴇᴍɪɴᴅᴇʀ:
@@ -178,7 +178,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 
 ## ✧ ʜᴇʟᴘ ᴍᴇ:
-- [`Follow`](https://github.com/SCORT3X/#follow) ᴍᴇ ᴏɴ ɢɪᴛʜᴜʙ ᴛᴏ ᴍᴀᴋᴇ ᴍᴇ ғᴇᴇʟ ᴍᴏᴛɪᴠᴀᴛᴇᴅ.
+- [`Follow`](https://github.com/HELLRYZEN/#follow) ᴍᴇ ᴏɴ ɢɪᴛʜᴜʙ ᴛᴏ ᴍᴀᴋᴇ ᴍᴇ ғᴇᴇʟ ᴍᴏᴛɪᴠᴀᴛᴇᴅ.
 - ɢɪᴠᴇ ᴍʏ ᴘʀᴏᴊᴇᴄᴛ ᴀ ⭐ ɪғ ʏᴏᴜ ʟɪᴋᴇᴅ ɪᴛ.
 
      

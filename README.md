@@ -118,8 +118,8 @@ heroku/nodejs
 <a href="http://gg.gg/scotch-DX"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </a>
 <p align="center">
-<img src="https://i.ibb.co/ZWC88rc/20220824-190620.jpghttps://i.ibb.co/6W5pFpc/20221027-174118.jpg"
-width="1280">
+<img src="https://i.ibb.co/6W5pFpc/20221027-174118.jpg"
+width="600">
 
 ## ✧✧✧ ᴄᴍᴅ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ
 ```

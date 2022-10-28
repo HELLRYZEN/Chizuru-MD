@@ -49,7 +49,7 @@
 ## ✧✧✧ ᴡʜʏ ᴜꜱᴇ ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ ᴀꜱ ʏᴏᴜʀ ʙᴀꜱᴇ?
 
 ```
-1. ᴄᴏᴘʏʀɪɢʜᴛ ғʀᴇᴇ.
+1. ᴄᴏᴘʏʀɪɢʜᴛ ᴄʟᴀᴍ.
 2. ɴᴏ ᴀɴᴅ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴇɴᴄʀʏᴘᴛɪᴏɴ.
 3. ᴍᴏꜱᴛ ᴄᴏᴍᴍᴀɴᴅꜱ.
 4. ꜱɪɴɢᴇ ᴘʀᴇғɪꭗ ("-").
@@ -57,6 +57,7 @@
 6. ɴᴏ ᴀᴘɪ ᴋᴇʏ ɴᴇᴇᴅᴇᴅ!
 7. ғᴜʟʟ ᴘʀᴇᴍɪꜱꜱɪᴏɴ ᴛᴏ ʀᴇᴄᴏᴅᴇ.
 8. ʀᴇɢᴜʟᴀʀʟʏ ᴜᴘᴅᴀᴛɪɴɢ ᴀɴᴅ ɪᴍᴘʀᴏᴠɪɴɢ.
+9. ɢɪᴠᴇ ᴍᴇ ᴄʀᴇᴅɪᴛ ᴏᴛʜᴇʀᴡɪꜱᴇ ɪ ᴛᴀᴋᴇ ᴀᴄᴛɪᴏɴ.
 
 ✧ ᴛʜᴇ ᴍᴀɪɴ ᴍᴏᴛᴛᴏ ᴏғ ᴛʜɪꜱ ᴘʀᴏᴊᴇᴄᴛ ɪꜱ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ʙᴇɢɪɴɴᴇʀ ᴅᴇᴠꜱ ᴀ ʙᴀꜱᴇ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ʟɪᴍɪᴛᴀᴛɪᴏɴꜱ 😊.
 ✧ ᴄʜᴇᴄᴋ "ᴄʀᴇᴅɪᴛꜱ" ꜱᴇᴄᴛɪᴏɴ ᴀɴᴅ ꜱᴜᴘᴘᴏʀᴛ ᴛʜᴇᴍ ᴛᴏᴏ.
@@ -65,7 +66,7 @@
 ```
 </br>
 
-## ✧✧✧ ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ 1:
+## ✧✧✧ 〘 ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ 〙  
 
 #### ✧ ғᴏʀᴋ ɪᴛ ᴛʜɪꜱ ʀᴇᴘᴏ.
 #### ✧ ᴄʟɪᴄᴋ ᴛʜɪꜱ ꜱᴄᴀɴ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴀɴᴅ ꜱᴄᴀɴ ᴛʜᴇ ɢɪᴠᴇɴ ϙʀ ᴡɪᴛʜɪɴ 10 ꜱᴇᴄᴏɴᴅꜱ ғʀᴏᴍ ʏᴏᴜʀ ᴡʜᴀᴛꜱᴀᴘᴘ. 
@@ -82,9 +83,7 @@
 
 #### ✧ ɴᴇꭗᴛ
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HELLRYZEN/Chizuru-MD)
-
-## ✧✧✧ ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ 2:
+## ✧✧✧ 〘 ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ 1 〙
 
 #### ✧ `Fork` ᴛʜɪꜱ ʀᴇᴘᴏ.
 #### ✧ `Scan` ᴛʜᴇ ϙʀ , ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ `session.json` ғɪʟᴇ ᴀɴᴅ ʀᴇᴘʟᴀᴄᴇ ɪᴛ ᴡɪᴛʜ ᴛʜᴇ ᴏʟᴅᴇʀ ᴏɴᴇ ᴘʀᴇꜱᴇɴᴛ ᴏɴ ᴛʜᴇ ʜᴏᴍᴘᴀɢᴇ ᴏғ ʏᴏᴜʀ `Fork`.
@@ -187,5 +186,4 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 -   `Adiwajshing` sir for [Baileys](https://github.com/adiwajshing/baileys).
 -   `Arus~Bots` team for [Mizuhara](https://github.com/Arus-Bots/Mizuhara).
 -   `Xeon` for [Cheems](https://github.com/DGXeon/CheemsBot-MD2).
--   `Zhwzein` for [Killua](https://github.com/zhwzein/Killua-Zoldyck)
--   `Fantox` for [Miku](https://github.com/FantoX001/Miku-MD)
+-   `Fantox` for [Miku](https://github.com/FantoX001/Miku-MD).

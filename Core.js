@@ -1370,14 +1370,7 @@ function pickRandom(list) {
 return list[Math.floor(list.length * Math.random())]
 }
 
-//auto vn reply
-for (let anju of xeonyaudio){
-				if (budy === anju){
-					result = fs.readFileSync(`./Assets/audio/${anju}.mp3`)
-					Miku.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
-					}
-			}
-           
+
 switch(command) {
 	
     case 'sc': case 'script': case 'sourcecode': {

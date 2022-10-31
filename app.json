@@ -1,8 +1,8 @@
 {
   "name": "Chizuru-MD",
-  "description": "A whatsApp bot based on Baileys linrary with Multi Device support",
+  "description": "A whatsApp bot made by Scotch.",
   "repository": "https://github.com/HELLRYZEN/Chizuru-MD",
-  "logo": "https://wallpapercave.com/wp/wp10524580.jpg",
+  "logo": "https://wallpapercave.com/wp/wp11339019.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
     {

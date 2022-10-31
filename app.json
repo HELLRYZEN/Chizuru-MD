@@ -2,7 +2,7 @@
   "name": "Chizuru-MD",
   "description": "A whatsApp bot made by Scotch.",
   "repository": "https://github.com/HELLRYZEN/Chizuru-MD",
-  "logo": "https://wallpapercave.com/wp/wp11339019.jpg",
+  "logo": "https://wallpapercave.com/wp/wp11339025.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
     {

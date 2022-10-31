@@ -85,6 +85,9 @@
 
 ## ✧✧✧ 〘 ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ 1 〙
 
+<a href="https://heroku.com/deploy?template=https://github.com/HELLRYZEN/Chizuru-MD"><img title="HELLRYZEN" src="https://www.herokucdn.com/deploy/button.svg" width="100"></a>
+</p>
+
 #### ✧ `Fork` ᴛʜɪꜱ ʀᴇᴘᴏ.
 #### ✧ `Scan` ᴛʜᴇ ϙʀ , ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ `session.json` ғɪʟᴇ ᴀɴᴅ ʀᴇᴘʟᴀᴄᴇ ɪᴛ ᴡɪᴛʜ ᴛʜᴇ ᴏʟᴅᴇʀ ᴏɴᴇ ᴘʀᴇꜱᴇɴᴛ ᴏɴ ᴛʜᴇ ʜᴏᴍᴘᴀɢᴇ ᴏғ ʏᴏᴜʀ `Fork`.
 #### ✧ ɢᴏ ᴛᴏ ʏᴏᴜʀ `Heroku` ᴀᴄᴄᴏᴜɴᴛ.

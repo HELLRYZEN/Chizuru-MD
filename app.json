@@ -1,7 +1,7 @@
 {
-  "name": "Miku-MD",
+  "name": "Chizuru-MD",
   "description": "A whatsApp bot based on Baileys linrary with Multi Device support",
-  "repository": "https://github.com/FantoX001/Miku-MD",
+  "repository": "https://github.com/HELLRYZEN/Chizuru-MD",
   "logo": "https://wallpapercave.com/wp/wp10524580.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [

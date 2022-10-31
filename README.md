@@ -85,7 +85,7 @@
 
 ## ✧✧✧ 〘 ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ 1 〙
 
-<a href="https://heroku.com/deploy?template=https://github.com/HELLRYZEN/Chizuru-MD"><img title="HELLRYZEN" src="https://www.herokucdn.com/deploy/button.svg" width="200"></a>
+<a href="https://heroku.com/deploy?template=https://github.com/HELLRYZEN/Chizuru-MD"><img title="HELLRYZEN" src="https://www.herokucdn.com/deploy/button.svg" width="150"></a>
 </p>
 
 #### ✧ `Fork` ᴛʜɪꜱ ʀᴇᴘᴏ.

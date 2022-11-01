@@ -40,7 +40,7 @@
 
 ᴅᴇᴘʟᴏʏ ᴀɴᴅ ʜᴏꜱᴛɪɴɢ ᴠɪᴅᴇᴏ. 
 
-- [Video Guide](https://youtube.com/channel/UCKlJw6zViJ_hgTXBKv6sXgw)
+- [ᴠɪᴅᴇᴏ ɢᴜɪᴅᴇ](https://youtube.com/channel/UCKlJw6zViJ_hgTXBKv6sXgw)
 </br>
 
 ## ✧✧✧ ᴡʜʏ ᴜꜱᴇ ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ ᴀꜱ ʏᴏᴜʀ ʙᴀꜱᴇ?
@@ -131,12 +131,11 @@ npm start
 ```
 
 ### ✧ ʀᴇϙᴜɪʀᴇᴍᴇɴᴛꜱ ғᴏʀ ᴄᴍᴅ ɪꜱᴛᴀʟʟᴀᴛɪᴏɴ:
-- [Git](https://github.com/git-guides/install-git)
-- [Node.js](https://nodejs.org/en/download/)
-- [for Windows](https://www.geeksforgeeks.org/how-to-install-ffmpeg-on-windows/)
-- [for Linux](https://www.tecmint.com/install-ffmpeg-in-linux/)
-- [for Mac](https://ffmpeg.org/download.html))
-- [Libwebp]
+- [ɢɪᴛ](https://github.com/git-guides/install-git)
+- [ɴᴏᴅᴇ.ᴊꜱ](https://nodejs.org/en/download/)
+- [ғᴏʀ ᴡɪɴᴅᴏᴡꜱ](https://www.geeksforgeeks.org/how-to-install-ffmpeg-on-windows/)
+- [ғᴏʀ ʟɪɴᴜꭗ](https://www.tecmint.com/install-ffmpeg-in-linux/)
+- [ғᴏʀ ᴍᴀᴄ](https://ffmpeg.org/download.html)
 
 ɴᴏᴛᴇ: ɪғ ʏᴏᴜ ᴅᴏɴ'ᴛ ᴘʀᴇ-ɪɴꜱᴛᴀʟʟ ᴛʜᴇsᴇ ᴘʟᴜɢɪɴꜱ ʙᴇғᴏʀᴇ ᴄᴍᴅ / ᴠꜱ ᴄᴏᴅᴇ ɪɴꜱᴛᴀʟʟᴀᴛɪᴏɴ ʙᴏᴛ ᴡɪʟʟ ɴᴏᴛ ꜱᴛᴀʀᴛ!
 </br> 

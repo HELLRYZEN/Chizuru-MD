@@ -133,8 +133,11 @@ npm start
 ### ✧ ʀᴇϙᴜɪʀᴇᴍᴇɴᴛꜱ ғᴏʀ ᴄᴍᴅ ɪꜱᴛᴀʟʟᴀᴛɪᴏɴ:
 - [Git](https://github.com/git-guides/install-git)
 - [Node.js](https://nodejs.org/en/download/)
-- [FFmpeg]( [for Windows](https://www.geeksforgeeks.org/how-to-install-ffmpeg-on-windows/) or [for Linux](https://www.tecmint.com/install-ffmpeg-in-linux/) or [for Mac](https://ffmpeg.org/download.html) )
+- [for Windows](https://www.geeksforgeeks.org/how-to-install-ffmpeg-on-windows/)
+- [for Linux](https://www.tecmint.com/install-ffmpeg-in-linux/)
+- [for Mac](https://ffmpeg.org/download.html))
 - [Libwebp]
+
 ɴᴏᴛᴇ: ɪғ ʏᴏᴜ ᴅᴏɴ'ᴛ ᴘʀᴇ-ɪɴꜱᴛᴀʟʟ ᴛʜᴇsᴇ ᴘʟᴜɢɪɴꜱ ʙᴇғᴏʀᴇ ᴄᴍᴅ / ᴠꜱ ᴄᴏᴅᴇ ɪɴꜱᴛᴀʟʟᴀᴛɪᴏɴ ʙᴏᴛ ᴡɪʟʟ ɴᴏᴛ ꜱᴛᴀʀᴛ!
 </br> 
 

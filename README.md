@@ -33,8 +33,8 @@
 
 ### ✧ ᴜꜱᴇ `Heroku Deploy Method 2` ғᴏʀ ᴇᴀꜱʏ ᴀɴᴅ ᴍᴏʀᴇ ᴄᴏɴᴠᴇɴɪᴇɴᴛ ᴅᴇᴘʟᴏʏ[ᴛʀᴜꜱᴛ ᴍᴇ].    
 
-### ✧ ᴅᴇᴘʟᴏʏ ᴠɪᴅᴇᴏ ᴛᴜᴛᴏʀɪᴀʟ:
-## ✧✧✧ ᴠɪᴅᴇᴏ ᴛᴜᴛᴏʀɪᴀʟ ғᴏʀ ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏ:
+### ✧ ᴅᴇᴘʟᴏʏ ᴠɪᴅᴇᴏ ᴛᴜᴛᴏʀɪᴀʟ :
+## ✧✧✧ ᴠɪᴅᴇᴏ ᴛᴜᴛᴏʀɪᴀʟ ғᴏʀ ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏ :
 
 <a href="https://youtu.be/bUYcID5kjX8"><img src="https://i.ibb.co/71mYRh4/116-1161192-podcast-subscribe-listen-button-youtube-sign-hd-png.png" alt="Watch tutorial on YouTube" border="0"  width="160"></a>
 
@@ -100,8 +100,8 @@
 #### ✧ ᴇɴᴊᴏʏ :)
 
 
-## ✧ ʜᴇʀᴏᴋᴜ ʙᴜɪʟʙᴘᴀᴄᴋꜱ:
-## ✧ ᴀᴅᴅ ʙᴜɪʟʙᴘᴀᴄᴋꜱ:
+## ✧ ʜᴇʀᴏᴋᴜ ʙᴜɪʟʙᴘᴀᴄᴋꜱ :
+## ✧ ᴀᴅᴅ ʙᴜɪʟʙᴘᴀᴄᴋꜱ :
 
 ```
 https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
@@ -130,7 +130,7 @@ cd Chizuru-MD
 npm start
 ```
 
-### ✧ ʀᴇϙᴜɪʀᴇᴍᴇɴᴛꜱ ғᴏʀ ᴄᴍᴅ ɪꜱᴛᴀʟʟᴀᴛɪᴏɴ:
+### ✧ ʀᴇϙᴜɪʀᴇᴍᴇɴᴛꜱ ғᴏʀ ᴄᴍᴅ ɪꜱᴛᴀʟʟᴀᴛɪᴏɴ :
 - [ɢɪᴛ](https://github.com/git-guides/install-git)
 - [ɴᴏᴅᴇ.ᴊꜱ](https://nodejs.org/en/download/)
 - [ғᴏʀ ᴡɪɴᴅᴏᴡꜱ](https://www.geeksforgeeks.org/how-to-install-ffmpeg-on-windows/)
@@ -169,19 +169,19 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 - - ᴀɴᴅ ᴛʜɪꜱ ᴘʀᴏᴊᴇᴄᴛ ᴄᴏᴍᴇꜱ ᴜɴᴅᴇʀ [`MIT`](https://github.com/HELLRYZEN/Chizuru-MD/blob/main/LICENSE.md) ʟɪᴄᴇɴꜱᴇ.
 - ᴘʟᴇᴀꜱᴇ ᴀᴛ ʟᴇᴀꜱᴛ [`Follow`](https://github.com/HELLRYZEN/#follow) ᴍᴇ ᴏɴ ɢɪᴛʜᴜʙ ᴛᴏ ꜱʜᴏᴡ ꜱᴏᴍᴇ ᴀᴘᴘʀᴇᴄɪᴀᴛɪᴏɴ.
   
-## ✧ ʀᴇᴍɪɴᴅᴇʀ:
+## ✧ ʀᴇᴍɪɴᴅᴇʀ :
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ɴᴏᴛ ᴍᴀᴅᴇ ʙʏ `ᴡʜᴀᴛꜱᴀᴘᴘ ɪɴᴄ.` ꜱᴏ ᴍɪꜱᴜꜱɪɴɢ ᴛʜᴇ ʙᴏᴛ ᴍɪɢʜᴛ `ʙᴀɴ` ʏᴏᴜʀ `ᴡʜᴀᴛꜱᴀᴘᴘ ᴀᴄᴄᴏᴜɴᴛ!`(ᴛʜᴏᴜɢʜ ʏᴏᴜʀ ᴡʜᴀᴛꜱᴀᴘᴘ ᴀᴄᴄᴏᴜɴᴛ ᴄᴀɴ ʙᴇ ᴜɴʙᴀɴɴᴇᴅ ᴏɴʟʏ ᴏɴᴄᴇ.)
 - ɪ ᴀᴍ ɴᴏᴛ ʀᴇꜱᴘᴏɴꜱɪʙʟᴇ ғᴏʀ ʙᴀɴɴɪɴɢ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ.
 - ᴜꜱᴇ ᴀᴛ ʏᴏᴜʀ ᴏᴡɴ ʀɪꜱᴋ ʙʏ ᴋᴇᴇᴘɪɴɢ ᴛʜɪꜱ ᴡᴀʀɴɪɴɢ ɪɴ ᴍɪɴᴅ.
 
-## ✧ ᴄᴏɴᴛʀɪʙᴜᴛɪᴏɴ:
+## ✧ ᴄᴏɴᴛʀɪʙᴜᴛɪᴏɴ :
 - ɪ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀɴʏ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀ ɪɴ ᴛʜɪꜱ ᴘʀᴏᴊᴇᴄᴛ. ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴄᴏɴᴛʀɪʙᴜᴛᴇ.
 
-## ✧ ʜᴇʟᴘ ᴍᴇ:
+## ✧ ʜᴇʟᴘ ᴍᴇ :
 - [`Follow`](https://github.com/HELLRYZEN/#follow) ᴍᴇ ᴏɴ ɢɪᴛʜᴜʙ ᴛᴏ ᴍᴀᴋᴇ ᴍᴇ ғᴇᴇʟ ᴍᴏᴛɪᴠᴀᴛᴇᴅ.
 - ɢɪᴠᴇ ᴍʏ ᴘʀᴏᴊᴇᴄᴛ ᴀ ⭐ ɪғ ʏᴏᴜ ʟɪᴋᴇᴅ ɪᴛ.
    
-## ✧ ᴄʀᴇᴅɪᴛꜱ ᴀɴᴅ ᴀᴘᴘʀᴇᴄɪᴀᴛɪᴏɴ:
+## ✧ ᴄʀᴇᴅɪᴛꜱ ᴀɴᴅ ᴀᴘᴘʀᴇᴄɪᴀᴛɪᴏɴ :
 
 -   `Adiwajshing` sir for [Baileys](https://github.com/adiwajshing/baileys).
 -   `Arus~Bots` team for [Mizuhara](https://github.com/Arus-Bots/Mizuhara).

@@ -27,7 +27,7 @@
   </a>
 </br>
 
-  <a href="https://github.com/HELLRYZEN"><img title="Support" src="https://img.shields.io/badge/next%30Update-Undefined!-Red.svg?style=for-the-badge&logo=xcode" width="150">
+  <a href="https://github.com/HELLRYZEN"><img title="Support" src="https://img.shields.io/badge/next%30Update-Undefined!-Red.svg?style=for-the-badge&logo=xcode" width="250">
 </a>
 </p>
     

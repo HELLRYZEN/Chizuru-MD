@@ -4840,7 +4840,7 @@ id: '-menu'
 }  
 }, {
 quickReplyButton: {
-displayText: 'Bot Owner',
+displayText: '✨Bot Owner✨',
 id: '-owner'
 }
 }]
@@ -4870,11 +4870,9 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
 │✙ ʜᴏꜱᴛ ɴᴀᴍᴇ  : *${pushname}*
 │✙ ᴛᴏᴛᴀʟ ᴜꜱᴇʀ : *ꭗꭗ-ꭗꭗ*
 └┬──────────────┈ ⳹
-   │✑ ᴘʟᴇᴀꜱᴇ ꜱᴇʟᴇᴄᴛ ᴛʜᴇ
-   │ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ
+   │✑ ʟᴏᴠᴇ ʏᴏᴜ ꜱᴇɴᴘᴀɪ 💌
    └───────────────┈ ⳹
 *◈ ━━━━ ⸙ ━━━━ ◈*
-
 ʜᴇʀᴇ'ꜱ ᴛʜᴇ ʟɪꜱᴛ ᴏғ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ'ꜱ
 
  *═══〘 ᴄᴏʀᴇ 〙═══⊷❍*
@@ -5140,20 +5138,10 @@ case '':
 ┌┤✑  ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ ꜱᴇɴᴘᴀɪ
 ││✑  *ɪ'ᴍ ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ*
 │└───────────────┈ ⳹
-│ 「 *ʙᴏᴛ ɪɴғᴏ* 」
-│✙ ꜱᴘᴇᴇᴅ : *ꭗꭗ-ꭗ*
-│✙ ʀᴜɴᴛɪᴍᴇ : 24 ʜʀꜱ
-│✙ ʙᴏᴛ ɴᴀᴍᴇ : *ᴄʜɪᴢᴜʀᴜ-ꭗᴅ*
-│✙ ᴏᴡɴᴇʀ ɴᴀᴍᴇ : ~*ꜱ.ᴄ.ᴏ.ᴛ.ᴄ.ʜ*~
-│✙ ʜᴏꜱᴛ ɴᴀᴍᴇ  : *${pushname}*
-│✙ ᴛᴏᴛᴀʟ ᴜꜱᴇʀ : *ꭗꭗ-ꭗꭗ*
-└┬──────────────┈ ⳹
-   │✑  ᴘʟᴇᴀꜱᴇ ꜱᴇʟᴇᴄᴛ ᴛʜᴇ
-   │ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ
-   └───────────────┈ ⳹`
+❖`
 
          let butRun = [
-                {buttonId: `-help`, buttonText: {displayText: 'Help'}, type: 1}
+                {buttonId: `-menu`, buttonText: {displayText: '🖤 MENU 🖤'}, type: 1}
                 ]
                 let buttonMessage = {
                     video:fs.readFileSync('./system/miku.mp4'),gifPlayback:true,

@@ -11,8 +11,7 @@
 <p align="center">
   <a href="https://github.com/HELLRYZEN/Chizuru-MD/fork">
     <img src="https://img.shields.io/github/forks/HELLRYZEN/Chizuru-MD?label=Fork&style=social">
-    
-    
+        
   <a href="https://github.com/HELLRYZEN/Chizuru-MD/stargazers">
     <img src="https://img.shields.io/github/stars/HELLRYZEN/Chizuru-MD?style=social">
   </a>
@@ -20,8 +19,7 @@
 <p align="center">
   <a href="https://github.com/HELLRYZEN/Chizuru-MD">
     <img src="https://visitor-badge.glitch.me/badge?page_id=https://github.com/HELLRYZEN/Chizuru-MD.visitor-badge&left_text=Total%20Repo%20Visits">
-    
-    
+       
 <a href="https://github.com/HELLRYZEN">
     <img src="(https://visitor-badge.glitch.me/badge?page_id=https://github.com/HELLRYZEN/Chizuru-MD.visitor-badge&left_text=Total%20Repo%20Visitors)">
   </a>
@@ -35,7 +33,6 @@
 
 ### ✧ ᴜꜱᴇ `Heroku Deploy Method 2` ғᴏʀ ᴇᴀꜱʏ ᴀɴᴅ ᴍᴏʀᴇ ᴄᴏɴᴠᴇɴɪᴇɴᴛ ᴅᴇᴘʟᴏʏ[ᴛʀᴜꜱᴛ ᴍᴇ].    
 
-
 ### ✧ ᴅᴇᴘʟᴏʏ ᴠɪᴅᴇᴏ ᴛᴜᴛᴏʀɪᴀʟ:
 ## ✧✧✧ ᴠɪᴅᴇᴏ ᴛᴜᴛᴏʀɪᴀʟ ғᴏʀ ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏ:
 
@@ -45,7 +42,6 @@
 
 - [Video Guide](https://youtube.com/channel/UCKlJw6zViJ_hgTXBKv6sXgw)
 </br>
-
 
 ## ✧✧✧ ᴡʜʏ ᴜꜱᴇ ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ ᴀꜱ ʏᴏᴜʀ ʙᴀꜱᴇ?
 

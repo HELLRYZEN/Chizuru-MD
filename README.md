@@ -27,10 +27,10 @@
   </a>
 </br>
 
-  <a href="https://github.com/HELLRYZEN"><img title="Support" src="https://img.shields.io/badge/next%30Update-Undefined!-Black.svg?style=for-the-badge&logo=xcode" width="250">
-</a>
-   
+  <a href="https://github.com/HELLRYZEN"><img title="Support" src="https://img.shields.io/badge/next%30Update-Undefined!-Black.svg?style=for-the-badge&logo=Black" width="250"> 
+<a href="https://instagram.com/say.scotch" target="_blank"> <img src="https://img.shields.io/badge/-Instagram-%23000000?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"width="100"/>
 
+   </a>
 </br> 
    
 ### ✧✧ ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ꜱᴛɪʟʟ ᴜɴᴅᴇʀ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ꜱᴏ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ʀᴇᴄᴏᴅᴇ/ᴍᴏᴅɪғʏ ɪᴛ, ᴘʟꜱ ᴄʜᴇᴄᴋ ᴛʜɪꜱ ᴍᴀɪɴ ʀᴇᴘᴏ ᴏɴᴄᴇ ɪɴ 2 ᴅᴀʏꜱ ʙᴇᴄᴀᴜꜱᴇ ɪ ᴀᴍ ᴄᴏɴᴛɪɴᴜᴏᴜꜱʟʏ ᴅᴇʙᴜɢɢɪɴɢ ɪᴛ ᴀɴᴅ ᴍᴀᴋɪɴɢ ᴍᴀᴊᴏʀ ᴄʜᴀɴɢᴇꜱ ɪɴ ɪᴛ.

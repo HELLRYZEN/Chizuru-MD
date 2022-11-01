@@ -45,9 +45,8 @@
 
 ## ✧✧✧ ᴡʜʏ ᴜꜱᴇ ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ ᴀꜱ ʏᴏᴜʀ ʙᴀꜱᴇ?
 <details open>
-<summary>Read recent Patch notes of Miku</summary>
+<summary>ʀᴇᴀᴅ ʀᴇᴄᴇɴᴛ ᴘᴀᴛᴄʜ ɴᴏᴛᴇꜱ</summary>
 <br>
-
 ```
 1. ᴄᴏᴘʏʀɪɢʜᴛ ᴄʟᴀᴍ.
 2. ɴᴏ ᴀɴᴅ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴇɴᴄʀʏᴘᴛɪᴏɴ.
@@ -64,6 +63,7 @@
 
 -ʀᴇɢᴀʀᴅꜱ ꜱᴄᴏᴛᴄʜ
 ```
+</details>
 </br>
 
 ## ✧✧✧ 〘 ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ 〙  
@@ -138,6 +138,9 @@ npm start
 </br> 
 
 ## ✧✧✧ ᴛᴇʀᴍᴜꭗ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ
+<details open>
+<summary>ʀᴇᴀᴅ ᴛᴇʀᴍᴜꭗ ᴘᴀᴛᴄʜ ɴᴏᴛᴇꜱ</summary>
+<br>
 ```js
 apt update
 apt upgrade
@@ -153,6 +156,8 @@ git clone https://github.com/HELLRYZEN/Chizuru-MD
 cd Chizuru-MD
 npm start
 ```
+</details>
+</br>
 
 ## ✧✧✧ ᴛᴏ ᴋᴇᴇᴘ ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ ᴀʟɪᴠᴇ ᴡɪᴛʜᴏᴜᴛ ɪɴᴛᴇʀɴᴇᴛ 24/7
 

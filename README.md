@@ -26,7 +26,10 @@
     <img src="(https://visitor-badge.glitch.me/badge?page_id=https://github.com/HELLRYZEN/Chizuru-MD.visitor-badge&left_text=Total%20Repo%20Visitors)">
   </a>
 </br>
-      
+
+  <a href="https://github.com/HELLRYZEN"><img title="Support" src="https://img.shields.io/badge/next%30Update-Undefined!-Red.svg?style=for-the-badge&logo=xcode" /></a>
+</p>
+    
 </br> 
    
 ### ✧✧ ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ꜱᴛɪʟʟ ᴜɴᴅᴇʀ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ꜱᴏ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ʀᴇᴄᴏᴅᴇ/ᴍᴏᴅɪғʏ ɪᴛ, ᴘʟꜱ ᴄʜᴇᴄᴋ ᴛʜɪꜱ ᴍᴀɪɴ ʀᴇᴘᴏ ᴏɴᴄᴇ ɪɴ 2 ᴅᴀʏꜱ ʙᴇᴄᴀᴜꜱᴇ ɪ ᴀᴍ ᴄᴏɴᴛɪɴᴜᴏᴜꜱʟʏ ᴅᴇʙᴜɢɢɪɴɢ ɪᴛ ᴀɴᴅ ᴍᴀᴋɪɴɢ ᴍᴀᴊᴏʀ ᴄʜᴀɴɢᴇꜱ ɪɴ ɪᴛ.

@@ -45,7 +45,7 @@
 
 ## ✧✧✧ ᴡʜʏ ᴜꜱᴇ ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ ᴀꜱ ʏᴏᴜʀ ʙᴀꜱᴇ?
 <details open>
-<summary>ʀᴇᴀᴅ ʀᴇᴄᴇɴᴛ ᴘᴀᴛᴄʜ ɴᴏᴛᴇꜱ</summary>
+<summary>ʜɪɢʜʟɪɢʜᴛꜱ ᴏғ ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ</summary>
 <br>
 ```
 1. ᴄᴏᴘʏʀɪɢʜᴛ ᴄʟᴀᴍ.
@@ -138,9 +138,6 @@ npm start
 </br> 
 
 ## ✧✧✧ ᴛᴇʀᴍᴜꭗ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ
-<details open>
-<summary>ʀᴇᴀᴅ ᴛᴇʀᴍᴜꭗ ᴘᴀᴛᴄʜ ɴᴏᴛᴇꜱ</summary>
-<br>
 ```js
 apt update
 apt upgrade
@@ -156,8 +153,6 @@ git clone https://github.com/HELLRYZEN/Chizuru-MD
 cd Chizuru-MD
 npm start
 ```
-</details>
-</br>
 
 ## ✧✧✧ ᴛᴏ ᴋᴇᴇᴘ ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ ᴀʟɪᴠᴇ ᴡɪᴛʜᴏᴜᴛ ɪɴᴛᴇʀɴᴇᴛ 24/7
 

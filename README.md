@@ -68,7 +68,8 @@
 </details>
 </br>
 
-## ✧✧✧ 〘 ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ 〙  
+## ✧✧✧ 〘 ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ 1 〙  
+<a href="https://heroku.com/deploy?template=https://github.com/HELLRYZEN/Chizuru-MD"><img title="HELLRYZEN" src="https://www.herokucdn.com/deploy/button.svg" width="150"></a>
 
 #### ✧ ғᴏʀᴋ ɪᴛ ᴛʜɪꜱ ʀᴇᴘᴏ.
 #### ✧ ᴄʟɪᴄᴋ ᴛʜɪꜱ ꜱᴄᴀɴ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴀɴᴅ ꜱᴄᴀɴ ᴛʜᴇ ɢɪᴠᴇɴ ϙʀ ᴡɪᴛʜɪɴ 10 ꜱᴇᴄᴏɴᴅꜱ ғʀᴏᴍ ʏᴏᴜʀ ᴡʜᴀᴛꜱᴀᴘᴘ. 
@@ -85,9 +86,7 @@
 
 #### ✧ ɴᴇꭗᴛ
 
-## ✧✧✧ 〘 ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ 1 〙
-
-<a href="https://heroku.com/deploy?template=https://github.com/HELLRYZEN/Chizuru-MD"><img title="HELLRYZEN" src="https://www.herokucdn.com/deploy/button.svg" width="150"></a>
+## ✧✧✧ 〘 ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ 2 〙
 
 #### ✧ `Fork` ᴛʜɪꜱ ʀᴇᴘᴏ.
 #### ✧ `Scan` ᴛʜᴇ ϙʀ , ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ `session.json` ғɪʟᴇ ᴀɴᴅ ʀᴇᴘʟᴀᴄᴇ ɪᴛ ᴡɪᴛʜ ᴛʜᴇ ᴏʟᴅᴇʀ ᴏɴᴇ ᴘʀᴇꜱᴇɴᴛ ᴏɴ ᴛʜᴇ ʜᴏᴍᴘᴀɢᴇ ᴏғ ʏᴏᴜʀ `Fork`.

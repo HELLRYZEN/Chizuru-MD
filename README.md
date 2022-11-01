@@ -44,6 +44,9 @@
 </br>
 
 ## ✧✧✧ ᴡʜʏ ᴜꜱᴇ ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ ᴀꜱ ʏᴏᴜʀ ʙᴀꜱᴇ?
+<details open>
+<summary>Read recent Patch notes of Miku</summary>
+<br>
 
 ```
 1. ᴄᴏᴘʏʀɪɢʜᴛ ᴄʟᴀᴍ.

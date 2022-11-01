@@ -47,6 +47,7 @@
 <details open>
 <summary>ʜɪɢʜʟɪɢʜᴛꜱ ᴏғ ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ</summary>
 <br>
+
 ```
 1. ᴄᴏᴘʏʀɪɢʜᴛ ᴄʟᴀᴍ.
 2. ɴᴏ ᴀɴᴅ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴇɴᴄʀʏᴘᴛɪᴏɴ.
@@ -63,6 +64,7 @@
 
 -ʀᴇɢᴀʀᴅꜱ ꜱᴄᴏᴛᴄʜ
 ```
+
 </details>
 </br>
 
@@ -86,7 +88,6 @@
 ## ✧✧✧ 〘 ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ 1 〙
 
 <a href="https://heroku.com/deploy?template=https://github.com/HELLRYZEN/Chizuru-MD"><img title="HELLRYZEN" src="https://www.herokucdn.com/deploy/button.svg" width="150"></a>
-</p>
 
 #### ✧ `Fork` ᴛʜɪꜱ ʀᴇᴘᴏ.
 #### ✧ `Scan` ᴛʜᴇ ϙʀ , ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ `session.json` ғɪʟᴇ ᴀɴᴅ ʀᴇᴘʟᴀᴄᴇ ɪᴛ ᴡɪᴛʜ ᴛʜᴇ ᴏʟᴅᴇʀ ᴏɴᴇ ᴘʀᴇꜱᴇɴᴛ ᴏɴ ᴛʜᴇ ʜᴏᴍᴘᴀɢᴇ ᴏғ ʏᴏᴜʀ `Fork`.
@@ -131,10 +132,11 @@ npm start
 ```
 
 ### ✧ ʀᴇϙᴜɪʀᴇᴍᴇɴᴛꜱ ғᴏʀ ᴄᴍᴅ ɪꜱᴛᴀʟʟᴀᴛɪᴏɴ:
-- Git
-- Node.js
+- [Git](https://github.com/git-guides/install-git)
+- [Node.js](https://nodejs.org/en/download/)
+- FFmpeg( [for Windows](https://www.geeksforgeeks.org/how-to-install-ffmpeg-on-windows/) or [for Linux](https://www.tecmint.com/install-ffmpeg-in-linux/) or [for Mac](https://ffmpeg.org/download.html) )
 - Libwebp
-- FFmpeg
+ɴᴏᴛᴇ: ɪғ ʏᴏᴜ ᴅᴏɴ'ᴛ ᴘʀᴇ-ɪɴꜱᴛᴀʟʟ ᴛʜᴇsᴇ ᴘʟᴜɢɪɴꜱ ʙᴇғᴏʀᴇ ᴄᴍᴅ / ᴠꜱ ᴄᴏᴅᴇ ɪɴꜱᴛᴀʟʟᴀᴛɪᴏɴ ʙᴏᴛ ᴡɪʟʟ ɴᴏᴛ ꜱᴛᴀʀᴛ!
 </br> 
 
 ## ✧✧✧ ᴛᴇʀᴍᴜꭗ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ
@@ -165,28 +167,25 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 - - ᴀɴᴅ ᴛʜᴇ ᴀɴꜱᴡᴇʀ ɪꜱ `"ᴘᴇʀᴍɪꜱꜱɪᴏɴ ɪꜱ ʜᴇʀᴇʙʏ ɢʀᴀɴᴛᴇᴅ ғᴏʀ 100% ᴍᴏᴅɪғɪᴄᴀᴛɪᴏɴ/ʀᴇᴄᴏᴅᴇ."`
 - - ᴀɴᴅ ᴛʜɪꜱ ᴘʀᴏᴊᴇᴄᴛ ᴄᴏᴍᴇꜱ ᴜɴᴅᴇʀ [`MIT`](https://github.com/HELLRYZEN/Chizuru-MD/blob/main/LICENSE.md) ʟɪᴄᴇɴꜱᴇ.
 - ᴘʟᴇᴀꜱᴇ ᴀᴛ ʟᴇᴀꜱᴛ [`Follow`](https://github.com/HELLRYZEN/#follow) ᴍᴇ ᴏɴ ɢɪᴛʜᴜʙ ᴛᴏ ꜱʜᴏᴡ ꜱᴏᴍᴇ ᴀᴘᴘʀᴇᴄɪᴀᴛɪᴏɴ.
-   
-   
+  
 ## ✧ ʀᴇᴍɪɴᴅᴇʀ:
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ɴᴏᴛ ᴍᴀᴅᴇ ʙʏ `ᴡʜᴀᴛꜱᴀᴘᴘ ɪɴᴄ.` ꜱᴏ ᴍɪꜱᴜꜱɪɴɢ ᴛʜᴇ ʙᴏᴛ ᴍɪɢʜᴛ `ʙᴀɴ` ʏᴏᴜʀ `ᴡʜᴀᴛꜱᴀᴘᴘ ᴀᴄᴄᴏᴜɴᴛ!`(ᴛʜᴏᴜɢʜ ʏᴏᴜʀ ᴡʜᴀᴛꜱᴀᴘᴘ ᴀᴄᴄᴏᴜɴᴛ ᴄᴀɴ ʙᴇ ᴜɴʙᴀɴɴᴇᴅ ᴏɴʟʏ ᴏɴᴄᴇ.)
 - ɪ ᴀᴍ ɴᴏᴛ ʀᴇꜱᴘᴏɴꜱɪʙʟᴇ ғᴏʀ ʙᴀɴɴɪɴɢ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ.
 - ᴜꜱᴇ ᴀᴛ ʏᴏᴜʀ ᴏᴡɴ ʀɪꜱᴋ ʙʏ ᴋᴇᴇᴘɪɴɢ ᴛʜɪꜱ ᴡᴀʀɴɪɴɢ ɪɴ ᴍɪɴᴅ.
- 
-
 
 ## ✧ ᴄᴏɴᴛʀɪʙᴜᴛɪᴏɴ:
 - ɪ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀɴʏ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀ ɪɴ ᴛʜɪꜱ ᴘʀᴏᴊᴇᴄᴛ. ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴄᴏɴᴛʀɪʙᴜᴛᴇ.
 
-
-
 ## ✧ ʜᴇʟᴘ ᴍᴇ:
 - [`Follow`](https://github.com/HELLRYZEN/#follow) ᴍᴇ ᴏɴ ɢɪᴛʜᴜʙ ᴛᴏ ᴍᴀᴋᴇ ᴍᴇ ғᴇᴇʟ ᴍᴏᴛɪᴠᴀᴛᴇᴅ.
 - ɢɪᴠᴇ ᴍʏ ᴘʀᴏᴊᴇᴄᴛ ᴀ ⭐ ɪғ ʏᴏᴜ ʟɪᴋᴇᴅ ɪᴛ.
-
-     
+   
 ## ✧ ᴄʀᴇᴅɪᴛꜱ ᴀɴᴅ ᴀᴘᴘʀᴇᴄɪᴀᴛɪᴏɴ:
 
 -   `Adiwajshing` sir for [Baileys](https://github.com/adiwajshing/baileys).
 -   `Arus~Bots` team for [Mizuhara](https://github.com/Arus-Bots/Mizuhara).
 -   `Xeon` for [Cheems](https://github.com/DGXeon/CheemsBot-MD2).
 -   `Fantox` for [Miku](https://github.com/FantoX001/Miku-MD).
+
+
+</p>

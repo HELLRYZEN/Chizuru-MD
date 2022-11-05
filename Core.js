@@ -4856,23 +4856,11 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
       
- const helpmenu = `┌─❖
-│「 *ʜᴇʟʟᴏ* 」
-└┬❖ 「 *${pushname}* 」
-┌┤✑ ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ ꜱᴇɴᴘᴀɪ
-││✑ *ɪ'ᴍ ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ* 
-│└───────────────┈ ⳹
-│ 「 *ʙᴏᴛ ɪɴғᴏ* 」
-│✙ ꜱᴘᴇᴇᴅ : *ꭗꭗ.ꭗ*
-│✙ ʀᴜɴᴛɪᴍᴇ : 24 ʜʀꜱ
-│✙ ʙᴏᴛ ɴᴀᴍᴇ : *ᴄʜɪᴢᴜʀᴜ-ꭗᴅ*
-│✙ ᴏᴡɴᴇʀ ɴᴀᴍᴇ : ~*ꜱ.ᴄ.ᴏ.ᴛ.ᴄ.ʜ*~
-│✙ ʜᴏꜱᴛ ɴᴀᴍᴇ  : *${pushname}*
-│✙ ᴛᴏᴛᴀʟ ᴜꜱᴇʀ : *ꭗꭗ-ꭗꭗ*
-└┬──────────────┈ ⳹
-   │✑ ʟᴏᴠᴇ ʏᴏᴜ ꜱᴇɴᴘᴀɪ 💌
-   └───────────────┈ ⳹
-*◈ ━━━━ ⸙ ━━━━ ◈*
+ const helpmenu = `
+──────────────┈ ⳹
+  ✑ ʟᴏᴠᴇ ʏᴏᴜ ꜱᴇɴᴘᴀɪ 💌
+    ───────────────┈ ⳹
+『  ~*ᴄ.ʜ.ɪ.ᴢ.ᴜ.ʀ.ᴜ*~  』
 ʜᴇʀᴇ'ꜱ ᴛʜᴇ ʟɪꜱᴛ ᴏғ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ'ꜱ
 
  *═══〘 ᴄᴏʀᴇ 〙═══⊷❍*
@@ -5095,15 +5083,12 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
  *════〘 ɴꜱғᴡ 〙════⊷❍*
 
 ✧ • ᴛʏᴘᴇ " *ɴꜱғᴡ* " ᴛʜᴇɴ ᴇɴᴀʙʟᴇ ɴꜱғᴡ
-✧ •〘 18+ ᴡᴏʀɴɪɴɢ 〙〘 ᴀᴅᴍɪɴ ᴏɴʟʏ 〙
+✧ •〘 18+ ᴡᴏʀɴɪɴɢ 〙
+✧ •〘 ᴀᴅᴍɪɴ ᴏɴʟʏ 〙
 
 ✧ • ᴛʜᴇɴ ᴛʏᴘᴇ " *ɴꜱғᴡᴍᴇɴᴜ* " ᴡᴏʀᴋɪɴɢ ғᴏʀ ɴᴏᴛ ꜱᴀғᴇ 18+ ᴍᴏᴅ ᴜꜱᴇ ғᴏʀ ᴊᴜꜱᴛ ғᴜɴ ғᴏʀ ɢʀᴏᴜᴘ ᴄʜᴀᴛ ɴᴏᴛ ɪɴ ᴛʜᴇ ᴅᴍ ᴄʜᴀᴛ!!
 
- 『  ~*ᴄ.ʜ.ɪ.ᴢ.ᴜ.ʀ.ᴜ*~  』
- ʀᴇɴᴛᴇᴅ ʙʏ : ~*ꜱ.ᴄ.ᴏ.ᴛ.ᴄ.ʜ*~
-
 ✧ • ᴛʜᴀɴᴋ-ʏᴏᴜ ғᴏʀ ᴜꜱɪɴɢ ʜᴀᴠᴇ ᴀ ɢʀᴇᴀᴛ ᴅᴀʏ ʙᴀʙʏ ❤️🎐
- " ${pushname} & ~*ꜱ.ᴄ.ᴏ.ᴛ.ᴄ.ʜ*~ "
  
 ✧ • ᴛᴏ ɢᴇᴛ ᴍʏ ᴏᴡɴᴇʀ ɢʀᴏᴜᴘ ʟɪɴᴋ ᴛʏᴘᴇ " *ꜱᴜᴘᴘᴏʀᴛ* "
 
@@ -5113,7 +5098,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     {buttonId: `-owner`, buttonText: {displayText: 'Bot Owner'}, type: 1}
     ]
                 let buttonMessage = {
-                    video:fs.readFileSync('./system/miku2.mp4'),gifPlayback:true,
+                    video:fs.readFileSync('./system/Chizuru.mp4'),gifPlayback:true,
                     caption: helpmenu,
                     footer: `${BotName}`,
                     buttons: buttonshelpm,
@@ -5135,16 +5120,15 @@ case '':
  const needhelpmenu = `┌─❖
 │「 *ʜᴇʟʟᴏ* 」
 └┬❖ 「 *${pushname}* 」
-┌┤✑  ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ ꜱᴇɴᴘᴀɪ
-││✑  *ɪ'ᴍ ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ*
-│└───────────────┈ ⳹
-❖`
+ │✑  ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ ꜱᴇɴᴘᴀɪ
+ │✑  *ɪ'ᴍ ᴄʜɪᴢᴜʀᴜ ᴍɪᴢᴜʜᴀʀᴀ*
+ └───────────────┈ ⳹`
 
          let butRun = [
-                {buttonId: `-menu`, buttonText: {displayText: '🖤 MENU 🖤'}, type: 1}
+                {buttonId: `-menu`, buttonText: {displayText: 'MENU'}, type: 1}
                 ]
                 let buttonMessage = {
-                    video:fs.readFileSync('./system/miku.mp4'),gifPlayback:true,
+                    video:fs.readFileSync('./system/Horny.mp4'),gifPlayback:true,
                     caption: needhelpmenu,
                     footer: `${global.BotName}`,
                     buttons: butRun,
